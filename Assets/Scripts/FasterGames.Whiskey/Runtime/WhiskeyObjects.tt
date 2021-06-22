@@ -1,0 +1,463 @@
+<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ import namespace="System.IO" #>
+<#@ include file="TemplateSupport/Func.ttinclude" #>
+<#@ include file="TemplateSupport/Data.ttinclude" #>
+<# SetOutputFolder(Path.GetDirectoryName(this.Host.TemplateFile) + "\\Generated"); #>
+
+    /// <summary>
+    /// Provides a read only value accessor
+    /// </summary>
+    /// <typeparam name="TValue">type of value</typeparam>
+    public interface IReadOnlyValue<TValue>
+    {
+        /// <summary>
+        /// Accesses a read only value
+        /// </summary>
+        public TValue ReadOnlyValue
+        {
+            get;
+        }
+    }
+
+    /// <summary>
+    /// Provides read/write value accessors
+    /// </summary>
+    /// <typeparam name="TValue">type of value</typeparam>
+    public interface IReadWriteValue<TValue> : IReadOnlyValue<TValue>
+    {
+        /// <summary>
+        /// Accesses a read/write value
+        /// </summary>
+        public TValue Value
+        {
+            get;
+            set;
+        }
+    }
+    
+    /// <summary>
+    /// Abstract <see cref="ScriptableObject"/> wrapper for immutable objects
+    /// </summary>
+    /// <typeparam name="TObject">type of object</typeparam>
+    [Serializable]
+    public abstract class ImmutableObject<TObject> : ScriptableObject, IReadOnlyValue<TObject>
+    {
+        /// <inheritdoc />
+        public abstract TObject ReadOnlyValue
+        {
+            get;
+        }
+    }
+
+    /// <summary>
+    /// Abstract <see cref="ScriptableObject"/> wrapper for mutable objects
+    /// </summary>
+    /// <typeparam name="TObject">type of object</typeparam>
+    [Serializable]
+    public abstract class MutableObject<TObject> : ImmutableObject<TObject>, IReadWriteValue<TObject>
+    {
+        /// <inheritdoc />
+        public abstract TObject Value
+        {
+            get;
+            set;
+        }
+    }
+
+    /// <summary>
+    /// Abstract probability table for immutable objects
+    /// </summary>
+    /// <typeparam name="TObject">type of object</typeparam>
+    [Serializable]
+    public abstract class ImmutableDataTable<TObject> : ImmutableObject<TObject>
+    {
+        /// <summary>
+        /// Represents an entry in the probability table
+        /// </summary>
+        [Serializable]
+        public class ImmutableObjectTableEntry
+        {
+            /// <summary>
+            /// The weight of the object
+            /// </summary>
+            public float Weight = 1f;
+            
+            /// <summary>
+            /// The value of the object
+            /// </summary>
+            public TObject Value;
+
+            /// <summary>
+            /// Editor preview of the object change
+            /// </summary>
+            [ReadOnly]
+            internal float Chance;
+            
+            /// <summary>
+            /// The entry low bound
+            /// </summary>
+            internal float LowBound { get; set; }
+            
+            /// <summary>
+            /// The entry high bound
+            /// </summary>
+            internal float HighBound { get; set; }
+        }
+
+        /// <summary>
+        /// The object entries
+        /// </summary>
+        public List<ImmutableObjectTableEntry> TableEntries = new List<ImmutableObjectTableEntry>();
+
+        /// <summary>
+        /// Editor preview of the weight in the table
+        /// </summary>
+        [ReadOnly]
+        [SerializeField]
+        protected float TotalWeightInTable;
+
+        /// <summary>
+        /// Editor preview of the dirty state flag
+        /// </summary>
+        [ReadOnly]
+        [SerializeField]
+        protected bool IsDirty = true;
+
+        /// <inheritdoc />
+        public override TObject ReadOnlyValue
+        {
+            get
+            {
+                if (TableEntries == null || TableEntries.Count == 0)
+                {
+                    return default(TObject);
+                }
+
+                if (IsDirty)
+                {
+                    Recalculate();
+                }
+
+                var rng = UnityEngine.Random.Range(0, TotalWeightInTable);
+
+                foreach (var entry in TableEntries)
+                {
+                    if (rng > entry.LowBound && rng < entry.HighBound)
+                    {
+                        return entry.Value;
+                    }
+                }
+
+                return default(TObject);
+            }
+        }
+
+        /// <summary>
+        /// Editor hook for calculating the table
+        /// </summary>
+        private void OnValidate()
+        {
+            Recalculate();
+        }
+
+        /// <summary>
+        /// Internal calculation method
+        /// </summary>
+        private void Recalculate()
+        {
+            if (TableEntries == null || TableEntries.Count == 0)
+            {
+                return;
+            }
+
+            var maxWeight = 0f;
+
+            foreach (var entry in TableEntries)
+            {
+                if (entry.Weight >= 0f)
+                {
+                    entry.LowBound = maxWeight;
+                    maxWeight += entry.Weight;
+                    entry.HighBound = maxWeight;
+                }
+                else
+                {
+                    entry.Weight = 0f;
+                }
+            }
+
+            TotalWeightInTable = maxWeight;
+
+            foreach (var entry in TableEntries)
+            {
+                entry.Chance = (entry.Weight / TotalWeightInTable) * 100;
+            }
+            
+            IsDirty = false;
+        }
+    }
+
+    /// <summary>
+    /// Abstract reference to an immutable object
+    /// </summary>
+    /// <typeparam name="TObject">type of object</typeparam>
+    [Serializable]
+    public abstract class RefImmutable<TObject> : IReadOnlyValue<TObject>
+    {
+        /// <summary>
+        /// Flag indicating if this reference points at a constant or an object
+        /// </summary>
+        [SerializeField]
+        protected bool UseConstant = true;
+
+        /// <summary>
+        /// Constant value
+        /// </summary>
+        [SerializeField]
+        protected TObject Constant;
+
+        /// <summary>
+        /// Object value
+        /// </summary>
+        [SerializeField]
+        protected ImmutableObject<TObject> Object;
+        
+        /// <inheritdoc />
+        public TObject ReadOnlyValue
+        {
+            get => UseConstant ? Constant : Object.ReadOnlyValue;
+        }
+
+        /// <summary>
+        /// Raw operator
+        /// </summary>
+        /// <remarks>
+        /// Allows us to treat the instance as if it's TRaw type for data access
+        /// </remarks>
+        /// <param name="reference">the reference to operate on</param>
+        public static implicit operator TObject(RefImmutable<TObject> reference)
+        {
+            return reference.ReadOnlyValue;
+        }
+    }
+
+    /// <summary>
+    /// Abstract reference to a mutable object
+    /// </summary>
+    /// <typeparam name="TObject">type of object</typeparam>
+    [Serializable]
+    public abstract class RefMutable<TObject> : IReadWriteValue<TObject>
+    {
+        /// <summary>
+        /// Flag indicating if this reference points at a constant or an object
+        /// </summary>
+        [SerializeField]
+        protected bool UseConstant = true;
+
+        /// <summary>
+        /// Constant value
+        /// </summary>
+        [SerializeField]
+        protected TObject Constant;
+
+        /// <summary>
+        /// Object value
+        /// </summary>
+        [SerializeField]
+        protected MutableObject<TObject> Object;
+        
+        /// <inheritdoc />
+        public TObject ReadOnlyValue
+        {
+            get => UseConstant ? Constant : Object.ReadOnlyValue;
+        }
+
+        /// <inheritdoc />
+        public TObject Value
+        {
+            get => UseConstant ? Constant : Object.ReadOnlyValue;
+            set
+            {
+                if (UseConstant)
+                {
+                    Constant = value;
+                }
+                else
+                {
+                    Object.Value = value;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Raw operator
+        /// </summary>
+        /// <remarks>
+        /// Allows us to treat the instance as if it's TRaw type for data access
+        /// </remarks>
+        /// <param name="reference">the reference to operate on</param>
+        public static implicit operator TObject(RefMutable<TObject> reference)
+        {
+            return reference.Value;
+        }
+    }
+
+<# SaveGeneratedContent("WhiskeyObjects","Generics.codegen", this.GenerationEnvironment); #>
+<# foreach (var currentPrimitive in Except(Primitives, SkipForObjects)) { #>
+
+    /// <summary>
+    /// A <#= currentPrimitive #> that can be changed at runtime
+    /// </summary>
+    [Serializable]
+    [CreateAssetMenu(menuName = "Whiskey/Objects/Mutable<#= CamelCase(currentPrimitive) #>")]
+    public class Mutable<#= CamelCase(currentPrimitive) #> : MutableObject<<#= currentPrimitive #>>
+    {
+        [SerializeField]
+        protected <#= currentPrimitive #> value;
+        
+        public override <#= currentPrimitive #> ReadOnlyValue
+        {
+            get => value;
+        }
+
+        public override <#= currentPrimitive #> Value
+        {
+            get => value;
+            set => this.value = value;
+        }
+    }
+
+<# SaveGeneratedContent(CamelCase(currentPrimitive),"Mutable" + CamelCase(currentPrimitive), this.GenerationEnvironment); #>
+
+    /// <summary>
+    /// A <#= currentPrimitive #> that cannot be changed at runtime.
+    /// </summary>
+    [Serializable]
+    [CreateAssetMenu(menuName = "Whiskey/Objects/Immutable<#= CamelCase(currentPrimitive) #>")]
+    public class Immutable<#= CamelCase(currentPrimitive) #> : ImmutableObject<<#= currentPrimitive #>>
+    {
+        [SerializeField]
+        protected <#= currentPrimitive #> value;
+        
+        public override <#= currentPrimitive #> ReadOnlyValue
+        {
+            get => value;
+        }
+    }
+
+<# SaveGeneratedContent(CamelCase(currentPrimitive),"Immutable" + CamelCase(currentPrimitive), this.GenerationEnvironment); #>
+
+    /// <summary>
+    /// A probability table of <#= currentPrimitive #>s.
+    /// </summary>
+    [Serializable]
+    [CreateAssetMenu(menuName = "Whiskey/Objects/Immutable<#= CamelCase(currentPrimitive) #>Table")]
+    public class Immutable<#= CamelCase(currentPrimitive) #>Table : ImmutableDataTable<<#= currentPrimitive #>>
+    {
+    }
+
+<# SaveGeneratedContent(CamelCase(currentPrimitive),"Immutable" + CamelCase(currentPrimitive) + "Table", this.GenerationEnvironment); #>
+
+    /// <summary>
+    /// A reference to a mutable <#= currentPrimitive #>, either via a constant or <see cref="Mutable<#= CamelCase(currentPrimitive) #>"/>
+    /// </summary>
+    [Serializable]
+    public class RefMutable<#= CamelCase(currentPrimitive) #> : RefMutable<<#= currentPrimitive #>>
+    {
+        /// <summary>
+        /// Raw operator
+        /// </summary>
+        /// <remarks>
+        /// Allows us to treat the instance as if it's TRaw type for data access
+        /// </remarks>
+        /// <param name="reference">the reference to operate on</param>
+        public static implicit operator <#= currentPrimitive #>(RefMutable<#= CamelCase(currentPrimitive) #> reference)
+        {
+            return reference.Value;
+        }
+    }
+
+<# SaveGeneratedContent(CamelCase(currentPrimitive),"RefMutable" + CamelCase(currentPrimitive), this.GenerationEnvironment); #>
+
+    /// <summary>
+    /// A reference to an immutable <#= currentPrimitive #>, either via a constant or <see cref="Immutable<#= CamelCase(currentPrimitive) #>"/>
+    /// </summary>
+    [Serializable]
+    public class RefImmutable<#= CamelCase(currentPrimitive) #> : RefImmutable<<#= currentPrimitive #>>
+    {
+        /// <summary>
+        /// Raw operator
+        /// </summary>
+        /// <remarks>
+        /// Allows us to treat the instance as if it's TRaw type for data access
+        /// </remarks>
+        /// <param name="reference">the reference to operate on</param>
+        public static implicit operator <#= currentPrimitive #>(RefImmutable<#= CamelCase(currentPrimitive) #> reference)
+        {
+            return reference.ReadOnlyValue;
+        }
+    }
+
+<# SaveGeneratedContent(CamelCase(currentPrimitive),"RefImmutable" + CamelCase(currentPrimitive), this.GenerationEnvironment); #>
+    
+    
+#if UNITY_EDITOR
+/// <summary>
+/// Custom PropertyDrawer for <see cref="RefMutable<#= CamelCase(currentPrimitive) #>"/>s and <see cref="RefImmutable<#= CamelCase(currentPrimitive) #>"/>s
+/// </summary>
+[UnityEditor.CustomPropertyDrawer(typeof(RefMutable<#= CamelCase(currentPrimitive) #>))]
+[UnityEditor.CustomPropertyDrawer(typeof(RefImmutable<#= CamelCase(currentPrimitive) #>))]
+public class <#= CamelCase(currentPrimitive) #>RefEditor : UnityEditor.PropertyDrawer
+{
+    /// <summary> Cached style to use to draw the popup button. </summary>
+    private GUIStyle popupStyle;
+
+    public override void OnGUI(Rect position, UnityEditor.SerializedProperty property, GUIContent label)
+    {
+        if (popupStyle == null)
+        {
+            popupStyle = new GUIStyle(GUI.skin.GetStyle("PaneOptions"));
+            popupStyle.imagePosition = ImagePosition.ImageOnly;
+        }
+
+        UnityEditor.EditorGUI.BeginProperty(position, label, property);
+        
+        // draw label
+        position = UnityEditor.EditorGUI.PrefixLabel(position, GUIUtility.GetControlID(FocusType.Passive), label);
+        
+        // calculate rects
+        var dropdownRect = new Rect(position.x - (popupStyle.fixedWidth + popupStyle.margin.right), position.y, popupStyle.fixedWidth + popupStyle.margin.right, position.height);
+        var valueRect = new Rect(position.x, position.y, position.width, position.height);
+
+        var useConstantProp = property.FindPropertyRelative("UseConstant");
+        var selection = UnityEditor.EditorGUI.Popup(dropdownRect, useConstantProp.boolValue ? 0 : 1, new string[] { "Constant", "Object" }, popupStyle);
+
+        // logic for swapping constant and object
+        if (selection == 1 && useConstantProp.boolValue)
+        {
+            useConstantProp.boolValue = false;
+        }
+        else if (selection == 0 && !useConstantProp.boolValue)
+        {
+            useConstantProp.boolValue = true;
+        }
+
+        // logic for rendering the field
+        if (useConstantProp.boolValue)
+        {
+            UnityEditor.EditorGUI.PropertyField(valueRect, property.FindPropertyRelative("Constant"), GUIContent.none);
+        }
+        else
+        {
+            UnityEditor.EditorGUI.PropertyField(valueRect, property.FindPropertyRelative("Object"), GUIContent.none);
+        }
+        
+        UnityEditor.EditorGUI.EndProperty();
+    }
+}
+#endif
+
+<# SaveGeneratedContent(CamelCase(currentPrimitive),CamelCase(currentPrimitive) + "RefEditor", this.GenerationEnvironment); #>
+
+<# } #>

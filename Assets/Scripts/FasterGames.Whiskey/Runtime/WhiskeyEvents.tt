@@ -1,0 +1,242 @@
+<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ import namespace="System.IO" #>
+<#@ include file="TemplateSupport/Func.ttinclude" #>
+<#@ include file="TemplateSupport/Data.ttinclude" #>
+<# SetOutputFolder(Path.GetDirectoryName(this.Host.TemplateFile) + "\\Generated"); #>
+
+/// <summary>
+/// Subscription provider for handlers.
+/// </summary>
+/// <typeparam name="THandler">type of handler</typeparam>
+public interface ISubscriptionProvider<THandler>
+{
+    /// <summary>
+    /// Count of subscribers.
+    /// </summary>
+    int Count { get; }
+
+    /// <summary>
+    /// Subscribes a handler to this provider.
+    /// </summary>
+    /// <param name="handler">handler to subscribe</param>
+    void Subscribe(THandler handler);
+
+    /// <summary>
+    /// Unsubscribes a handler from this provider.
+    /// </summary>
+    /// <param name="handler">handler to unsubscribe</param>
+    void Unsubscribe(THandler handler);
+}
+
+<# for (var i = 0 ; i < MaxGenerics; i++) { #>
+
+/// <summary>
+/// Trigger with <#= i #> parameter.
+/// </summary>
+public interface ITrigger<<#= GenerateTemplateArgs(i) #>>
+{
+    /// <summary>
+    /// Trigger with <#= i #> parameter.
+    /// </summary>
+    void Trigger(<#= GenerateParamArgs(i) #>);
+}
+
+/// <summary>
+/// Handler with <#= i #> argument.
+/// </summary>
+public interface IHandler<<#= GenerateTemplateArgs(i) #>>
+{
+    /// <summary>
+    /// Handle with <#= i #> argument.
+    /// </summary>
+    void Handle(<#= GenerateParamArgs(i) #>);
+}
+
+/// <summary>
+/// ScriptableObject Base event with <#= i #> argument.
+/// </summary>
+/// <remarks>
+/// All <#= i #> argument events should derive from this type.
+/// </remarks>
+/// <typeparam name="THandler">type of event handler</typeparam>
+public abstract class BaseEvent<THandler, <#= GenerateTemplateArgs(i) #>>: ScriptableObject, ITrigger<<#= GenerateTemplateArgs(i) #>>, ISubscriptionProvider<THandler>
+    where THandler : IHandler<<#= GenerateTemplateArgs(i) #>>
+{
+    /// <inheritdoc/>
+    public int Count { get { return Handlers.Count; } }
+
+    /// <summary>
+    /// List of handlers that BaseEvent adds and removes from.
+    /// </summary>
+    /// <remarks>
+    /// As an event implementor, you must define the storage for this data.
+    /// </remarks>
+    public abstract List<THandler> Handlers { get; }
+
+    /// <inheritdoc/>
+    public void Subscribe(THandler handler) => Handlers.Add(handler);
+
+    /// <inheritdoc/>
+    public void Unsubscribe(THandler handler) => Handlers.Remove(handler);
+
+    /// <inheritdoc/>
+    public void Trigger(<#= GenerateParamArgs(i) #>)
+    {
+        foreach (var handler in Handlers)
+        {
+            handler.Handle(<#= GenerateParamArgNames(i) #>);
+        }
+    }
+}
+
+/// <summary>
+/// MonoBehaviour Base listener with <#= i #> argument.
+/// </summary>
+/// <remarks>
+/// All <#= i #> argument listeners should derive from this type.
+/// </remarks>
+/// <typeparam name="TEvent">type of event</typeparam>
+/// <typeparam name="TReaction">type of reaction</typeparam>
+public abstract class BaseListener<TEvent, TReaction, <#= GenerateTemplateArgs(i) #>> : MonoBehaviour, IHandler<<#= GenerateTemplateArgs(i) #>>
+    where TReaction : UnityEvent<<#= GenerateTemplateArgs(i) #>>
+{
+    /// <summary>
+    /// Reaction that BaseListener invokes.
+    /// </summary>
+    /// <remarks>
+    /// As a listener implementor, you must define the storage for this data.
+    /// </remarks>
+    public abstract TReaction Reaction { get; }
+
+    /// <summary>
+    /// Event that invokes the BaseListener.
+    /// </summary>
+    /// <remarks>
+    /// As a listener implementor, you must define the storage for this data.
+    /// </remarks>
+    public abstract TEvent Event { get; set; }
+
+    /// <inheritdoc/>
+    public void Handle(<#= GenerateParamArgs(i) #>)
+    {
+        Reaction.Invoke(<#= GenerateParamArgNames(i) #>);
+    }
+}
+
+<# } #>
+
+<# SaveGeneratedContent("WhiskeyEvents","Generics.codegen", this.GenerationEnvironment); #>
+<# foreach (var currentPrimitive in Primitives) { #>
+
+/// <summary>
+/// A <#= currentPrimitive #> event
+/// </summary>
+[CreateAssetMenu(menuName = "Whiskey/Events/<#= CamelCase(currentPrimitive) #>Event")]
+public class <#= CamelCase(currentPrimitive) #>Event : BaseEvent<<#= CamelCase(currentPrimitive) #>Listener, <#= currentPrimitive #>>
+{
+    /// <summary>
+    /// <#= currentPrimitive #> handler storage
+    /// </summary>
+    [SerializeField]
+    private List<<#= CamelCase(currentPrimitive) #>Listener> handlers = new List<<#= CamelCase(currentPrimitive) #>Listener>();
+
+    /// <inheritdoc/>
+    public override List<<#= CamelCase(currentPrimitive) #>Listener> Handlers => handlers;
+}
+
+<# SaveGeneratedContent(CamelCase(currentPrimitive),CamelCase(currentPrimitive) + "Event", this.GenerationEnvironment); #>
+
+/// <summary>
+/// A <#= currentPrimitive #> reaction
+/// </summary>
+[Serializable]
+public class <#= CamelCase(currentPrimitive) #>Reaction : UnityEvent<<#= currentPrimitive #>>
+{
+}
+
+/// <summary>
+/// A <#= currentPrimitive #> listener
+/// </summary>
+public class <#= CamelCase(currentPrimitive) #>Listener : BaseListener<<#= CamelCase(currentPrimitive) #>Event, <#= CamelCase(currentPrimitive) #>Reaction, <#= currentPrimitive #>>
+{
+#pragma warning disable 0649
+    /// <summary>
+    /// <#= currentPrimitive #> event storage
+    /// </summary>
+    [SerializeField]
+    private <#= CamelCase(currentPrimitive) #>Event @event;
+
+    /// <summary>
+    /// <#= currentPrimitive #> reaction storage
+    /// </summary>
+    [SerializeField]
+    private <#= CamelCase(currentPrimitive) #>Reaction reaction = new <#= CamelCase(currentPrimitive) #>Reaction();
+#pragma warning restore 0649
+
+    /// <inheritdoc/>
+    public override <#= CamelCase(currentPrimitive) #>Reaction Reaction => reaction;
+
+    /// <inheritdoc/>
+    public override <#= CamelCase(currentPrimitive) #>Event Event { get { return @event; } set { @event = value; } }
+
+    /// <inheritdoc/>
+    private void OnEnable() => @event.Subscribe(this);
+
+    /// <inheritdoc/>
+    private void OnDisable() => @event.Unsubscribe(this);
+}
+
+<# SaveGeneratedContent(CamelCase(currentPrimitive),CamelCase(currentPrimitive) + "Listener", this.GenerationEnvironment); #>
+
+#if UNITY_EDITOR
+/// <summary>
+/// Custom editor for <see cref="<#= CamelCase(currentPrimitive) #>Event"/>s
+/// </summary>
+[UnityEditor.CanEditMultipleObjects]
+[UnityEditor.CustomEditor(typeof(<#= CamelCase(currentPrimitive) #>Event))]
+public class <#= CamelCase(currentPrimitive) #>EventEditor : UnityEditor.Editor
+{
+    /// <summary>
+    /// Storage for data to raise the event with
+    /// </summary>
+    private <#= currentPrimitive #> v;
+
+    /// <inheritdoc/>
+    public override void OnInspectorGUI()
+    {
+        UnityEngine.GUI.enabled = UnityEngine.Application.isPlaying;
+
+        UnityEditor.EditorGUILayout.LabelField("Listener" + " (" + (targets.Length > 1 ? "Multi" : "Single") + ") Count", SumTargetListeners().ToString());
+
+        v = (<#= currentPrimitive #>)UnityEditor.EditorGUILayout.<#= PrimitiveEditors[currentPrimitive] #>(<#= PrimitiveEditorArgs[currentPrimitive] #>);
+
+        if (UnityEngine.GUILayout.Button("Raise"))
+        {
+            foreach (var tgt in targets)
+            {
+                var evt = (<#= CamelCase(currentPrimitive) #>Event)tgt;
+                evt.Trigger(v);
+            }
+        }
+    }
+
+    /// <summary>
+    /// Internal helper to count attached listeners
+    /// </summary>
+    private int SumTargetListeners()
+    {
+        int res = 0;
+        foreach (var tgt in targets)
+        {
+            var evt = (<#= CamelCase(currentPrimitive) #>Event)tgt;
+            res += evt.Count;
+        }
+
+        return res;
+    }
+}
+#endif
+
+<# SaveGeneratedContent(CamelCase(currentPrimitive),CamelCase(currentPrimitive) + "Editor", this.GenerationEnvironment); #>
+<# } #>

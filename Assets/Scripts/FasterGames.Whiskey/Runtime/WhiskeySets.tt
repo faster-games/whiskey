@@ -1,0 +1,158 @@
+<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ import namespace="System.IO" #>
+<#@ include file="TemplateSupport/Func.ttinclude" #>
+<#@ include file="TemplateSupport/Data.ttinclude" #>
+<# SetOutputFolder(Path.GetDirectoryName(this.Host.TemplateFile) + "\\Generated"); #>
+
+    /// <summary>
+    /// A runtime collection of objects
+    /// </summary>
+    /// <typeparam name="TObject">type of object</typeparam>
+    [Serializable]
+    public abstract class Set<TObject> : ScriptableObject
+    {
+        /// <summary>
+        /// The backing store for the set
+        /// </summary>
+        [SerializeField]
+        [ReadOnly]
+        protected List<TObject> items = new List<TObject>();
+
+        /// <summary>
+        /// The number of objects in the set
+        /// </summary>
+        public int Count
+        {
+            get => items.Count;
+        }
+        
+        /// <summary>
+        /// Add an object to the set
+        /// </summary>
+        /// <param name="obj">object to add</param>
+        internal void Add(TObject obj)
+        {
+            items.Add(obj);
+        }
+
+        /// <summary>
+        /// Add a range of objects to the set
+        /// </summary>
+        /// <param name="objs">objects to add</param>
+        internal void AddRange(IEnumerable<TObject> objs)
+        {
+            items.AddRange(objs);
+        }
+
+        /// <summary>
+        /// Remove an object from the set
+        /// </summary>
+        /// <param name="obj">object to remove</param>
+        internal void Remove(TObject obj)
+        {
+            items.Remove(obj);
+        }
+
+        /// <summary>
+        /// Clear the set, erasing all values
+        /// </summary>
+        internal void Clear()
+        {
+            items.Clear();
+        }
+    }
+
+    /// <summary>
+    /// An element within a set
+    /// </summary>
+    /// <typeparam name="TObject">type of element</typeparam>
+    [Serializable]
+    public abstract class SetElement<TObject> : MonoBehaviour, IEquatable<SetElement<TObject>>
+    {
+        /// <summary>
+        /// The set to add to
+        /// </summary>
+        public Set<TObject> ParentSet;
+        
+        /// <summary>
+        /// Add ourselves on enable
+        /// </summary>
+        protected void OnEnable()
+        {
+            ParentSet.Add(GetComponent<TObject>());
+        }
+
+        /// <summary>
+        /// Remove ourselves on disable
+        /// </summary>
+        protected void OnDisable()
+        {
+            ParentSet.Remove(GetComponent<TObject>());
+        }
+
+        /// <inheritdoc />
+        public abstract bool Equals(SetElement<TObject> other);
+    }
+
+    /// <summary>
+    /// A <see cref="GameObject"/> set
+    /// </summary>
+    [Serializable]
+    [CreateAssetMenu(menuName = "Whiskey/Sets/GameObject")]
+    public class GameObjectSet : Set<GameObject>
+    {
+        
+    }
+    
+    /// <summary>
+    /// A <see cref="GameObject"/> set element
+    /// </summary>
+    public class GameObjectSetElement : SetElement<GameObject>
+    {
+        /// <inheritdoc />
+        public override bool Equals(SetElement<GameObject> other)
+        {
+            if (other == null)
+            {
+                return false;
+            }
+
+            return gameObject.GetInstanceID() == other.gameObject.GetInstanceID();
+        }
+    }
+
+<# SaveGeneratedContent("WhiskeySets","Generics.codegen", this.GenerationEnvironment); #>
+<# foreach (var currentPrimitive in Except(Primitives, SkipForSets)) { #>
+
+    /// <summary>
+    /// A <see cref="<#= currentPrimitive #>"/> set
+    /// </summary>
+    [Serializable]
+    [CreateAssetMenu(menuName = "Whiskey/Sets/<#= CamelCase(currentPrimitive) #>Set")]
+    public class <#= CamelCase(currentPrimitive) #>Set : Set<<#= currentPrimitive #>>
+    {
+    }
+
+<# SaveGeneratedContent(CamelCase(currentPrimitive),CamelCase(currentPrimitive) + "Set", this.GenerationEnvironment); #>
+
+    /// <summary>
+    /// A <see cref="<#= currentPrimitive #>"/> set element
+    /// </summary>
+    public class <#= CamelCase(currentPrimitive) #>SetElement : SetElement<<#= currentPrimitive #>>
+    {
+        /// <inheritdoc />
+        public override bool Equals(SetElement<<#= currentPrimitive #>> other)
+        {
+            if (other == null)
+            {
+                return false;
+            }
+
+            return gameObject.GetComponent<<#= currentPrimitive #>>().Equals(other.gameObject.GetComponent<<#= currentPrimitive #>>());
+        }
+    }
+
+<# SaveGeneratedContent(CamelCase(currentPrimitive),CamelCase(currentPrimitive) + "SetElement", this.GenerationEnvironment); #>
+
+<# } #>
