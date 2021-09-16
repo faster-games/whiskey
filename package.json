@@ -1,0 +1,23 @@
+{
+  "name": "com.faster-games.whiskey",
+  "version": "1.4.0",
+  "displayName": "Whiskey",
+  "description": "Data and Events framework for Unity3D",
+  "unity": "2020.3",
+  "unityRelease": "13f1",
+  "documentationUrl": "https://whiskey.faster-games.com/",
+  "changelogUrl": "https://github.com/faster-games/whiskey/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/faster-games/whiskey/blob/main/LICENSE.md",
+  "dependencies": {
+    "com.faster-games.t4": "1.4.1"
+  },
+  "keywords": [
+    "faster-games",
+    "template"
+  ],
+  "author": {
+    "name": "Ben Greenier",
+    "email": "ben+faster-games@bengreenier.com",
+    "url": "https://bengreenier.com"
+  }
+}

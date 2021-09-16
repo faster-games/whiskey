@@ -1,0 +1,16 @@
+{
+    "name": "FasterGames.Whiskey.Runtime",
+    "rootNamespace": "FasterGames.Whiskey",
+    "references": [
+        "GUID:2e7d786a45c6502439aca1902a87dd36"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

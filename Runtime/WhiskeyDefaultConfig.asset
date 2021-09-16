@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa90b0ac1a783d4e8420e7350867bd8, type: 3}
+  m_Name: WhiskeyDefaultConfig
+  m_EditorClassIdentifier: 
+  boxConfig:
+  - type:
+      name: Vector3
+      qualifier: UnityEngine
+    assetMenuNamePrefix: Whiskey/Boxes
+    assetMenuName: Vector3
+  - type:
+      name: Vector2
+      qualifier: UnityEngine
+    assetMenuNamePrefix: Whiskey/Boxes
+    assetMenuName: Vector2
+  - type:
+      name: Transform
+      qualifier: UnityEngine
+    assetMenuNamePrefix: Whiskey/Boxes
+    assetMenuName: Transform
+  - type:
+      name: float
+      qualifier: 
+    assetMenuNamePrefix: Whiskey/Boxes
+    assetMenuName: Float
+  - type:
+      name: string
+      qualifier: 
+    assetMenuNamePrefix: Whiskey/Boxes
+    assetMenuName: String
+  - type:
+      name: int
+      qualifier: 
+    assetMenuNamePrefix: Whiskey/Boxes
+    assetMenuName: Int
+  - type:
+      name: bool
+      qualifier: 
+    assetMenuNamePrefix: Whiskey/Boxes
+    assetMenuName: Bool
+  eventConfig: []
+  tableConfig: []
+  extendsDefaultSet: 0

@@ -1,0 +1,22 @@
+<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ import namespace="System.IO" #>
+<#@ include file="./Utils.ttinclude" #>
+<#@ include file="./MultiFileGenerators.ttinclude" #>
+<# SetOutputFolder(Path.GetDirectoryName(this.Host.TemplateFile) + "\\Generated"); #>
+<# foreach (var entry in Host.Data.boxConfig) { #>
+<# var typeName = entry.type.name; #>
+<# var className = "Boxed" + CamelCase(typeName); #>
+<# var namespaceName = entry.type.qualifier; #>
+<# var assetMenuName = entry.assetMenuName; #>
+<# var assetMenuNamePrefix = entry.assetMenuNamePrefix; #>
+
+<#= FormatNamespaces("UnityEngine", namespaceName) #>
+
+/// <summary>
+/// A boxed <#= typeName #> element that is readable, writable, equatable, and can be persisted as a scriptable object.
+/// </summary>
+[CreateAssetMenu(menuName = "<#= CreateAssetMenuName(className, assetMenuNamePrefix, assetMenuName) #>")]
+public class <#= className #> : Box<<#= typeName #>> {}
+<# SaveGeneratedContent(className, this.GenerationEnvironment); #>
+<# } #>

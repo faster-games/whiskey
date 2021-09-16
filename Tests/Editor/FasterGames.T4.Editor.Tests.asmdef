@@ -1,0 +1,25 @@
+{
+    "name": "FasterGames.Whiskey.Editor.Tests",
+    "rootNamespace": "FasterGames.Whiskey.Editor.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "FasterGames.Whiskey.Editor",
+        "FasterGames.Whiskey.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

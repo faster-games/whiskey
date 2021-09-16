@@ -1,0 +1,14 @@
+{
+    "name": "FasterGames.Whiskey.Runtime.T4Host",
+    "rootNamespace": "FasterGames.Whiskey.Runtime.T4Host",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

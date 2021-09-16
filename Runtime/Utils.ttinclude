@@ -1,0 +1,48 @@
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Text" #>
+<#+
+
+    string CreateAssetMenuName(string className, string desiredPrefix, string desiredName)
+    {
+        var name = string.IsNullOrWhiteSpace(desiredName) ? className : desiredName;
+        var prefix = string.IsNullOrWhiteSpace(desiredPrefix) ? "Whiskey" : desiredPrefix;
+
+        return prefix + "/" + name;
+    }
+
+    string FormatNamespaces(params string[] namespaces)
+    {
+        List<string> ns = new List<string>();
+        foreach (var entry in namespaces)
+        {
+            if (!ns.Contains(entry) && !string.IsNullOrWhiteSpace(entry))
+            {
+                ns.Add(entry);
+            }
+        }
+
+        ns.Sort();
+
+        StringBuilder sb = new StringBuilder();
+
+        foreach (var entry in ns)
+        {
+            sb.AppendLine("using " + entry + ";");
+        }
+
+        return sb.ToString();
+    }
+    
+    string CamelCase(string className)
+    {
+        if (char.IsLower(className[0]))
+        {
+            return char.ToUpper(className[0]) + className.Substring(1);
+        }
+        else
+        {
+            return className;
+        }
+    }
+
+#>
