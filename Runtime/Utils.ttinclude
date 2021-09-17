@@ -32,6 +32,18 @@
 
         return sb.ToString();
     }
+
+    string QualifyType(string qualifier, string name)
+    {
+        if (!string.IsNullOrWhiteSpace(qualifier))
+        {
+            return qualifier + "." + name;
+        }
+        else
+        {
+            return name;
+        }
+    }
     
     string CamelCase(string className)
     {

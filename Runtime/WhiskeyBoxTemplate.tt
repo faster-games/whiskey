@@ -13,10 +13,15 @@
 
 <#= FormatNamespaces("UnityEngine", namespaceName) #>
 
+namespace FasterGames.Whiskey.Boxes
+{
+
 /// <summary>
 /// A boxed <#= typeName #> element that is readable, writable, equatable, and can be persisted as a scriptable object.
 /// </summary>
 [CreateAssetMenu(menuName = "<#= CreateAssetMenuName(className, assetMenuNamePrefix, assetMenuName) #>")]
 public class <#= className #> : Box<<#= typeName #>> {}
+
+}
 <# SaveGeneratedContent(className, this.GenerationEnvironment); #>
 <# } #>

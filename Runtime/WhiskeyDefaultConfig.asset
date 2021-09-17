@@ -48,6 +48,90 @@ MonoBehaviour:
       qualifier: 
     assetMenuNamePrefix: Whiskey/Boxes
     assetMenuName: Bool
-  eventConfig: []
-  tableConfig: []
+  eventConfig:
+  - name: Vector3Event
+    argTypes:
+    - name: Vector3
+      qualifier: UnityEngine
+    generateBehaviourListener: 1
+    assetMenuNamePrefix: Whiskey/Events
+    assetMenuName: Vector3
+  - name: Vector2Event
+    argTypes:
+    - name: Vector2
+      qualifier: UnityEngine
+    generateBehaviourListener: 1
+    assetMenuNamePrefix: Whiskey/Events
+    assetMenuName: Vector2
+  - name: TransformEvent
+    argTypes:
+    - name: Transform
+      qualifier: UnityEngine
+    generateBehaviourListener: 1
+    assetMenuNamePrefix: Whiskey/Events
+    assetMenuName: Transform
+  - name: FloatEvent
+    argTypes:
+    - name: float
+      qualifier: 
+    generateBehaviourListener: 1
+    assetMenuNamePrefix: Whiskey/Events
+    assetMenuName: Float
+  - name: StringEvent
+    argTypes:
+    - name: string
+      qualifier: 
+    generateBehaviourListener: 1
+    assetMenuNamePrefix: Whiskey/Events
+    assetMenuName: String
+  - name: IntEvent
+    argTypes:
+    - name: int
+      qualifier: 
+    generateBehaviourListener: 1
+    assetMenuNamePrefix: Whiskey/Events
+    assetMenuName: Int
+  - name: BoolEvent
+    argTypes:
+    - name: bool
+      qualifier: 
+    generateBehaviourListener: 1
+    assetMenuNamePrefix: Whiskey/Events
+    assetMenuName: Bool
+  tableConfig:
+  - type:
+      name: Vector3
+      qualifier: UnityEngine
+    assetMenuNamePrefix: Whiskey/Tables
+    assetMenuName: Vector3
+  - type:
+      name: Vector2
+      qualifier: UnityEngine
+    assetMenuNamePrefix: Whiskey/Tables
+    assetMenuName: Vector2
+  - type:
+      name: Transform
+      qualifier: UnityEngine
+    assetMenuNamePrefix: Whiskey/Tables
+    assetMenuName: Transform
+  - type:
+      name: float
+      qualifier: 
+    assetMenuNamePrefix: Whiskey/Tables
+    assetMenuName: Float
+  - type:
+      name: string
+      qualifier: 
+    assetMenuNamePrefix: Whiskey/Tables
+    assetMenuName: String
+  - type:
+      name: int
+      qualifier: 
+    assetMenuNamePrefix: Whiskey/Tables
+    assetMenuName: Int
+  - type:
+      name: bool
+      qualifier: 
+    assetMenuNamePrefix: Whiskey/Tables
+    assetMenuName: Bool
   extendsDefaultSet: 0

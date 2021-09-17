@@ -1,0 +1,44 @@
+<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.IO" #>
+<#@ include file="./Utils.ttinclude" #>
+<#@ include file="./MultiFileGenerators.ttinclude" #>
+<# SetOutputFolder(Path.GetDirectoryName(this.Host.TemplateFile) + "\\Generated"); #>
+<# foreach (var entry in Host.Data.eventConfig) { #>
+<# var fullArgNames = new List<string>(); #>
+<# foreach (var argType in entry.argTypes) { #>
+<# fullArgNames.Add(QualifyType(argType.qualifier, argType.name)); #>
+<# } #>
+<# var argList = string.Join(",", fullArgNames); #>
+<# var className = CamelCase(entry.name); #>
+<# var assetMenuName = entry.assetMenuName; #>
+<# var assetMenuNamePrefix = entry.assetMenuNamePrefix; #>
+<# var generateBehaviourListener = entry.generateBehaviourListener; #>
+
+<#= FormatNamespaces("UnityEngine") #>
+
+namespace FasterGames.Whiskey.Events
+{
+
+/// <summary>
+/// A event that can be raised with <#= argList #> argument(s).
+/// </summary>
+[CreateAssetMenu(menuName = "<#= CreateAssetMenuName(className, assetMenuNamePrefix, assetMenuName) #>")]
+public class <#= className #> : Event<<#= argList #>> {}
+
+}
+<# SaveGeneratedContent(className, this.GenerationEnvironment); #>
+<# if (generateBehaviourListener) { #>
+
+namespace FasterGames.Whiskey.Events
+{
+/// <summary>
+/// An event listener (MonoBehavior) for handling reactions to <#= className #> events.
+/// </summary>
+public class <#= className + "Listener" #> : EventListener<<#= argList #>> {}
+
+}
+<# SaveGeneratedContent(className + "Listener", this.GenerationEnvironment); #>
+<# } #>
+<# } #>

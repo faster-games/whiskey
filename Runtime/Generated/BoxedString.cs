@@ -4,14 +4,17 @@
 // the next time this code is regenerated.
 // </auto-generated>
 
-namespace FasterGames.Whiskey
-{
 using UnityEngine;
 
+
+namespace FasterGames.Whiskey.Boxes
+{
 
 /// <summary>
 /// A boxed string element that is readable, writable, equatable, and can be persisted as a scriptable object.
 /// </summary>
 [CreateAssetMenu(menuName = "Whiskey/Boxes/String")]
 public class BoxedString : Box<string> {}
+
 }
+

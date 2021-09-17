@@ -1,0 +1,27 @@
+<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ import namespace="System.IO" #>
+<#@ include file="./Utils.ttinclude" #>
+<#@ include file="./MultiFileGenerators.ttinclude" #>
+<# SetOutputFolder(Path.GetDirectoryName(this.Host.TemplateFile) + "\\Generated"); #>
+<# foreach (var entry in Host.Data.tableConfig) { #>
+<# var typeName = entry.type.name; #>
+<# var className = CamelCase(typeName) + "Table"; #>
+<# var namespaceName = entry.type.qualifier; #>
+<# var assetMenuName = entry.assetMenuName; #>
+<# var assetMenuNamePrefix = entry.assetMenuNamePrefix; #>
+
+<#= FormatNamespaces("UnityEngine", namespaceName) #>
+
+namespace FasterGames.Whiskey.Tables
+{
+
+/// <summary>
+/// A probability table of <#= typeName #> elements.
+/// </summary>
+[CreateAssetMenu(menuName = "<#= CreateAssetMenuName(className, assetMenuNamePrefix, assetMenuName) #>")]
+public class <#= className #> : Table<<#= typeName #>> {}
+}
+
+<# SaveGeneratedContent(className, this.GenerationEnvironment); #>
+<# } #>

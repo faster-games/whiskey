@@ -4,14 +4,17 @@
 // the next time this code is regenerated.
 // </auto-generated>
 
-namespace FasterGames.Whiskey
-{
 using UnityEngine;
 
+
+namespace FasterGames.Whiskey.Boxes
+{
 
 /// <summary>
 /// A boxed bool element that is readable, writable, equatable, and can be persisted as a scriptable object.
 /// </summary>
 [CreateAssetMenu(menuName = "Whiskey/Boxes/Bool")]
 public class BoxedBool : Box<bool> {}
+
 }
+

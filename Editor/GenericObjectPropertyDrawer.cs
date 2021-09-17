@@ -2,16 +2,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using FasterGames.Whiskey.PropertyAttributes;
 using UnityEditor;
 using UnityEngine;
 
 namespace FasterGames.Whiskey.Editor
 {
     /// <summary>
-    /// A custom property drawer for <see cref="Box{T}"/> to assist with better editor completion for the inner object.
+    /// Property drawer for generic object selection assistance.
     /// </summary>
-    [CustomPropertyDrawer(typeof(Box<>), useForChildren: true)]
-    public class BoxPropertyDrawer : PropertyDrawer
+    /// <remarks>
+    /// Provides a better generics experience for editor selection of derived types. 
+    /// </remarks>
+    [CustomPropertyDrawer(typeof(GenericDrawerAttribute))]
+    public class GenericObjectPropertyDrawer : PropertyDrawer
     {
         private Type m_RefType;
         private List<Type> m_ChildTypes;
@@ -23,6 +27,9 @@ namespace FasterGames.Whiskey.Editor
         {
             EditorGUI.BeginProperty(position, label, property);
 
+            // parse the attribute
+            var attr = (GenericDrawerAttribute) attribute;
+
             // draw label
             position = EditorGUI.PrefixLabel(position, GUIUtility.GetControlID(FocusType.Passive), label);
 
@@ -33,12 +40,16 @@ namespace FasterGames.Whiskey.Editor
             var dropdownRect = new Rect(position.x, position.y, third * 1, position.height);
             var valueRect = new Rect(position.x + (third * 1), position.y, third * 2, position.height);
             
-            // try to walk the type tree
-            if (m_RefType == null)
+            // try to walk the type tree (always do it if caching is disabled with the attribute)
+            if (m_RefType == null || attr.CacheTypes == false)
             {
                 if (TryFindReferenceType(property, out m_RefType))
                 {
                     m_ChildTypes = FindSubTypes(m_RefType);
+
+                    // remove ignored entries (if any) based on attr
+                    m_ChildTypes.RemoveAll((t) => attr.IgnoredNamespaces.Any(n => t.Namespace == n));
+                    
                     m_TypeOptions = m_ChildTypes.Select(t => t.Name).Union(new string[]{m_RefType.Name}).ToArray();
                 }
             }
@@ -75,31 +86,18 @@ namespace FasterGames.Whiskey.Editor
         {
             try
             {
-                refType = FindReferenceType(prop);
-                return true;
+                refType = SerializedObjectUtils.FindPropertyType(prop);
+                if (refType != null)
+                {
+                    return true;
+                }
             }
             catch (Exception)
             {
                 refType = null;
-                return false;
             }
-
-        }
-        
-        /// <summary>
-        /// Search for the type name of a given property.
-        /// </summary>
-        /// <param name="prop">property</param>
-        /// <returns>type</returns>
-        private static Type FindReferenceType(SerializedProperty prop)
-        {
-            var path = prop.propertyPath;
-            var pathParts = path.Split('.');
-            var src = prop.serializedObject;
-            var obj = src.targetObject;
-            var objType = obj.GetType();
-
-            return pathParts.Aggregate(objType, (current, part) => current?.GetField(part, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public)?.FieldType);
+            
+            return false;
         }
 
         /// <summary>

@@ -61,22 +61,37 @@ namespace FasterGames.Whiskey.T4Host
     public class EventConfig
     {
         /// <summary>
+        /// The event name.
+        /// </summary>
+        [Tooltip("The event name")]
+        public string name;
+        
+        /// <summary>
         /// The arguments to generate an event for.
         /// </summary>
         [Tooltip("The arguments to generate an event for")]
         public List<TypeConfig> argTypes;
         
         /// <summary>
-        /// Flag; Indicates if overloads will be generated to allow the event to be raised with data in a <see cref="FasterGames.Whiskey.Box{T}"/>.
-        /// </summary>
-        [Tooltip("Flag; Indicates if overloads will be generated to allow the event to be raised with data in a Box")]
-        public bool supportBoxedData = true;
-        
-        /// <summary>
         /// Flag; Indicates if a <see cref="UnityEngine.MonoBehaviour"/> will be generated with a <see cref="UnityEngine.Events.UnityEvent"/> to handle the event.
         /// </summary>
         [Tooltip("Flag; Indicates if a MonoBehaviour will be generated with a UnityEvent to handle this event type")]
         public bool generateBehaviourListener = false;
+        
+        /// <summary>
+        /// The asset menu prefix to use for the box.
+        /// </summary>
+        [Tooltip("The asset menu prefix to use for the box")]
+        public string assetMenuNamePrefix;
+        
+        /// <summary>
+        /// The asset menu name to use for the box.
+        /// </summary>
+        /// <remarks>
+        /// This is always appended to <see cref="assetMenuNamePrefix"/>
+        /// </remarks>
+        [Tooltip("The asset menu name to use for the box")]
+        public string assetMenuName;
     }
 
     /// <summary>
@@ -92,9 +107,18 @@ namespace FasterGames.Whiskey.T4Host
         public TypeConfig type;
         
         /// <summary>
-        /// Flag; Indicates if overloads will be generated to allow the table to reference data in a <see cref="FasterGames.Whiskey.Box{T}"/>.
+        /// The asset menu prefix to use for the box.
         /// </summary>
-        [Tooltip("Flag; Indicates if overloads will be generated to allow the table to reference data in a Box")]
-        public bool supportBoxedData = true;
+        [Tooltip("The asset menu prefix to use for the box")]
+        public string assetMenuNamePrefix;
+        
+        /// <summary>
+        /// The asset menu name to use for the box.
+        /// </summary>
+        /// <remarks>
+        /// This is always appended to <see cref="assetMenuNamePrefix"/>
+        /// </remarks>
+        [Tooltip("The asset menu name to use for the box")]
+        public string assetMenuName;
     }
 }
