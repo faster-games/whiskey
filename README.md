@@ -1,6 +1,6 @@
 # Whiskey
 
-Data and Events framework for Unity. 📦⚡
+Data and Events framework for Unity. 🥃⚡
 
 ![Project logo; A pink package on a grey background, next to the text "Whiskey" in purple](./Documentation~/header.png)
 
@@ -9,7 +9,21 @@ Data and Events framework for Unity. 📦⚡
 [![CI](https://github.com/faster-games/whiskey/actions/workflows/main.yml/badge.svg)](https://github.com/faster-games/whiskey/actions/workflows/main.yml)
 [![Discord](https://img.shields.io/discord/862006447919726604)](https://discord.gg/QfQE6rWQqq)
 
-TODO
+Whiskey is a framework for managing data and events within [Unity](https://unity3d.com). It leans heavily on [ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html), and is inspired by [Ryan Hipple's Unite 2017 Talk](https://www.youtube.com/watch?v=raQ3iHhE_Kk). Whiskey lets game designers own and edit data definitions while programmers continue to evolve code - Whiskey brings the two together with references, to reduce merge conflicts.
+
+Goals:
+
+- Create, Edit, and Visualize data within the Editor, not code.
+- Encourage decoupling, by using asset references rather than singletons.
+- Quickly swap between data constants and references without rewriting code.
+
+Features:
+
+- Boxed data, stored as assets on disk using [ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html).
+- Weighted loot tables, for easy to manage [probability based loot drops](https://lostgarden.home.blog/2014/12/08/loot-drop-tables/).
+- Events, stored as assets on disk using [ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html).
+- Event Listeners, for binding to Events using [MonoBehaviours](https://docs.unity3d.com/Manual/class-MonoBehaviour.html).
+- References, for consuming data in code indirectly.
 
 ## Installing
 
@@ -45,11 +59,41 @@ https://github.com/faster-games/whiskey.git
 </center>
 
 
-TODO
-
 ### Quickstart
 
-- TODO
+> Disclaimer: By nature, Whiskey isn't easy to demonstrate. As such, this may not be as "quick" as you'd expect! 😅
+
+- Right click in the [Project Window](https://docs.unity3d.com/Manual/ProjectView.html) select: `Create, Whiskey, Boxes, Int`
+- Name the created data instance
+- Select the data instance
+- Edit the data in the [Inspector Window](https://docs.unity3d.com/Manual/UsingTheInspector.html)
+- Right click in the [Project Window](https://docs.unity3d.com/Manual/ProjectView.html) select: `Create, C# Script`
+- Name the created script `IntTestBehaviour`
+- Edit the script, adding the following:
+```cs
+using FasterGames.Whiskey.Boxes;
+using UnityEngine;
+
+public class IntTestBehaviour : MonoBehaviour
+{
+    public Ref<int> intRef;
+
+    private void Start()
+    {
+        Debug.Log(intRef.Value);
+    }
+}
+```
+- Right click in the [Hierarchy Window](https://docs.unity3d.com/Manual/Hierarchy.html) select: `Create Empty`
+- Name the created object
+- Select the object in the [Hierarchy Window](https://docs.unity3d.com/Manual/Hierarchy.html), then in the [Inspector Window](https://docs.unity3d.com/Manual/UsingTheInspector.html) select `Add Component` and search for `IntTestBehaviour`, selecting the first result (which should be the script you created above)
+- Note the `Int Ref` field is displayed, by default it is a `Direct` reference. A direct reference is effectively a hard coded value.
+- Select the `Direct` dropdown, and change it to `Boxed`. Note the field changes, allowing you to drag and drop an object reference, and showing an additional dropdown field.
+- Ensure the additional dropdown field is set to `BoxedInt`, which will allow the editor to more accurately assist you in selecting the object.
+- Click the object reference field, and select the data instance you created above.
+- You have now made your first data reference using Whiskey. Run the code, and note that the value stored in your data instance is logged by the `IntTestBehaviour` script on `Start`.
+
+🚀🚀🚀 Thanks for bearing with us! There's a lot of features in Whiskey, this quickstart only demonstrates one. To learn more, see [The manual](https://whiskey.faster-games.com/manual/getting-started.html).
 
 ## Supporting the project
 

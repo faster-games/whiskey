@@ -1,4 +1,10 @@
 - name: Getting Started
   href: getting-started.md
+- name: Boxes
+  href: boxes.md
+- name: Tables
+  href: tables.md
+- name: Events
+  href: events.md
 - name: Contributing
   href: contributing.md

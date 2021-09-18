@@ -1,6 +1,6 @@
 {
   "name": "com.faster-games.whiskey",
-  "version": "1.4.0",
+  "version": "1.0.0",
   "displayName": "Whiskey",
   "description": "Data and Events framework for Unity3D",
   "unity": "2020.3",
