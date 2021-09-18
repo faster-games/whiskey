@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Boxes | Whiskey </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Boxes | Whiskey ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="description" content="Data and Events framework for Unity3D">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="boxes">Boxes</h1>
+
+<p><a class="xref" href="../ref/FasterGames.Whiskey.Boxes.html">View Built-in Boxes</a></p>
+<p>Boxes are the core component of Whiskey. They provide a wrapper for data that allows it to be saved on disk within your Unity project, and versioned on it's own.</p>
+<p>A Box is used in code via the <code>Box&lt;T&gt;</code> class. It provides data access and equality mechanisms, including storage for the value itself. It also dervives from <code>ScriptableObject</code>, so it can be serialized on disk within a Unity project. This is what makes <code>Box&lt;T&gt;</code> unique - it's value is managed as an asset in it's own file, as part of your project.</p>
+<p>Whiskey comes with many built-in subclasses of <code>Box&lt;T&gt;</code> for boxing up common pieces of data. Things like <code>float</code>, <code>string</code>, <code>Vector3</code>, etc. These classes are named <code>Boxed{className}</code> - e.g. <code>BoxedFloat</code>. You may create instances of these using the Asset menu in the <a href="https://docs.unity3d.com/Manual/ProjectView.html">Project Window</a> by right clicking, and navigating to <code>Whiskey/Boxes</code>.</p>
+<p>Once a <code>Box&lt;T&gt;</code> instance is created within the project, it can be referenced directly in the Editor with drag and drop, to fields of the correct type. This probably feels familiar, as it's similar to how Unity supports connecting other resources (like sprites, audio, and models) to engine components (like <code>SpriteRenderer</code>, <code>AudioClip</code>, and <code>MeshFilter</code>, respectively).</p>
+<p>When a <code>Box&lt;T&gt;</code> is selected in the <a href="https://docs.unity3d.com/Manual/ProjectView.html">Project Window</a>, the <a href="https://docs.unity3d.com/Manual/UsingTheInspector.html">Inspector</a> will allow you to edit it's current value. Note that any changes to a <code>Box&lt;T&gt;</code> at runtime in a build (e.g. outside the Editor completely) will not be saved. So this isn't a good system for game saves!</p>
+<h2 id="references">References</h2>
+<p>Once you've created some Boxes, you'll probably want to reference these boxes in game logic. It might be tempting to do this directly with <code>Box&lt;T&gt;</code> (which does work), but with a little indirection, we can further decouple our game code from our game data.</p>
+<p>To do that, we introduce <code>Ref&lt;T&gt;</code> and <code>MutRef&lt;T&gt;</code> - two classes that can be used instead of <code>Box&lt;T&gt;</code> to reference data from within game code with more flexibility. The reason for this extra layer of indirection is so that we can replace the data with values from other locations without changing to code. For instance, imagine a gameplay engineer is trying to prototype a damage increase for a single enemy. With the box, they need to first find the game logic script in the Inspector, trace it to the <code>Box&lt;T&gt;</code>, and edit the value there. If this value is used by multiple enemies, then updating the <code>Box&lt;T&gt;</code> updates all enemies - so the engineer would have to create a new <code>Box&lt;T&gt;</code>, update the reference, and then continue prototyping.</p>
+<p>With a <code>Ref&lt;T&gt;</code>, the gameplay engineer is able to modify the data type directly in the inspector to be a <code>Direct</code> reference, which is stored as a constant. They can make this change for just the one enemy, modifying the constant as needed during prototyping, all without modifying the other enemies.</p>
+<p>Taking that concept one step further, <code>Ref&lt;T&gt;</code> also supports accessing the data from a <a href="tables.html">Table</a>, meaning that they could swap to a set of weighted values instead of a constant, or a <code>Box&lt;T&gt;</code>. All of this is possible without modifying game logic at all, and often without needing to create any new assets.</p>
+<p>There's one other concept that's important about <code>Ref&lt;T&gt;</code> - it's immutable. This means that you cannot write values into it from game logic, you can only read. This is what lets us provide lots of different options for where to get the value from. However, you may find you need data that is writable - For that, we introduce <code>MutRef&lt;T&gt;</code>.</p>
+<p><code>MutRef&lt;T&gt;</code> behaves similarly to <code>Ref&lt;T&gt;</code>, except it allows writing and cannot be backed by a <a href="tables.html">Table</a>. This is because Tables do not always return the same value, so writing to one isn't a defined operation - which value in the Table would be replaced?</p>
+<h2 id="creating-your-own">Creating your own</h2>
+<p>To create your own <code>Box&lt;T&gt;</code>, a few steps are needed:</p>
+<ul>
+<li>Create a new file - Note it's name much match the <code>Box&lt;T&gt;</code> name</li>
+<li>Add a class that derives from <code>Box&lt;T&gt;</code> where <code>T</code> is what you want to store in the Box</li>
+<li>Optionally add a <a href="https://docs.unity3d.com/ScriptReference/CreateAssetMenuAttribute.html"><code>[CreateAssetMenu]</code></a> attribute to it, so that it can be created directly via the Editor UI</li>
+</ul>
+<p>Here's one example:</p>
+<pre><code class="lang-cs">// in filename: CustomBoxedInt.cs
+[CreateAssetMenu(menuName = &quot;Whiskey/Boxes/CustomInt&quot;)]
+public class CustomBoxedInt : Box&lt;int&gt; {}
+</code></pre>
+<p>It stores an integer value inside a Box.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/faster-games/whiskey/blob/main/Documentation~/manual/boxes.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright FasterGames ©
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

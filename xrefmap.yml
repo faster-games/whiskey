@@ -1,0 +1,2662 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: FasterGames.Whiskey
+  name: FasterGames.Whiskey
+  href: ref/FasterGames.Whiskey.html
+  commentId: N:FasterGames.Whiskey
+  fullName: FasterGames.Whiskey
+  nameWithType: FasterGames.Whiskey
+- uid: FasterGames.Whiskey.Boxes
+  name: FasterGames.Whiskey.Boxes
+  href: ref/FasterGames.Whiskey.Boxes.html
+  commentId: N:FasterGames.Whiskey.Boxes
+  fullName: FasterGames.Whiskey.Boxes
+  nameWithType: FasterGames.Whiskey.Boxes
+- uid: FasterGames.Whiskey.Boxes.Box`1
+  name: Box<T>
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html
+  commentId: T:FasterGames.Whiskey.Boxes.Box`1
+  name.vb: Box(Of T)
+  fullName: FasterGames.Whiskey.Boxes.Box<T>
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T)
+  nameWithType: Box<T>
+  nameWithType.vb: Box(Of T)
+- uid: FasterGames.Whiskey.Boxes.Box`1.data
+  name: data
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html#FasterGames_Whiskey_Boxes_Box_1_data
+  commentId: F:FasterGames.Whiskey.Boxes.Box`1.data
+  fullName: FasterGames.Whiskey.Boxes.Box<T>.data
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T).data
+  nameWithType: Box<T>.data
+  nameWithType.vb: Box(Of T).data
+- uid: FasterGames.Whiskey.Boxes.Box`1.Equals(FasterGames.Whiskey.Boxes.Box{`0})
+  name: Equals(Box<T>)
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html#FasterGames_Whiskey_Boxes_Box_1_Equals_FasterGames_Whiskey_Boxes_Box__0__
+  commentId: M:FasterGames.Whiskey.Boxes.Box`1.Equals(FasterGames.Whiskey.Boxes.Box{`0})
+  name.vb: Equals(Box(Of T))
+  fullName: FasterGames.Whiskey.Boxes.Box<T>.Equals(FasterGames.Whiskey.Boxes.Box<T>)
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T).Equals(FasterGames.Whiskey.Boxes.Box(Of T))
+  nameWithType: Box<T>.Equals(Box<T>)
+  nameWithType.vb: Box(Of T).Equals(Box(Of T))
+- uid: FasterGames.Whiskey.Boxes.Box`1.Equals(System.Object)
+  name: Equals(Object)
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html#FasterGames_Whiskey_Boxes_Box_1_Equals_System_Object_
+  commentId: M:FasterGames.Whiskey.Boxes.Box`1.Equals(System.Object)
+  fullName: FasterGames.Whiskey.Boxes.Box<T>.Equals(System.Object)
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T).Equals(System.Object)
+  nameWithType: Box<T>.Equals(Object)
+  nameWithType.vb: Box(Of T).Equals(Object)
+- uid: FasterGames.Whiskey.Boxes.Box`1.Equals*
+  name: Equals
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html#FasterGames_Whiskey_Boxes_Box_1_Equals_
+  commentId: Overload:FasterGames.Whiskey.Boxes.Box`1.Equals
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.Box<T>.Equals
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T).Equals
+  nameWithType: Box<T>.Equals
+  nameWithType.vb: Box(Of T).Equals
+- uid: FasterGames.Whiskey.Boxes.Box`1.GetHashCode
+  name: GetHashCode()
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html#FasterGames_Whiskey_Boxes_Box_1_GetHashCode
+  commentId: M:FasterGames.Whiskey.Boxes.Box`1.GetHashCode
+  fullName: FasterGames.Whiskey.Boxes.Box<T>.GetHashCode()
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T).GetHashCode()
+  nameWithType: Box<T>.GetHashCode()
+  nameWithType.vb: Box(Of T).GetHashCode()
+- uid: FasterGames.Whiskey.Boxes.Box`1.GetHashCode*
+  name: GetHashCode
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html#FasterGames_Whiskey_Boxes_Box_1_GetHashCode_
+  commentId: Overload:FasterGames.Whiskey.Boxes.Box`1.GetHashCode
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.Box<T>.GetHashCode
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T).GetHashCode
+  nameWithType: Box<T>.GetHashCode
+  nameWithType.vb: Box(Of T).GetHashCode
+- uid: FasterGames.Whiskey.Boxes.Box`1.Read
+  name: Read()
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html#FasterGames_Whiskey_Boxes_Box_1_Read
+  commentId: M:FasterGames.Whiskey.Boxes.Box`1.Read
+  fullName: FasterGames.Whiskey.Boxes.Box<T>.Read()
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T).Read()
+  nameWithType: Box<T>.Read()
+  nameWithType.vb: Box(Of T).Read()
+- uid: FasterGames.Whiskey.Boxes.Box`1.Read*
+  name: Read
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html#FasterGames_Whiskey_Boxes_Box_1_Read_
+  commentId: Overload:FasterGames.Whiskey.Boxes.Box`1.Read
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.Box<T>.Read
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T).Read
+  nameWithType: Box<T>.Read
+  nameWithType.vb: Box(Of T).Read
+- uid: FasterGames.Whiskey.Boxes.Box`1.ValueEquals(`0)
+  name: ValueEquals(T)
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html#FasterGames_Whiskey_Boxes_Box_1_ValueEquals__0_
+  commentId: M:FasterGames.Whiskey.Boxes.Box`1.ValueEquals(`0)
+  fullName: FasterGames.Whiskey.Boxes.Box<T>.ValueEquals(T)
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T).ValueEquals(T)
+  nameWithType: Box<T>.ValueEquals(T)
+  nameWithType.vb: Box(Of T).ValueEquals(T)
+- uid: FasterGames.Whiskey.Boxes.Box`1.ValueEquals(FasterGames.Whiskey.Boxes.Box{`0})
+  name: ValueEquals(Box<T>)
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html#FasterGames_Whiskey_Boxes_Box_1_ValueEquals_FasterGames_Whiskey_Boxes_Box__0__
+  commentId: M:FasterGames.Whiskey.Boxes.Box`1.ValueEquals(FasterGames.Whiskey.Boxes.Box{`0})
+  name.vb: ValueEquals(Box(Of T))
+  fullName: FasterGames.Whiskey.Boxes.Box<T>.ValueEquals(FasterGames.Whiskey.Boxes.Box<T>)
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T).ValueEquals(FasterGames.Whiskey.Boxes.Box(Of T))
+  nameWithType: Box<T>.ValueEquals(Box<T>)
+  nameWithType.vb: Box(Of T).ValueEquals(Box(Of T))
+- uid: FasterGames.Whiskey.Boxes.Box`1.ValueEquals*
+  name: ValueEquals
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html#FasterGames_Whiskey_Boxes_Box_1_ValueEquals_
+  commentId: Overload:FasterGames.Whiskey.Boxes.Box`1.ValueEquals
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.Box<T>.ValueEquals
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T).ValueEquals
+  nameWithType: Box<T>.ValueEquals
+  nameWithType.vb: Box(Of T).ValueEquals
+- uid: FasterGames.Whiskey.Boxes.Box`1.Write(`0)
+  name: Write(T)
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html#FasterGames_Whiskey_Boxes_Box_1_Write__0_
+  commentId: M:FasterGames.Whiskey.Boxes.Box`1.Write(`0)
+  fullName: FasterGames.Whiskey.Boxes.Box<T>.Write(T)
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T).Write(T)
+  nameWithType: Box<T>.Write(T)
+  nameWithType.vb: Box(Of T).Write(T)
+- uid: FasterGames.Whiskey.Boxes.Box`1.Write*
+  name: Write
+  href: ref/FasterGames.Whiskey.Boxes.Box-1.html#FasterGames_Whiskey_Boxes_Box_1_Write_
+  commentId: Overload:FasterGames.Whiskey.Boxes.Box`1.Write
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.Box<T>.Write
+  fullName.vb: FasterGames.Whiskey.Boxes.Box(Of T).Write
+  nameWithType: Box<T>.Write
+  nameWithType.vb: Box(Of T).Write
+- uid: FasterGames.Whiskey.Boxes.BoxedBool
+  name: BoxedBool
+  href: ref/FasterGames.Whiskey.Boxes.BoxedBool.html
+  commentId: T:FasterGames.Whiskey.Boxes.BoxedBool
+  fullName: FasterGames.Whiskey.Boxes.BoxedBool
+  nameWithType: BoxedBool
+- uid: FasterGames.Whiskey.Boxes.BoxedFloat
+  name: BoxedFloat
+  href: ref/FasterGames.Whiskey.Boxes.BoxedFloat.html
+  commentId: T:FasterGames.Whiskey.Boxes.BoxedFloat
+  fullName: FasterGames.Whiskey.Boxes.BoxedFloat
+  nameWithType: BoxedFloat
+- uid: FasterGames.Whiskey.Boxes.BoxedInt
+  name: BoxedInt
+  href: ref/FasterGames.Whiskey.Boxes.BoxedInt.html
+  commentId: T:FasterGames.Whiskey.Boxes.BoxedInt
+  fullName: FasterGames.Whiskey.Boxes.BoxedInt
+  nameWithType: BoxedInt
+- uid: FasterGames.Whiskey.Boxes.BoxedString
+  name: BoxedString
+  href: ref/FasterGames.Whiskey.Boxes.BoxedString.html
+  commentId: T:FasterGames.Whiskey.Boxes.BoxedString
+  fullName: FasterGames.Whiskey.Boxes.BoxedString
+  nameWithType: BoxedString
+- uid: FasterGames.Whiskey.Boxes.BoxedTransform
+  name: BoxedTransform
+  href: ref/FasterGames.Whiskey.Boxes.BoxedTransform.html
+  commentId: T:FasterGames.Whiskey.Boxes.BoxedTransform
+  fullName: FasterGames.Whiskey.Boxes.BoxedTransform
+  nameWithType: BoxedTransform
+- uid: FasterGames.Whiskey.Boxes.BoxedVector2
+  name: BoxedVector2
+  href: ref/FasterGames.Whiskey.Boxes.BoxedVector2.html
+  commentId: T:FasterGames.Whiskey.Boxes.BoxedVector2
+  fullName: FasterGames.Whiskey.Boxes.BoxedVector2
+  nameWithType: BoxedVector2
+- uid: FasterGames.Whiskey.Boxes.BoxedVector3
+  name: BoxedVector3
+  href: ref/FasterGames.Whiskey.Boxes.BoxedVector3.html
+  commentId: T:FasterGames.Whiskey.Boxes.BoxedVector3
+  fullName: FasterGames.Whiskey.Boxes.BoxedVector3
+  nameWithType: BoxedVector3
+- uid: FasterGames.Whiskey.Boxes.MutRef`1
+  name: MutRef<T>
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html
+  commentId: T:FasterGames.Whiskey.Boxes.MutRef`1
+  name.vb: MutRef(Of T)
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T)
+  nameWithType: MutRef<T>
+  nameWithType.vb: MutRef(Of T)
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.box
+  name: box
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_box
+  commentId: F:FasterGames.Whiskey.Boxes.MutRef`1.box
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.box
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).box
+  nameWithType: MutRef<T>.box
+  nameWithType.vb: MutRef(Of T).box
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.Equals(FasterGames.Whiskey.Boxes.MutRef{`0})
+  name: Equals(MutRef<T>)
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_Equals_FasterGames_Whiskey_Boxes_MutRef__0__
+  commentId: M:FasterGames.Whiskey.Boxes.MutRef`1.Equals(FasterGames.Whiskey.Boxes.MutRef{`0})
+  name.vb: Equals(MutRef(Of T))
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.Equals(FasterGames.Whiskey.Boxes.MutRef<T>)
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).Equals(FasterGames.Whiskey.Boxes.MutRef(Of T))
+  nameWithType: MutRef<T>.Equals(MutRef<T>)
+  nameWithType.vb: MutRef(Of T).Equals(MutRef(Of T))
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.Equals(System.Object)
+  name: Equals(Object)
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_Equals_System_Object_
+  commentId: M:FasterGames.Whiskey.Boxes.MutRef`1.Equals(System.Object)
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.Equals(System.Object)
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).Equals(System.Object)
+  nameWithType: MutRef<T>.Equals(Object)
+  nameWithType.vb: MutRef(Of T).Equals(Object)
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.Equals*
+  name: Equals
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_Equals_
+  commentId: Overload:FasterGames.Whiskey.Boxes.MutRef`1.Equals
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.Equals
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).Equals
+  nameWithType: MutRef<T>.Equals
+  nameWithType.vb: MutRef(Of T).Equals
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.FieldNames
+  name: MutRef<T>.FieldNames
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.FieldNames.html
+  commentId: T:FasterGames.Whiskey.Boxes.MutRef`1.FieldNames
+  name.vb: MutRef(Of T).FieldNames
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.FieldNames
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).FieldNames
+  nameWithType: MutRef<T>.FieldNames
+  nameWithType.vb: MutRef(Of T).FieldNames
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.FieldNames.box
+  name: box
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.FieldNames.html#FasterGames_Whiskey_Boxes_MutRef_1_FieldNames_box
+  commentId: F:FasterGames.Whiskey.Boxes.MutRef`1.FieldNames.box
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.FieldNames.box
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).FieldNames.box
+  nameWithType: MutRef<T>.FieldNames.box
+  nameWithType.vb: MutRef(Of T).FieldNames.box
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.FieldNames.raw
+  name: raw
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.FieldNames.html#FasterGames_Whiskey_Boxes_MutRef_1_FieldNames_raw
+  commentId: F:FasterGames.Whiskey.Boxes.MutRef`1.FieldNames.raw
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.FieldNames.raw
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).FieldNames.raw
+  nameWithType: MutRef<T>.FieldNames.raw
+  nameWithType.vb: MutRef(Of T).FieldNames.raw
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.FieldNames.selector
+  name: selector
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.FieldNames.html#FasterGames_Whiskey_Boxes_MutRef_1_FieldNames_selector
+  commentId: F:FasterGames.Whiskey.Boxes.MutRef`1.FieldNames.selector
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.FieldNames.selector
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).FieldNames.selector
+  nameWithType: MutRef<T>.FieldNames.selector
+  nameWithType.vb: MutRef(Of T).FieldNames.selector
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.GetHashCode
+  name: GetHashCode()
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_GetHashCode
+  commentId: M:FasterGames.Whiskey.Boxes.MutRef`1.GetHashCode
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.GetHashCode()
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).GetHashCode()
+  nameWithType: MutRef<T>.GetHashCode()
+  nameWithType.vb: MutRef(Of T).GetHashCode()
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.GetHashCode*
+  name: GetHashCode
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_GetHashCode_
+  commentId: Overload:FasterGames.Whiskey.Boxes.MutRef`1.GetHashCode
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.GetHashCode
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).GetHashCode
+  nameWithType: MutRef<T>.GetHashCode
+  nameWithType.vb: MutRef(Of T).GetHashCode
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.raw
+  name: raw
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_raw
+  commentId: F:FasterGames.Whiskey.Boxes.MutRef`1.raw
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.raw
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).raw
+  nameWithType: MutRef<T>.raw
+  nameWithType.vb: MutRef(Of T).raw
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.Read
+  name: Read()
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_Read
+  commentId: M:FasterGames.Whiskey.Boxes.MutRef`1.Read
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.Read()
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).Read()
+  nameWithType: MutRef<T>.Read()
+  nameWithType.vb: MutRef(Of T).Read()
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.Read*
+  name: Read
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_Read_
+  commentId: Overload:FasterGames.Whiskey.Boxes.MutRef`1.Read
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.Read
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).Read
+  nameWithType: MutRef<T>.Read
+  nameWithType.vb: MutRef(Of T).Read
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.selector
+  name: selector
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_selector
+  commentId: F:FasterGames.Whiskey.Boxes.MutRef`1.selector
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.selector
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).selector
+  nameWithType: MutRef<T>.selector
+  nameWithType.vb: MutRef(Of T).selector
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.Selector
+  name: MutRef<T>.Selector
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.Selector.html
+  commentId: T:FasterGames.Whiskey.Boxes.MutRef`1.Selector
+  name.vb: MutRef(Of T).Selector
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.Selector
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).Selector
+  nameWithType: MutRef<T>.Selector
+  nameWithType.vb: MutRef(Of T).Selector
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.Selector.Boxed
+  name: Boxed
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.Selector.html#FasterGames_Whiskey_Boxes_MutRef_1_Selector_Boxed
+  commentId: F:FasterGames.Whiskey.Boxes.MutRef`1.Selector.Boxed
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.Selector.Boxed
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).Selector.Boxed
+  nameWithType: MutRef<T>.Selector.Boxed
+  nameWithType.vb: MutRef(Of T).Selector.Boxed
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.Selector.Direct
+  name: Direct
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.Selector.html#FasterGames_Whiskey_Boxes_MutRef_1_Selector_Direct
+  commentId: F:FasterGames.Whiskey.Boxes.MutRef`1.Selector.Direct
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.Selector.Direct
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).Selector.Direct
+  nameWithType: MutRef<T>.Selector.Direct
+  nameWithType.vb: MutRef(Of T).Selector.Direct
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.Value
+  name: Value
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_Value
+  commentId: P:FasterGames.Whiskey.Boxes.MutRef`1.Value
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.Value
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).Value
+  nameWithType: MutRef<T>.Value
+  nameWithType.vb: MutRef(Of T).Value
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.Value*
+  name: Value
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_Value_
+  commentId: Overload:FasterGames.Whiskey.Boxes.MutRef`1.Value
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.Value
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).Value
+  nameWithType: MutRef<T>.Value
+  nameWithType.vb: MutRef(Of T).Value
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.ValueEquals(`0)
+  name: ValueEquals(T)
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_ValueEquals__0_
+  commentId: M:FasterGames.Whiskey.Boxes.MutRef`1.ValueEquals(`0)
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.ValueEquals(T)
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).ValueEquals(T)
+  nameWithType: MutRef<T>.ValueEquals(T)
+  nameWithType.vb: MutRef(Of T).ValueEquals(T)
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.ValueEquals(FasterGames.Whiskey.Boxes.MutRef{`0})
+  name: ValueEquals(MutRef<T>)
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_ValueEquals_FasterGames_Whiskey_Boxes_MutRef__0__
+  commentId: M:FasterGames.Whiskey.Boxes.MutRef`1.ValueEquals(FasterGames.Whiskey.Boxes.MutRef{`0})
+  name.vb: ValueEquals(MutRef(Of T))
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.ValueEquals(FasterGames.Whiskey.Boxes.MutRef<T>)
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).ValueEquals(FasterGames.Whiskey.Boxes.MutRef(Of T))
+  nameWithType: MutRef<T>.ValueEquals(MutRef<T>)
+  nameWithType.vb: MutRef(Of T).ValueEquals(MutRef(Of T))
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.ValueEquals*
+  name: ValueEquals
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_ValueEquals_
+  commentId: Overload:FasterGames.Whiskey.Boxes.MutRef`1.ValueEquals
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.ValueEquals
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).ValueEquals
+  nameWithType: MutRef<T>.ValueEquals
+  nameWithType.vb: MutRef(Of T).ValueEquals
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.Write(`0)
+  name: Write(T)
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_Write__0_
+  commentId: M:FasterGames.Whiskey.Boxes.MutRef`1.Write(`0)
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.Write(T)
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).Write(T)
+  nameWithType: MutRef<T>.Write(T)
+  nameWithType.vb: MutRef(Of T).Write(T)
+- uid: FasterGames.Whiskey.Boxes.MutRef`1.Write*
+  name: Write
+  href: ref/FasterGames.Whiskey.Boxes.MutRef-1.html#FasterGames_Whiskey_Boxes_MutRef_1_Write_
+  commentId: Overload:FasterGames.Whiskey.Boxes.MutRef`1.Write
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.MutRef<T>.Write
+  fullName.vb: FasterGames.Whiskey.Boxes.MutRef(Of T).Write
+  nameWithType: MutRef<T>.Write
+  nameWithType.vb: MutRef(Of T).Write
+- uid: FasterGames.Whiskey.Boxes.Ref`1
+  name: Ref<T>
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html
+  commentId: T:FasterGames.Whiskey.Boxes.Ref`1
+  name.vb: Ref(Of T)
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T)
+  nameWithType: Ref<T>
+  nameWithType.vb: Ref(Of T)
+- uid: FasterGames.Whiskey.Boxes.Ref`1.#ctor
+  name: Ref()
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1__ctor
+  commentId: M:FasterGames.Whiskey.Boxes.Ref`1.#ctor
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Ref()
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Ref()
+  nameWithType: Ref<T>.Ref()
+  nameWithType.vb: Ref(Of T).Ref()
+- uid: FasterGames.Whiskey.Boxes.Ref`1.#ctor(`0)
+  name: Ref(T)
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1__ctor__0_
+  commentId: M:FasterGames.Whiskey.Boxes.Ref`1.#ctor(`0)
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Ref(T)
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Ref(T)
+  nameWithType: Ref<T>.Ref(T)
+  nameWithType.vb: Ref(Of T).Ref(T)
+- uid: FasterGames.Whiskey.Boxes.Ref`1.#ctor(FasterGames.Whiskey.Boxes.Box{`0})
+  name: Ref(Box<T>)
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1__ctor_FasterGames_Whiskey_Boxes_Box__0__
+  commentId: M:FasterGames.Whiskey.Boxes.Ref`1.#ctor(FasterGames.Whiskey.Boxes.Box{`0})
+  name.vb: Ref(Box(Of T))
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Ref(FasterGames.Whiskey.Boxes.Box<T>)
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Ref(FasterGames.Whiskey.Boxes.Box(Of T))
+  nameWithType: Ref<T>.Ref(Box<T>)
+  nameWithType.vb: Ref(Of T).Ref(Box(Of T))
+- uid: FasterGames.Whiskey.Boxes.Ref`1.#ctor*
+  name: Ref
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1__ctor_
+  commentId: Overload:FasterGames.Whiskey.Boxes.Ref`1.#ctor
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Ref
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Ref
+  nameWithType: Ref<T>.Ref
+  nameWithType.vb: Ref(Of T).Ref
+- uid: FasterGames.Whiskey.Boxes.Ref`1.box
+  name: box
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_box
+  commentId: F:FasterGames.Whiskey.Boxes.Ref`1.box
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.box
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).box
+  nameWithType: Ref<T>.box
+  nameWithType.vb: Ref(Of T).box
+- uid: FasterGames.Whiskey.Boxes.Ref`1.Equals(FasterGames.Whiskey.Boxes.Ref{`0})
+  name: Equals(Ref<T>)
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_Equals_FasterGames_Whiskey_Boxes_Ref__0__
+  commentId: M:FasterGames.Whiskey.Boxes.Ref`1.Equals(FasterGames.Whiskey.Boxes.Ref{`0})
+  name.vb: Equals(Ref(Of T))
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Equals(FasterGames.Whiskey.Boxes.Ref<T>)
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Equals(FasterGames.Whiskey.Boxes.Ref(Of T))
+  nameWithType: Ref<T>.Equals(Ref<T>)
+  nameWithType.vb: Ref(Of T).Equals(Ref(Of T))
+- uid: FasterGames.Whiskey.Boxes.Ref`1.Equals(System.Object)
+  name: Equals(Object)
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_Equals_System_Object_
+  commentId: M:FasterGames.Whiskey.Boxes.Ref`1.Equals(System.Object)
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Equals(System.Object)
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Equals(System.Object)
+  nameWithType: Ref<T>.Equals(Object)
+  nameWithType.vb: Ref(Of T).Equals(Object)
+- uid: FasterGames.Whiskey.Boxes.Ref`1.Equals*
+  name: Equals
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_Equals_
+  commentId: Overload:FasterGames.Whiskey.Boxes.Ref`1.Equals
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Equals
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Equals
+  nameWithType: Ref<T>.Equals
+  nameWithType.vb: Ref(Of T).Equals
+- uid: FasterGames.Whiskey.Boxes.Ref`1.FieldNames
+  name: Ref<T>.FieldNames
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.FieldNames.html
+  commentId: T:FasterGames.Whiskey.Boxes.Ref`1.FieldNames
+  name.vb: Ref(Of T).FieldNames
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.FieldNames
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).FieldNames
+  nameWithType: Ref<T>.FieldNames
+  nameWithType.vb: Ref(Of T).FieldNames
+- uid: FasterGames.Whiskey.Boxes.Ref`1.FieldNames.box
+  name: box
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.FieldNames.html#FasterGames_Whiskey_Boxes_Ref_1_FieldNames_box
+  commentId: F:FasterGames.Whiskey.Boxes.Ref`1.FieldNames.box
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.FieldNames.box
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).FieldNames.box
+  nameWithType: Ref<T>.FieldNames.box
+  nameWithType.vb: Ref(Of T).FieldNames.box
+- uid: FasterGames.Whiskey.Boxes.Ref`1.FieldNames.raw
+  name: raw
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.FieldNames.html#FasterGames_Whiskey_Boxes_Ref_1_FieldNames_raw
+  commentId: F:FasterGames.Whiskey.Boxes.Ref`1.FieldNames.raw
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.FieldNames.raw
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).FieldNames.raw
+  nameWithType: Ref<T>.FieldNames.raw
+  nameWithType.vb: Ref(Of T).FieldNames.raw
+- uid: FasterGames.Whiskey.Boxes.Ref`1.FieldNames.selector
+  name: selector
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.FieldNames.html#FasterGames_Whiskey_Boxes_Ref_1_FieldNames_selector
+  commentId: F:FasterGames.Whiskey.Boxes.Ref`1.FieldNames.selector
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.FieldNames.selector
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).FieldNames.selector
+  nameWithType: Ref<T>.FieldNames.selector
+  nameWithType.vb: Ref(Of T).FieldNames.selector
+- uid: FasterGames.Whiskey.Boxes.Ref`1.FieldNames.table
+  name: table
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.FieldNames.html#FasterGames_Whiskey_Boxes_Ref_1_FieldNames_table
+  commentId: F:FasterGames.Whiskey.Boxes.Ref`1.FieldNames.table
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.FieldNames.table
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).FieldNames.table
+  nameWithType: Ref<T>.FieldNames.table
+  nameWithType.vb: Ref(Of T).FieldNames.table
+- uid: FasterGames.Whiskey.Boxes.Ref`1.GetHashCode
+  name: GetHashCode()
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_GetHashCode
+  commentId: M:FasterGames.Whiskey.Boxes.Ref`1.GetHashCode
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.GetHashCode()
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).GetHashCode()
+  nameWithType: Ref<T>.GetHashCode()
+  nameWithType.vb: Ref(Of T).GetHashCode()
+- uid: FasterGames.Whiskey.Boxes.Ref`1.GetHashCode*
+  name: GetHashCode
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_GetHashCode_
+  commentId: Overload:FasterGames.Whiskey.Boxes.Ref`1.GetHashCode
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.GetHashCode
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).GetHashCode
+  nameWithType: Ref<T>.GetHashCode
+  nameWithType.vb: Ref(Of T).GetHashCode
+- uid: FasterGames.Whiskey.Boxes.Ref`1.raw
+  name: raw
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_raw
+  commentId: F:FasterGames.Whiskey.Boxes.Ref`1.raw
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.raw
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).raw
+  nameWithType: Ref<T>.raw
+  nameWithType.vb: Ref(Of T).raw
+- uid: FasterGames.Whiskey.Boxes.Ref`1.Read
+  name: Read()
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_Read
+  commentId: M:FasterGames.Whiskey.Boxes.Ref`1.Read
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Read()
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Read()
+  nameWithType: Ref<T>.Read()
+  nameWithType.vb: Ref(Of T).Read()
+- uid: FasterGames.Whiskey.Boxes.Ref`1.Read*
+  name: Read
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_Read_
+  commentId: Overload:FasterGames.Whiskey.Boxes.Ref`1.Read
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Read
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Read
+  nameWithType: Ref<T>.Read
+  nameWithType.vb: Ref(Of T).Read
+- uid: FasterGames.Whiskey.Boxes.Ref`1.selector
+  name: selector
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_selector
+  commentId: F:FasterGames.Whiskey.Boxes.Ref`1.selector
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.selector
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).selector
+  nameWithType: Ref<T>.selector
+  nameWithType.vb: Ref(Of T).selector
+- uid: FasterGames.Whiskey.Boxes.Ref`1.Selector
+  name: Ref<T>.Selector
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.Selector.html
+  commentId: T:FasterGames.Whiskey.Boxes.Ref`1.Selector
+  name.vb: Ref(Of T).Selector
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Selector
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Selector
+  nameWithType: Ref<T>.Selector
+  nameWithType.vb: Ref(Of T).Selector
+- uid: FasterGames.Whiskey.Boxes.Ref`1.Selector.Boxed
+  name: Boxed
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.Selector.html#FasterGames_Whiskey_Boxes_Ref_1_Selector_Boxed
+  commentId: F:FasterGames.Whiskey.Boxes.Ref`1.Selector.Boxed
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Selector.Boxed
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Selector.Boxed
+  nameWithType: Ref<T>.Selector.Boxed
+  nameWithType.vb: Ref(Of T).Selector.Boxed
+- uid: FasterGames.Whiskey.Boxes.Ref`1.Selector.Direct
+  name: Direct
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.Selector.html#FasterGames_Whiskey_Boxes_Ref_1_Selector_Direct
+  commentId: F:FasterGames.Whiskey.Boxes.Ref`1.Selector.Direct
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Selector.Direct
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Selector.Direct
+  nameWithType: Ref<T>.Selector.Direct
+  nameWithType.vb: Ref(Of T).Selector.Direct
+- uid: FasterGames.Whiskey.Boxes.Ref`1.Selector.Table
+  name: Table
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.Selector.html#FasterGames_Whiskey_Boxes_Ref_1_Selector_Table
+  commentId: F:FasterGames.Whiskey.Boxes.Ref`1.Selector.Table
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Selector.Table
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Selector.Table
+  nameWithType: Ref<T>.Selector.Table
+  nameWithType.vb: Ref(Of T).Selector.Table
+- uid: FasterGames.Whiskey.Boxes.Ref`1.table
+  name: table
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_table
+  commentId: F:FasterGames.Whiskey.Boxes.Ref`1.table
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.table
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).table
+  nameWithType: Ref<T>.table
+  nameWithType.vb: Ref(Of T).table
+- uid: FasterGames.Whiskey.Boxes.Ref`1.Value
+  name: Value
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_Value
+  commentId: P:FasterGames.Whiskey.Boxes.Ref`1.Value
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Value
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Value
+  nameWithType: Ref<T>.Value
+  nameWithType.vb: Ref(Of T).Value
+- uid: FasterGames.Whiskey.Boxes.Ref`1.Value*
+  name: Value
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_Value_
+  commentId: Overload:FasterGames.Whiskey.Boxes.Ref`1.Value
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.Value
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).Value
+  nameWithType: Ref<T>.Value
+  nameWithType.vb: Ref(Of T).Value
+- uid: FasterGames.Whiskey.Boxes.Ref`1.ValueEquals(`0)
+  name: ValueEquals(T)
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_ValueEquals__0_
+  commentId: M:FasterGames.Whiskey.Boxes.Ref`1.ValueEquals(`0)
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.ValueEquals(T)
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).ValueEquals(T)
+  nameWithType: Ref<T>.ValueEquals(T)
+  nameWithType.vb: Ref(Of T).ValueEquals(T)
+- uid: FasterGames.Whiskey.Boxes.Ref`1.ValueEquals(FasterGames.Whiskey.Boxes.Ref{`0})
+  name: ValueEquals(Ref<T>)
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_ValueEquals_FasterGames_Whiskey_Boxes_Ref__0__
+  commentId: M:FasterGames.Whiskey.Boxes.Ref`1.ValueEquals(FasterGames.Whiskey.Boxes.Ref{`0})
+  name.vb: ValueEquals(Ref(Of T))
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.ValueEquals(FasterGames.Whiskey.Boxes.Ref<T>)
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).ValueEquals(FasterGames.Whiskey.Boxes.Ref(Of T))
+  nameWithType: Ref<T>.ValueEquals(Ref<T>)
+  nameWithType.vb: Ref(Of T).ValueEquals(Ref(Of T))
+- uid: FasterGames.Whiskey.Boxes.Ref`1.ValueEquals*
+  name: ValueEquals
+  href: ref/FasterGames.Whiskey.Boxes.Ref-1.html#FasterGames_Whiskey_Boxes_Ref_1_ValueEquals_
+  commentId: Overload:FasterGames.Whiskey.Boxes.Ref`1.ValueEquals
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Boxes.Ref<T>.ValueEquals
+  fullName.vb: FasterGames.Whiskey.Boxes.Ref(Of T).ValueEquals
+  nameWithType: Ref<T>.ValueEquals
+  nameWithType.vb: Ref(Of T).ValueEquals
+- uid: FasterGames.Whiskey.Editor
+  name: FasterGames.Whiskey.Editor
+  href: ref/FasterGames.Whiskey.Editor.html
+  commentId: N:FasterGames.Whiskey.Editor
+  fullName: FasterGames.Whiskey.Editor
+  nameWithType: FasterGames.Whiskey.Editor
+- uid: FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer
+  name: GenericObjectPropertyDrawer
+  href: ref/FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer.html
+  commentId: T:FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer
+  fullName: FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer
+  nameWithType: GenericObjectPropertyDrawer
+- uid: FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: ref/FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer.html#FasterGames_Whiskey_Editor_GenericObjectPropertyDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: GenericObjectPropertyDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer.OnGUI*
+  name: OnGUI
+  href: ref/FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer.html#FasterGames_Whiskey_Editor_GenericObjectPropertyDrawer_OnGUI_
+  commentId: Overload:FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer.OnGUI
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer.OnGUI
+  nameWithType: GenericObjectPropertyDrawer.OnGUI
+- uid: FasterGames.Whiskey.Editor.MutRefPropertyDrawer
+  name: MutRefPropertyDrawer
+  href: ref/FasterGames.Whiskey.Editor.MutRefPropertyDrawer.html
+  commentId: T:FasterGames.Whiskey.Editor.MutRefPropertyDrawer
+  fullName: FasterGames.Whiskey.Editor.MutRefPropertyDrawer
+  nameWithType: MutRefPropertyDrawer
+- uid: FasterGames.Whiskey.Editor.MutRefPropertyDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: ref/FasterGames.Whiskey.Editor.MutRefPropertyDrawer.html#FasterGames_Whiskey_Editor_MutRefPropertyDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:FasterGames.Whiskey.Editor.MutRefPropertyDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: FasterGames.Whiskey.Editor.MutRefPropertyDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: MutRefPropertyDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: FasterGames.Whiskey.Editor.MutRefPropertyDrawer.OnGUI*
+  name: OnGUI
+  href: ref/FasterGames.Whiskey.Editor.MutRefPropertyDrawer.html#FasterGames_Whiskey_Editor_MutRefPropertyDrawer_OnGUI_
+  commentId: Overload:FasterGames.Whiskey.Editor.MutRefPropertyDrawer.OnGUI
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Editor.MutRefPropertyDrawer.OnGUI
+  nameWithType: MutRefPropertyDrawer.OnGUI
+- uid: FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer
+  name: ReadOnlyPropertyDrawer
+  href: ref/FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.html
+  commentId: T:FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer
+  fullName: FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer
+  nameWithType: ReadOnlyPropertyDrawer
+- uid: FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  name: GetPropertyHeight(SerializedProperty, GUIContent)
+  href: ref/FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.html#FasterGames_Whiskey_Editor_ReadOnlyPropertyDrawer_GetPropertyHeight_SerializedProperty_GUIContent_
+  commentId: M:FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.GetPropertyHeight(SerializedProperty,GUIContent)
+  fullName: FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+  nameWithType: ReadOnlyPropertyDrawer.GetPropertyHeight(SerializedProperty, GUIContent)
+- uid: FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: ref/FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.html#FasterGames_Whiskey_Editor_ReadOnlyPropertyDrawer_GetPropertyHeight_
+  commentId: Overload:FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.GetPropertyHeight
+  nameWithType: ReadOnlyPropertyDrawer.GetPropertyHeight
+- uid: FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: ref/FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.html#FasterGames_Whiskey_Editor_ReadOnlyPropertyDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: ReadOnlyPropertyDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.OnGUI*
+  name: OnGUI
+  href: ref/FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.html#FasterGames_Whiskey_Editor_ReadOnlyPropertyDrawer_OnGUI_
+  commentId: Overload:FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.OnGUI
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.OnGUI
+  nameWithType: ReadOnlyPropertyDrawer.OnGUI
+- uid: FasterGames.Whiskey.Editor.RefPropertyDrawer
+  name: RefPropertyDrawer
+  href: ref/FasterGames.Whiskey.Editor.RefPropertyDrawer.html
+  commentId: T:FasterGames.Whiskey.Editor.RefPropertyDrawer
+  fullName: FasterGames.Whiskey.Editor.RefPropertyDrawer
+  nameWithType: RefPropertyDrawer
+- uid: FasterGames.Whiskey.Editor.RefPropertyDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: ref/FasterGames.Whiskey.Editor.RefPropertyDrawer.html#FasterGames_Whiskey_Editor_RefPropertyDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:FasterGames.Whiskey.Editor.RefPropertyDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: FasterGames.Whiskey.Editor.RefPropertyDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: RefPropertyDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: FasterGames.Whiskey.Editor.RefPropertyDrawer.OnGUI*
+  name: OnGUI
+  href: ref/FasterGames.Whiskey.Editor.RefPropertyDrawer.html#FasterGames_Whiskey_Editor_RefPropertyDrawer_OnGUI_
+  commentId: Overload:FasterGames.Whiskey.Editor.RefPropertyDrawer.OnGUI
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Editor.RefPropertyDrawer.OnGUI
+  nameWithType: RefPropertyDrawer.OnGUI
+- uid: FasterGames.Whiskey.Editor.SerializedObjectUtils
+  name: SerializedObjectUtils
+  href: ref/FasterGames.Whiskey.Editor.SerializedObjectUtils.html
+  commentId: T:FasterGames.Whiskey.Editor.SerializedObjectUtils
+  fullName: FasterGames.Whiskey.Editor.SerializedObjectUtils
+  nameWithType: SerializedObjectUtils
+- uid: FasterGames.Whiskey.Editor.SerializedObjectUtils.FindFieldType(Type,System.String)
+  name: FindFieldType(Type, String)
+  href: ref/FasterGames.Whiskey.Editor.SerializedObjectUtils.html#FasterGames_Whiskey_Editor_SerializedObjectUtils_FindFieldType_Type_System_String_
+  commentId: M:FasterGames.Whiskey.Editor.SerializedObjectUtils.FindFieldType(Type,System.String)
+  fullName: FasterGames.Whiskey.Editor.SerializedObjectUtils.FindFieldType(Type, System.String)
+  nameWithType: SerializedObjectUtils.FindFieldType(Type, String)
+- uid: FasterGames.Whiskey.Editor.SerializedObjectUtils.FindFieldType*
+  name: FindFieldType
+  href: ref/FasterGames.Whiskey.Editor.SerializedObjectUtils.html#FasterGames_Whiskey_Editor_SerializedObjectUtils_FindFieldType_
+  commentId: Overload:FasterGames.Whiskey.Editor.SerializedObjectUtils.FindFieldType
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Editor.SerializedObjectUtils.FindFieldType
+  nameWithType: SerializedObjectUtils.FindFieldType
+- uid: FasterGames.Whiskey.Editor.SerializedObjectUtils.FindPropertyType(Object,System.String)
+  name: FindPropertyType(Object, String)
+  href: ref/FasterGames.Whiskey.Editor.SerializedObjectUtils.html#FasterGames_Whiskey_Editor_SerializedObjectUtils_FindPropertyType_Object_System_String_
+  commentId: M:FasterGames.Whiskey.Editor.SerializedObjectUtils.FindPropertyType(Object,System.String)
+  fullName: FasterGames.Whiskey.Editor.SerializedObjectUtils.FindPropertyType(Object, System.String)
+  nameWithType: SerializedObjectUtils.FindPropertyType(Object, String)
+- uid: FasterGames.Whiskey.Editor.SerializedObjectUtils.FindPropertyType(SerializedObject,System.String)
+  name: FindPropertyType(SerializedObject, String)
+  href: ref/FasterGames.Whiskey.Editor.SerializedObjectUtils.html#FasterGames_Whiskey_Editor_SerializedObjectUtils_FindPropertyType_SerializedObject_System_String_
+  commentId: M:FasterGames.Whiskey.Editor.SerializedObjectUtils.FindPropertyType(SerializedObject,System.String)
+  fullName: FasterGames.Whiskey.Editor.SerializedObjectUtils.FindPropertyType(SerializedObject, System.String)
+  nameWithType: SerializedObjectUtils.FindPropertyType(SerializedObject, String)
+- uid: FasterGames.Whiskey.Editor.SerializedObjectUtils.FindPropertyType(SerializedProperty)
+  name: FindPropertyType(SerializedProperty)
+  href: ref/FasterGames.Whiskey.Editor.SerializedObjectUtils.html#FasterGames_Whiskey_Editor_SerializedObjectUtils_FindPropertyType_SerializedProperty_
+  commentId: M:FasterGames.Whiskey.Editor.SerializedObjectUtils.FindPropertyType(SerializedProperty)
+  fullName: FasterGames.Whiskey.Editor.SerializedObjectUtils.FindPropertyType(SerializedProperty)
+  nameWithType: SerializedObjectUtils.FindPropertyType(SerializedProperty)
+- uid: FasterGames.Whiskey.Editor.SerializedObjectUtils.FindPropertyType*
+  name: FindPropertyType
+  href: ref/FasterGames.Whiskey.Editor.SerializedObjectUtils.html#FasterGames_Whiskey_Editor_SerializedObjectUtils_FindPropertyType_
+  commentId: Overload:FasterGames.Whiskey.Editor.SerializedObjectUtils.FindPropertyType
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Editor.SerializedObjectUtils.FindPropertyType
+  nameWithType: SerializedObjectUtils.FindPropertyType
+- uid: FasterGames.Whiskey.Events
+  name: FasterGames.Whiskey.Events
+  href: ref/FasterGames.Whiskey.Events.html
+  commentId: N:FasterGames.Whiskey.Events
+  fullName: FasterGames.Whiskey.Events
+  nameWithType: FasterGames.Whiskey.Events
+- uid: FasterGames.Whiskey.Events.BoolEvent
+  name: BoolEvent
+  href: ref/FasterGames.Whiskey.Events.BoolEvent.html
+  commentId: T:FasterGames.Whiskey.Events.BoolEvent
+  fullName: FasterGames.Whiskey.Events.BoolEvent
+  nameWithType: BoolEvent
+- uid: FasterGames.Whiskey.Events.BoolEventListener
+  name: BoolEventListener
+  href: ref/FasterGames.Whiskey.Events.BoolEventListener.html
+  commentId: T:FasterGames.Whiskey.Events.BoolEventListener
+  fullName: FasterGames.Whiskey.Events.BoolEventListener
+  nameWithType: BoolEventListener
+- uid: FasterGames.Whiskey.Events.Event
+  name: Event
+  href: ref/FasterGames.Whiskey.Events.Event.html
+  commentId: T:FasterGames.Whiskey.Events.Event
+  fullName: FasterGames.Whiskey.Events.Event
+  nameWithType: Event
+- uid: FasterGames.Whiskey.Events.Event.AddListener(Action)
+  name: AddListener(Action)
+  href: ref/FasterGames.Whiskey.Events.Event.html#FasterGames_Whiskey_Events_Event_AddListener_Action_
+  commentId: M:FasterGames.Whiskey.Events.Event.AddListener(Action)
+  fullName: FasterGames.Whiskey.Events.Event.AddListener(Action)
+  nameWithType: Event.AddListener(Action)
+- uid: FasterGames.Whiskey.Events.Event.AddListener*
+  name: AddListener
+  href: ref/FasterGames.Whiskey.Events.Event.html#FasterGames_Whiskey_Events_Event_AddListener_
+  commentId: Overload:FasterGames.Whiskey.Events.Event.AddListener
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event.AddListener
+  nameWithType: Event.AddListener
+- uid: FasterGames.Whiskey.Events.Event.EventTypes
+  name: EventTypes
+  href: ref/FasterGames.Whiskey.Events.Event.html#FasterGames_Whiskey_Events_Event_EventTypes
+  commentId: P:FasterGames.Whiskey.Events.Event.EventTypes
+  fullName: FasterGames.Whiskey.Events.Event.EventTypes
+  nameWithType: Event.EventTypes
+- uid: FasterGames.Whiskey.Events.Event.EventTypes*
+  name: EventTypes
+  href: ref/FasterGames.Whiskey.Events.Event.html#FasterGames_Whiskey_Events_Event_EventTypes_
+  commentId: Overload:FasterGames.Whiskey.Events.Event.EventTypes
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event.EventTypes
+  nameWithType: Event.EventTypes
+- uid: FasterGames.Whiskey.Events.Event.ListenerCount
+  name: ListenerCount
+  href: ref/FasterGames.Whiskey.Events.Event.html#FasterGames_Whiskey_Events_Event_ListenerCount
+  commentId: P:FasterGames.Whiskey.Events.Event.ListenerCount
+  fullName: FasterGames.Whiskey.Events.Event.ListenerCount
+  nameWithType: Event.ListenerCount
+- uid: FasterGames.Whiskey.Events.Event.ListenerCount*
+  name: ListenerCount
+  href: ref/FasterGames.Whiskey.Events.Event.html#FasterGames_Whiskey_Events_Event_ListenerCount_
+  commentId: Overload:FasterGames.Whiskey.Events.Event.ListenerCount
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event.ListenerCount
+  nameWithType: Event.ListenerCount
+- uid: FasterGames.Whiskey.Events.Event.Listeners
+  name: Listeners
+  href: ref/FasterGames.Whiskey.Events.Event.html#FasterGames_Whiskey_Events_Event_Listeners
+  commentId: F:FasterGames.Whiskey.Events.Event.Listeners
+  fullName: FasterGames.Whiskey.Events.Event.Listeners
+  nameWithType: Event.Listeners
+- uid: FasterGames.Whiskey.Events.Event.Raise
+  name: Raise()
+  href: ref/FasterGames.Whiskey.Events.Event.html#FasterGames_Whiskey_Events_Event_Raise
+  commentId: M:FasterGames.Whiskey.Events.Event.Raise
+  fullName: FasterGames.Whiskey.Events.Event.Raise()
+  nameWithType: Event.Raise()
+- uid: FasterGames.Whiskey.Events.Event.Raise*
+  name: Raise
+  href: ref/FasterGames.Whiskey.Events.Event.html#FasterGames_Whiskey_Events_Event_Raise_
+  commentId: Overload:FasterGames.Whiskey.Events.Event.Raise
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event.Raise
+  nameWithType: Event.Raise
+- uid: FasterGames.Whiskey.Events.Event.RemoveListener(Action)
+  name: RemoveListener(Action)
+  href: ref/FasterGames.Whiskey.Events.Event.html#FasterGames_Whiskey_Events_Event_RemoveListener_Action_
+  commentId: M:FasterGames.Whiskey.Events.Event.RemoveListener(Action)
+  fullName: FasterGames.Whiskey.Events.Event.RemoveListener(Action)
+  nameWithType: Event.RemoveListener(Action)
+- uid: FasterGames.Whiskey.Events.Event.RemoveListener*
+  name: RemoveListener
+  href: ref/FasterGames.Whiskey.Events.Event.html#FasterGames_Whiskey_Events_Event_RemoveListener_
+  commentId: Overload:FasterGames.Whiskey.Events.Event.RemoveListener
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event.RemoveListener
+  nameWithType: Event.RemoveListener
+- uid: FasterGames.Whiskey.Events.Event.UnsafeRaise(System.Object[])
+  name: UnsafeRaise(Object[])
+  href: ref/FasterGames.Whiskey.Events.Event.html#FasterGames_Whiskey_Events_Event_UnsafeRaise_System_Object___
+  commentId: M:FasterGames.Whiskey.Events.Event.UnsafeRaise(System.Object[])
+  name.vb: UnsafeRaise(Object())
+  fullName: FasterGames.Whiskey.Events.Event.UnsafeRaise(System.Object[])
+  fullName.vb: FasterGames.Whiskey.Events.Event.UnsafeRaise(System.Object())
+  nameWithType: Event.UnsafeRaise(Object[])
+  nameWithType.vb: Event.UnsafeRaise(Object())
+- uid: FasterGames.Whiskey.Events.Event.UnsafeRaise*
+  name: UnsafeRaise
+  href: ref/FasterGames.Whiskey.Events.Event.html#FasterGames_Whiskey_Events_Event_UnsafeRaise_
+  commentId: Overload:FasterGames.Whiskey.Events.Event.UnsafeRaise
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event.UnsafeRaise
+  nameWithType: Event.UnsafeRaise
+- uid: FasterGames.Whiskey.Events.Event`1
+  name: Event<TArg0>
+  href: ref/FasterGames.Whiskey.Events.Event-1.html
+  commentId: T:FasterGames.Whiskey.Events.Event`1
+  name.vb: Event(Of TArg0)
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0)
+  nameWithType: Event<TArg0>
+  nameWithType.vb: Event(Of TArg0)
+- uid: FasterGames.Whiskey.Events.Event`1.AddListener(Action{`0})
+  name: AddListener(Action<TArg0>)
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_AddListener_Action__0__
+  commentId: M:FasterGames.Whiskey.Events.Event`1.AddListener(Action{`0})
+  name.vb: AddListener(Action(Of TArg0))
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.AddListener(Action<TArg0>)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).AddListener(Action(Of TArg0))
+  nameWithType: Event<TArg0>.AddListener(Action<TArg0>)
+  nameWithType.vb: Event(Of TArg0).AddListener(Action(Of TArg0))
+- uid: FasterGames.Whiskey.Events.Event`1.AddListener*
+  name: AddListener
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_AddListener_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`1.AddListener
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.AddListener
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).AddListener
+  nameWithType: Event<TArg0>.AddListener
+  nameWithType.vb: Event(Of TArg0).AddListener
+- uid: FasterGames.Whiskey.Events.Event`1.EventTypes
+  name: EventTypes
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_EventTypes
+  commentId: P:FasterGames.Whiskey.Events.Event`1.EventTypes
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.EventTypes
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).EventTypes
+  nameWithType: Event<TArg0>.EventTypes
+  nameWithType.vb: Event(Of TArg0).EventTypes
+- uid: FasterGames.Whiskey.Events.Event`1.EventTypes*
+  name: EventTypes
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_EventTypes_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`1.EventTypes
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.EventTypes
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).EventTypes
+  nameWithType: Event<TArg0>.EventTypes
+  nameWithType.vb: Event(Of TArg0).EventTypes
+- uid: FasterGames.Whiskey.Events.Event`1.ListenerCount
+  name: ListenerCount
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_ListenerCount
+  commentId: P:FasterGames.Whiskey.Events.Event`1.ListenerCount
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.ListenerCount
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).ListenerCount
+  nameWithType: Event<TArg0>.ListenerCount
+  nameWithType.vb: Event(Of TArg0).ListenerCount
+- uid: FasterGames.Whiskey.Events.Event`1.ListenerCount*
+  name: ListenerCount
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_ListenerCount_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`1.ListenerCount
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.ListenerCount
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).ListenerCount
+  nameWithType: Event<TArg0>.ListenerCount
+  nameWithType.vb: Event(Of TArg0).ListenerCount
+- uid: FasterGames.Whiskey.Events.Event`1.Listeners
+  name: Listeners
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_Listeners
+  commentId: F:FasterGames.Whiskey.Events.Event`1.Listeners
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.Listeners
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).Listeners
+  nameWithType: Event<TArg0>.Listeners
+  nameWithType.vb: Event(Of TArg0).Listeners
+- uid: FasterGames.Whiskey.Events.Event`1.Raise(`0)
+  name: Raise(TArg0)
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_Raise__0_
+  commentId: M:FasterGames.Whiskey.Events.Event`1.Raise(`0)
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.Raise(TArg0)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).Raise(TArg0)
+  nameWithType: Event<TArg0>.Raise(TArg0)
+  nameWithType.vb: Event(Of TArg0).Raise(TArg0)
+- uid: FasterGames.Whiskey.Events.Event`1.Raise(Box{`0})
+  name: Raise(Box<TArg0>)
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_Raise_Box__0__
+  commentId: M:FasterGames.Whiskey.Events.Event`1.Raise(Box{`0})
+  name.vb: Raise(Box(Of TArg0))
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.Raise(Box<TArg0>)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).Raise(Box(Of TArg0))
+  nameWithType: Event<TArg0>.Raise(Box<TArg0>)
+  nameWithType.vb: Event(Of TArg0).Raise(Box(Of TArg0))
+- uid: FasterGames.Whiskey.Events.Event`1.Raise*
+  name: Raise
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_Raise_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`1.Raise
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.Raise
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).Raise
+  nameWithType: Event<TArg0>.Raise
+  nameWithType.vb: Event(Of TArg0).Raise
+- uid: FasterGames.Whiskey.Events.Event`1.RemoveListener(Action{`0})
+  name: RemoveListener(Action<TArg0>)
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_RemoveListener_Action__0__
+  commentId: M:FasterGames.Whiskey.Events.Event`1.RemoveListener(Action{`0})
+  name.vb: RemoveListener(Action(Of TArg0))
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.RemoveListener(Action<TArg0>)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).RemoveListener(Action(Of TArg0))
+  nameWithType: Event<TArg0>.RemoveListener(Action<TArg0>)
+  nameWithType.vb: Event(Of TArg0).RemoveListener(Action(Of TArg0))
+- uid: FasterGames.Whiskey.Events.Event`1.RemoveListener*
+  name: RemoveListener
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_RemoveListener_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`1.RemoveListener
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.RemoveListener
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).RemoveListener
+  nameWithType: Event<TArg0>.RemoveListener
+  nameWithType.vb: Event(Of TArg0).RemoveListener
+- uid: FasterGames.Whiskey.Events.Event`1.UnsafeRaise(System.Object[])
+  name: UnsafeRaise(Object[])
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_UnsafeRaise_System_Object___
+  commentId: M:FasterGames.Whiskey.Events.Event`1.UnsafeRaise(System.Object[])
+  name.vb: UnsafeRaise(Object())
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.UnsafeRaise(System.Object[])
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).UnsafeRaise(System.Object())
+  nameWithType: Event<TArg0>.UnsafeRaise(Object[])
+  nameWithType.vb: Event(Of TArg0).UnsafeRaise(Object())
+- uid: FasterGames.Whiskey.Events.Event`1.UnsafeRaise*
+  name: UnsafeRaise
+  href: ref/FasterGames.Whiskey.Events.Event-1.html#FasterGames_Whiskey_Events_Event_1_UnsafeRaise_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`1.UnsafeRaise
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0>.UnsafeRaise
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0).UnsafeRaise
+  nameWithType: Event<TArg0>.UnsafeRaise
+  nameWithType.vb: Event(Of TArg0).UnsafeRaise
+- uid: FasterGames.Whiskey.Events.Event`2
+  name: Event<TArg0, TArg1>
+  href: ref/FasterGames.Whiskey.Events.Event-2.html
+  commentId: T:FasterGames.Whiskey.Events.Event`2
+  name.vb: Event(Of TArg0, TArg1)
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1)
+  nameWithType: Event<TArg0, TArg1>
+  nameWithType.vb: Event(Of TArg0, TArg1)
+- uid: FasterGames.Whiskey.Events.Event`2.AddListener(Action{`0,`1})
+  name: AddListener(Action<TArg0, TArg1>)
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_AddListener_Action__0__1__
+  commentId: M:FasterGames.Whiskey.Events.Event`2.AddListener(Action{`0,`1})
+  name.vb: AddListener(Action(Of TArg0, TArg1))
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.AddListener(Action<TArg0, TArg1>)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).AddListener(Action(Of TArg0, TArg1))
+  nameWithType: Event<TArg0, TArg1>.AddListener(Action<TArg0, TArg1>)
+  nameWithType.vb: Event(Of TArg0, TArg1).AddListener(Action(Of TArg0, TArg1))
+- uid: FasterGames.Whiskey.Events.Event`2.AddListener*
+  name: AddListener
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_AddListener_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`2.AddListener
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.AddListener
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).AddListener
+  nameWithType: Event<TArg0, TArg1>.AddListener
+  nameWithType.vb: Event(Of TArg0, TArg1).AddListener
+- uid: FasterGames.Whiskey.Events.Event`2.EventTypes
+  name: EventTypes
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_EventTypes
+  commentId: P:FasterGames.Whiskey.Events.Event`2.EventTypes
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.EventTypes
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).EventTypes
+  nameWithType: Event<TArg0, TArg1>.EventTypes
+  nameWithType.vb: Event(Of TArg0, TArg1).EventTypes
+- uid: FasterGames.Whiskey.Events.Event`2.EventTypes*
+  name: EventTypes
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_EventTypes_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`2.EventTypes
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.EventTypes
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).EventTypes
+  nameWithType: Event<TArg0, TArg1>.EventTypes
+  nameWithType.vb: Event(Of TArg0, TArg1).EventTypes
+- uid: FasterGames.Whiskey.Events.Event`2.ListenerCount
+  name: ListenerCount
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_ListenerCount
+  commentId: P:FasterGames.Whiskey.Events.Event`2.ListenerCount
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.ListenerCount
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).ListenerCount
+  nameWithType: Event<TArg0, TArg1>.ListenerCount
+  nameWithType.vb: Event(Of TArg0, TArg1).ListenerCount
+- uid: FasterGames.Whiskey.Events.Event`2.ListenerCount*
+  name: ListenerCount
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_ListenerCount_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`2.ListenerCount
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.ListenerCount
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).ListenerCount
+  nameWithType: Event<TArg0, TArg1>.ListenerCount
+  nameWithType.vb: Event(Of TArg0, TArg1).ListenerCount
+- uid: FasterGames.Whiskey.Events.Event`2.Listeners
+  name: Listeners
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_Listeners
+  commentId: F:FasterGames.Whiskey.Events.Event`2.Listeners
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.Listeners
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).Listeners
+  nameWithType: Event<TArg0, TArg1>.Listeners
+  nameWithType.vb: Event(Of TArg0, TArg1).Listeners
+- uid: FasterGames.Whiskey.Events.Event`2.Raise(`0,`1)
+  name: Raise(TArg0, TArg1)
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_Raise__0__1_
+  commentId: M:FasterGames.Whiskey.Events.Event`2.Raise(`0,`1)
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.Raise(TArg0, TArg1)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).Raise(TArg0, TArg1)
+  nameWithType: Event<TArg0, TArg1>.Raise(TArg0, TArg1)
+  nameWithType.vb: Event(Of TArg0, TArg1).Raise(TArg0, TArg1)
+- uid: FasterGames.Whiskey.Events.Event`2.Raise(Box{`0},Box{`1})
+  name: Raise(Box<TArg0>, Box<TArg1>)
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_Raise_Box__0__Box__1__
+  commentId: M:FasterGames.Whiskey.Events.Event`2.Raise(Box{`0},Box{`1})
+  name.vb: Raise(Box(Of TArg0), Box(Of TArg1))
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.Raise(Box<TArg0>, Box<TArg1>)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).Raise(Box(Of TArg0), Box(Of TArg1))
+  nameWithType: Event<TArg0, TArg1>.Raise(Box<TArg0>, Box<TArg1>)
+  nameWithType.vb: Event(Of TArg0, TArg1).Raise(Box(Of TArg0), Box(Of TArg1))
+- uid: FasterGames.Whiskey.Events.Event`2.Raise*
+  name: Raise
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_Raise_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`2.Raise
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.Raise
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).Raise
+  nameWithType: Event<TArg0, TArg1>.Raise
+  nameWithType.vb: Event(Of TArg0, TArg1).Raise
+- uid: FasterGames.Whiskey.Events.Event`2.RemoveListener(Action{`0,`1})
+  name: RemoveListener(Action<TArg0, TArg1>)
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_RemoveListener_Action__0__1__
+  commentId: M:FasterGames.Whiskey.Events.Event`2.RemoveListener(Action{`0,`1})
+  name.vb: RemoveListener(Action(Of TArg0, TArg1))
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.RemoveListener(Action<TArg0, TArg1>)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).RemoveListener(Action(Of TArg0, TArg1))
+  nameWithType: Event<TArg0, TArg1>.RemoveListener(Action<TArg0, TArg1>)
+  nameWithType.vb: Event(Of TArg0, TArg1).RemoveListener(Action(Of TArg0, TArg1))
+- uid: FasterGames.Whiskey.Events.Event`2.RemoveListener*
+  name: RemoveListener
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_RemoveListener_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`2.RemoveListener
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.RemoveListener
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).RemoveListener
+  nameWithType: Event<TArg0, TArg1>.RemoveListener
+  nameWithType.vb: Event(Of TArg0, TArg1).RemoveListener
+- uid: FasterGames.Whiskey.Events.Event`2.UnsafeRaise(System.Object[])
+  name: UnsafeRaise(Object[])
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_UnsafeRaise_System_Object___
+  commentId: M:FasterGames.Whiskey.Events.Event`2.UnsafeRaise(System.Object[])
+  name.vb: UnsafeRaise(Object())
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.UnsafeRaise(System.Object[])
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).UnsafeRaise(System.Object())
+  nameWithType: Event<TArg0, TArg1>.UnsafeRaise(Object[])
+  nameWithType.vb: Event(Of TArg0, TArg1).UnsafeRaise(Object())
+- uid: FasterGames.Whiskey.Events.Event`2.UnsafeRaise*
+  name: UnsafeRaise
+  href: ref/FasterGames.Whiskey.Events.Event-2.html#FasterGames_Whiskey_Events_Event_2_UnsafeRaise_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`2.UnsafeRaise
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1>.UnsafeRaise
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1).UnsafeRaise
+  nameWithType: Event<TArg0, TArg1>.UnsafeRaise
+  nameWithType.vb: Event(Of TArg0, TArg1).UnsafeRaise
+- uid: FasterGames.Whiskey.Events.Event`3
+  name: Event<TArg0, TArg1, TArg2>
+  href: ref/FasterGames.Whiskey.Events.Event-3.html
+  commentId: T:FasterGames.Whiskey.Events.Event`3
+  name.vb: Event(Of TArg0, TArg1, TArg2)
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2)
+  nameWithType: Event<TArg0, TArg1, TArg2>
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2)
+- uid: FasterGames.Whiskey.Events.Event`3.AddListener(Action{`0,`1,`2})
+  name: AddListener(Action<TArg0, TArg1, TArg2>)
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_AddListener_Action__0__1__2__
+  commentId: M:FasterGames.Whiskey.Events.Event`3.AddListener(Action{`0,`1,`2})
+  name.vb: AddListener(Action(Of TArg0, TArg1, TArg2))
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.AddListener(Action<TArg0, TArg1, TArg2>)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).AddListener(Action(Of TArg0, TArg1, TArg2))
+  nameWithType: Event<TArg0, TArg1, TArg2>.AddListener(Action<TArg0, TArg1, TArg2>)
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).AddListener(Action(Of TArg0, TArg1, TArg2))
+- uid: FasterGames.Whiskey.Events.Event`3.AddListener*
+  name: AddListener
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_AddListener_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`3.AddListener
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.AddListener
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).AddListener
+  nameWithType: Event<TArg0, TArg1, TArg2>.AddListener
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).AddListener
+- uid: FasterGames.Whiskey.Events.Event`3.EventTypes
+  name: EventTypes
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_EventTypes
+  commentId: P:FasterGames.Whiskey.Events.Event`3.EventTypes
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.EventTypes
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).EventTypes
+  nameWithType: Event<TArg0, TArg1, TArg2>.EventTypes
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).EventTypes
+- uid: FasterGames.Whiskey.Events.Event`3.EventTypes*
+  name: EventTypes
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_EventTypes_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`3.EventTypes
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.EventTypes
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).EventTypes
+  nameWithType: Event<TArg0, TArg1, TArg2>.EventTypes
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).EventTypes
+- uid: FasterGames.Whiskey.Events.Event`3.ListenerCount
+  name: ListenerCount
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_ListenerCount
+  commentId: P:FasterGames.Whiskey.Events.Event`3.ListenerCount
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.ListenerCount
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).ListenerCount
+  nameWithType: Event<TArg0, TArg1, TArg2>.ListenerCount
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).ListenerCount
+- uid: FasterGames.Whiskey.Events.Event`3.ListenerCount*
+  name: ListenerCount
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_ListenerCount_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`3.ListenerCount
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.ListenerCount
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).ListenerCount
+  nameWithType: Event<TArg0, TArg1, TArg2>.ListenerCount
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).ListenerCount
+- uid: FasterGames.Whiskey.Events.Event`3.Listeners
+  name: Listeners
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_Listeners
+  commentId: F:FasterGames.Whiskey.Events.Event`3.Listeners
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.Listeners
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).Listeners
+  nameWithType: Event<TArg0, TArg1, TArg2>.Listeners
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).Listeners
+- uid: FasterGames.Whiskey.Events.Event`3.Raise(`0,`1,`2)
+  name: Raise(TArg0, TArg1, TArg2)
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_Raise__0__1__2_
+  commentId: M:FasterGames.Whiskey.Events.Event`3.Raise(`0,`1,`2)
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.Raise(TArg0, TArg1, TArg2)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).Raise(TArg0, TArg1, TArg2)
+  nameWithType: Event<TArg0, TArg1, TArg2>.Raise(TArg0, TArg1, TArg2)
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).Raise(TArg0, TArg1, TArg2)
+- uid: FasterGames.Whiskey.Events.Event`3.Raise(Box{`0},Box{`1},Box{`2})
+  name: Raise(Box<TArg0>, Box<TArg1>, Box<TArg2>)
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_Raise_Box__0__Box__1__Box__2__
+  commentId: M:FasterGames.Whiskey.Events.Event`3.Raise(Box{`0},Box{`1},Box{`2})
+  name.vb: Raise(Box(Of TArg0), Box(Of TArg1), Box(Of TArg2))
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.Raise(Box<TArg0>, Box<TArg1>, Box<TArg2>)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).Raise(Box(Of TArg0), Box(Of TArg1), Box(Of TArg2))
+  nameWithType: Event<TArg0, TArg1, TArg2>.Raise(Box<TArg0>, Box<TArg1>, Box<TArg2>)
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).Raise(Box(Of TArg0), Box(Of TArg1), Box(Of TArg2))
+- uid: FasterGames.Whiskey.Events.Event`3.Raise*
+  name: Raise
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_Raise_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`3.Raise
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.Raise
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).Raise
+  nameWithType: Event<TArg0, TArg1, TArg2>.Raise
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).Raise
+- uid: FasterGames.Whiskey.Events.Event`3.RemoveListener(Action{`0,`1,`2})
+  name: RemoveListener(Action<TArg0, TArg1, TArg2>)
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_RemoveListener_Action__0__1__2__
+  commentId: M:FasterGames.Whiskey.Events.Event`3.RemoveListener(Action{`0,`1,`2})
+  name.vb: RemoveListener(Action(Of TArg0, TArg1, TArg2))
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.RemoveListener(Action<TArg0, TArg1, TArg2>)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).RemoveListener(Action(Of TArg0, TArg1, TArg2))
+  nameWithType: Event<TArg0, TArg1, TArg2>.RemoveListener(Action<TArg0, TArg1, TArg2>)
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).RemoveListener(Action(Of TArg0, TArg1, TArg2))
+- uid: FasterGames.Whiskey.Events.Event`3.RemoveListener*
+  name: RemoveListener
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_RemoveListener_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`3.RemoveListener
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.RemoveListener
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).RemoveListener
+  nameWithType: Event<TArg0, TArg1, TArg2>.RemoveListener
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).RemoveListener
+- uid: FasterGames.Whiskey.Events.Event`3.UnsafeRaise(System.Object[])
+  name: UnsafeRaise(Object[])
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_UnsafeRaise_System_Object___
+  commentId: M:FasterGames.Whiskey.Events.Event`3.UnsafeRaise(System.Object[])
+  name.vb: UnsafeRaise(Object())
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.UnsafeRaise(System.Object[])
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).UnsafeRaise(System.Object())
+  nameWithType: Event<TArg0, TArg1, TArg2>.UnsafeRaise(Object[])
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).UnsafeRaise(Object())
+- uid: FasterGames.Whiskey.Events.Event`3.UnsafeRaise*
+  name: UnsafeRaise
+  href: ref/FasterGames.Whiskey.Events.Event-3.html#FasterGames_Whiskey_Events_Event_3_UnsafeRaise_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`3.UnsafeRaise
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2>.UnsafeRaise
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2).UnsafeRaise
+  nameWithType: Event<TArg0, TArg1, TArg2>.UnsafeRaise
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2).UnsafeRaise
+- uid: FasterGames.Whiskey.Events.Event`4
+  name: Event<TArg0, TArg1, TArg2, TArg3>
+  href: ref/FasterGames.Whiskey.Events.Event-4.html
+  commentId: T:FasterGames.Whiskey.Events.Event`4
+  name.vb: Event(Of TArg0, TArg1, TArg2, TArg3)
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3)
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3)
+- uid: FasterGames.Whiskey.Events.Event`4.AddListener(Action{`0,`1,`2,`3})
+  name: AddListener(Action<TArg0, TArg1, TArg2, TArg3>)
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_AddListener_Action__0__1__2__3__
+  commentId: M:FasterGames.Whiskey.Events.Event`4.AddListener(Action{`0,`1,`2,`3})
+  name.vb: AddListener(Action(Of TArg0, TArg1, TArg2, TArg3))
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.AddListener(Action<TArg0, TArg1, TArg2, TArg3>)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).AddListener(Action(Of TArg0, TArg1, TArg2, TArg3))
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.AddListener(Action<TArg0, TArg1, TArg2, TArg3>)
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).AddListener(Action(Of TArg0, TArg1, TArg2, TArg3))
+- uid: FasterGames.Whiskey.Events.Event`4.AddListener*
+  name: AddListener
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_AddListener_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`4.AddListener
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.AddListener
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).AddListener
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.AddListener
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).AddListener
+- uid: FasterGames.Whiskey.Events.Event`4.EventTypes
+  name: EventTypes
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_EventTypes
+  commentId: P:FasterGames.Whiskey.Events.Event`4.EventTypes
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.EventTypes
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).EventTypes
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.EventTypes
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).EventTypes
+- uid: FasterGames.Whiskey.Events.Event`4.EventTypes*
+  name: EventTypes
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_EventTypes_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`4.EventTypes
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.EventTypes
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).EventTypes
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.EventTypes
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).EventTypes
+- uid: FasterGames.Whiskey.Events.Event`4.ListenerCount
+  name: ListenerCount
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_ListenerCount
+  commentId: P:FasterGames.Whiskey.Events.Event`4.ListenerCount
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.ListenerCount
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).ListenerCount
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.ListenerCount
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).ListenerCount
+- uid: FasterGames.Whiskey.Events.Event`4.ListenerCount*
+  name: ListenerCount
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_ListenerCount_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`4.ListenerCount
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.ListenerCount
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).ListenerCount
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.ListenerCount
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).ListenerCount
+- uid: FasterGames.Whiskey.Events.Event`4.Listeners
+  name: Listeners
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_Listeners
+  commentId: F:FasterGames.Whiskey.Events.Event`4.Listeners
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.Listeners
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).Listeners
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.Listeners
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).Listeners
+- uid: FasterGames.Whiskey.Events.Event`4.Raise(`0,`1,`2,`3)
+  name: Raise(TArg0, TArg1, TArg2, TArg3)
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_Raise__0__1__2__3_
+  commentId: M:FasterGames.Whiskey.Events.Event`4.Raise(`0,`1,`2,`3)
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.Raise(TArg0, TArg1, TArg2, TArg3)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).Raise(TArg0, TArg1, TArg2, TArg3)
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.Raise(TArg0, TArg1, TArg2, TArg3)
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).Raise(TArg0, TArg1, TArg2, TArg3)
+- uid: FasterGames.Whiskey.Events.Event`4.Raise(Box{`0},Box{`1},Box{`2},Box{`3})
+  name: Raise(Box<TArg0>, Box<TArg1>, Box<TArg2>, Box<TArg3>)
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_Raise_Box__0__Box__1__Box__2__Box__3__
+  commentId: M:FasterGames.Whiskey.Events.Event`4.Raise(Box{`0},Box{`1},Box{`2},Box{`3})
+  name.vb: Raise(Box(Of TArg0), Box(Of TArg1), Box(Of TArg2), Box(Of TArg3))
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.Raise(Box<TArg0>, Box<TArg1>, Box<TArg2>, Box<TArg3>)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).Raise(Box(Of TArg0), Box(Of TArg1), Box(Of TArg2), Box(Of TArg3))
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.Raise(Box<TArg0>, Box<TArg1>, Box<TArg2>, Box<TArg3>)
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).Raise(Box(Of TArg0), Box(Of TArg1), Box(Of TArg2), Box(Of TArg3))
+- uid: FasterGames.Whiskey.Events.Event`4.Raise*
+  name: Raise
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_Raise_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`4.Raise
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.Raise
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).Raise
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.Raise
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).Raise
+- uid: FasterGames.Whiskey.Events.Event`4.RemoveListener(Action{`0,`1,`2,`3})
+  name: RemoveListener(Action<TArg0, TArg1, TArg2, TArg3>)
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_RemoveListener_Action__0__1__2__3__
+  commentId: M:FasterGames.Whiskey.Events.Event`4.RemoveListener(Action{`0,`1,`2,`3})
+  name.vb: RemoveListener(Action(Of TArg0, TArg1, TArg2, TArg3))
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.RemoveListener(Action<TArg0, TArg1, TArg2, TArg3>)
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).RemoveListener(Action(Of TArg0, TArg1, TArg2, TArg3))
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.RemoveListener(Action<TArg0, TArg1, TArg2, TArg3>)
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).RemoveListener(Action(Of TArg0, TArg1, TArg2, TArg3))
+- uid: FasterGames.Whiskey.Events.Event`4.RemoveListener*
+  name: RemoveListener
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_RemoveListener_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`4.RemoveListener
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.RemoveListener
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).RemoveListener
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.RemoveListener
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).RemoveListener
+- uid: FasterGames.Whiskey.Events.Event`4.UnsafeRaise(System.Object[])
+  name: UnsafeRaise(Object[])
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_UnsafeRaise_System_Object___
+  commentId: M:FasterGames.Whiskey.Events.Event`4.UnsafeRaise(System.Object[])
+  name.vb: UnsafeRaise(Object())
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.UnsafeRaise(System.Object[])
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).UnsafeRaise(System.Object())
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.UnsafeRaise(Object[])
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).UnsafeRaise(Object())
+- uid: FasterGames.Whiskey.Events.Event`4.UnsafeRaise*
+  name: UnsafeRaise
+  href: ref/FasterGames.Whiskey.Events.Event-4.html#FasterGames_Whiskey_Events_Event_4_UnsafeRaise_
+  commentId: Overload:FasterGames.Whiskey.Events.Event`4.UnsafeRaise
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.Event<TArg0, TArg1, TArg2, TArg3>.UnsafeRaise
+  fullName.vb: FasterGames.Whiskey.Events.Event(Of TArg0, TArg1, TArg2, TArg3).UnsafeRaise
+  nameWithType: Event<TArg0, TArg1, TArg2, TArg3>.UnsafeRaise
+  nameWithType.vb: Event(Of TArg0, TArg1, TArg2, TArg3).UnsafeRaise
+- uid: FasterGames.Whiskey.Events.EventBase
+  name: EventBase
+  href: ref/FasterGames.Whiskey.Events.EventBase.html
+  commentId: T:FasterGames.Whiskey.Events.EventBase
+  fullName: FasterGames.Whiskey.Events.EventBase
+  nameWithType: EventBase
+- uid: FasterGames.Whiskey.Events.EventBase.EventTypes
+  name: EventTypes
+  href: ref/FasterGames.Whiskey.Events.EventBase.html#FasterGames_Whiskey_Events_EventBase_EventTypes
+  commentId: P:FasterGames.Whiskey.Events.EventBase.EventTypes
+  fullName: FasterGames.Whiskey.Events.EventBase.EventTypes
+  nameWithType: EventBase.EventTypes
+- uid: FasterGames.Whiskey.Events.EventBase.EventTypes*
+  name: EventTypes
+  href: ref/FasterGames.Whiskey.Events.EventBase.html#FasterGames_Whiskey_Events_EventBase_EventTypes_
+  commentId: Overload:FasterGames.Whiskey.Events.EventBase.EventTypes
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventBase.EventTypes
+  nameWithType: EventBase.EventTypes
+- uid: FasterGames.Whiskey.Events.EventBase.ListenerCount
+  name: ListenerCount
+  href: ref/FasterGames.Whiskey.Events.EventBase.html#FasterGames_Whiskey_Events_EventBase_ListenerCount
+  commentId: P:FasterGames.Whiskey.Events.EventBase.ListenerCount
+  fullName: FasterGames.Whiskey.Events.EventBase.ListenerCount
+  nameWithType: EventBase.ListenerCount
+- uid: FasterGames.Whiskey.Events.EventBase.ListenerCount*
+  name: ListenerCount
+  href: ref/FasterGames.Whiskey.Events.EventBase.html#FasterGames_Whiskey_Events_EventBase_ListenerCount_
+  commentId: Overload:FasterGames.Whiskey.Events.EventBase.ListenerCount
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventBase.ListenerCount
+  nameWithType: EventBase.ListenerCount
+- uid: FasterGames.Whiskey.Events.EventBase.UnsafeRaise(System.Object[])
+  name: UnsafeRaise(Object[])
+  href: ref/FasterGames.Whiskey.Events.EventBase.html#FasterGames_Whiskey_Events_EventBase_UnsafeRaise_System_Object___
+  commentId: M:FasterGames.Whiskey.Events.EventBase.UnsafeRaise(System.Object[])
+  name.vb: UnsafeRaise(Object())
+  fullName: FasterGames.Whiskey.Events.EventBase.UnsafeRaise(System.Object[])
+  fullName.vb: FasterGames.Whiskey.Events.EventBase.UnsafeRaise(System.Object())
+  nameWithType: EventBase.UnsafeRaise(Object[])
+  nameWithType.vb: EventBase.UnsafeRaise(Object())
+- uid: FasterGames.Whiskey.Events.EventBase.UnsafeRaise*
+  name: UnsafeRaise
+  href: ref/FasterGames.Whiskey.Events.EventBase.html#FasterGames_Whiskey_Events_EventBase_UnsafeRaise_
+  commentId: Overload:FasterGames.Whiskey.Events.EventBase.UnsafeRaise
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventBase.UnsafeRaise
+  nameWithType: EventBase.UnsafeRaise
+- uid: FasterGames.Whiskey.Events.EventListener
+  name: EventListener
+  href: ref/FasterGames.Whiskey.Events.EventListener.html
+  commentId: T:FasterGames.Whiskey.Events.EventListener
+  fullName: FasterGames.Whiskey.Events.EventListener
+  nameWithType: EventListener
+- uid: FasterGames.Whiskey.Events.EventListener.event
+  name: event
+  href: ref/FasterGames.Whiskey.Events.EventListener.html#FasterGames_Whiskey_Events_EventListener_event
+  commentId: F:FasterGames.Whiskey.Events.EventListener.event
+  fullName: FasterGames.Whiskey.Events.EventListener.event
+  nameWithType: EventListener.event
+- uid: FasterGames.Whiskey.Events.EventListener.Event
+  name: Event
+  href: ref/FasterGames.Whiskey.Events.EventListener.html#FasterGames_Whiskey_Events_EventListener_Event
+  commentId: P:FasterGames.Whiskey.Events.EventListener.Event
+  fullName: FasterGames.Whiskey.Events.EventListener.Event
+  nameWithType: EventListener.Event
+- uid: FasterGames.Whiskey.Events.EventListener.Event*
+  name: Event
+  href: ref/FasterGames.Whiskey.Events.EventListener.html#FasterGames_Whiskey_Events_EventListener_Event_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener.Event
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener.Event
+  nameWithType: EventListener.Event
+- uid: FasterGames.Whiskey.Events.EventListener.Handle
+  name: Handle()
+  href: ref/FasterGames.Whiskey.Events.EventListener.html#FasterGames_Whiskey_Events_EventListener_Handle
+  commentId: M:FasterGames.Whiskey.Events.EventListener.Handle
+  fullName: FasterGames.Whiskey.Events.EventListener.Handle()
+  nameWithType: EventListener.Handle()
+- uid: FasterGames.Whiskey.Events.EventListener.Handle*
+  name: Handle
+  href: ref/FasterGames.Whiskey.Events.EventListener.html#FasterGames_Whiskey_Events_EventListener_Handle_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener.Handle
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener.Handle
+  nameWithType: EventListener.Handle
+- uid: FasterGames.Whiskey.Events.EventListener.OnDisable
+  name: OnDisable()
+  href: ref/FasterGames.Whiskey.Events.EventListener.html#FasterGames_Whiskey_Events_EventListener_OnDisable
+  commentId: M:FasterGames.Whiskey.Events.EventListener.OnDisable
+  fullName: FasterGames.Whiskey.Events.EventListener.OnDisable()
+  nameWithType: EventListener.OnDisable()
+- uid: FasterGames.Whiskey.Events.EventListener.OnDisable*
+  name: OnDisable
+  href: ref/FasterGames.Whiskey.Events.EventListener.html#FasterGames_Whiskey_Events_EventListener_OnDisable_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener.OnDisable
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener.OnDisable
+  nameWithType: EventListener.OnDisable
+- uid: FasterGames.Whiskey.Events.EventListener.OnEnable
+  name: OnEnable()
+  href: ref/FasterGames.Whiskey.Events.EventListener.html#FasterGames_Whiskey_Events_EventListener_OnEnable
+  commentId: M:FasterGames.Whiskey.Events.EventListener.OnEnable
+  fullName: FasterGames.Whiskey.Events.EventListener.OnEnable()
+  nameWithType: EventListener.OnEnable()
+- uid: FasterGames.Whiskey.Events.EventListener.OnEnable*
+  name: OnEnable
+  href: ref/FasterGames.Whiskey.Events.EventListener.html#FasterGames_Whiskey_Events_EventListener_OnEnable_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener.OnEnable
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener.OnEnable
+  nameWithType: EventListener.OnEnable
+- uid: FasterGames.Whiskey.Events.EventListener.reaction
+  name: reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener.html#FasterGames_Whiskey_Events_EventListener_reaction
+  commentId: F:FasterGames.Whiskey.Events.EventListener.reaction
+  fullName: FasterGames.Whiskey.Events.EventListener.reaction
+  nameWithType: EventListener.reaction
+- uid: FasterGames.Whiskey.Events.EventListener.Reaction
+  name: Reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener.html#FasterGames_Whiskey_Events_EventListener_Reaction
+  commentId: P:FasterGames.Whiskey.Events.EventListener.Reaction
+  fullName: FasterGames.Whiskey.Events.EventListener.Reaction
+  nameWithType: EventListener.Reaction
+- uid: FasterGames.Whiskey.Events.EventListener.Reaction*
+  name: Reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener.html#FasterGames_Whiskey_Events_EventListener_Reaction_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener.Reaction
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener.Reaction
+  nameWithType: EventListener.Reaction
+- uid: FasterGames.Whiskey.Events.EventListener.UnityReaction
+  name: EventListener.UnityReaction
+  href: ref/FasterGames.Whiskey.Events.EventListener.UnityReaction.html
+  commentId: T:FasterGames.Whiskey.Events.EventListener.UnityReaction
+  fullName: FasterGames.Whiskey.Events.EventListener.UnityReaction
+  nameWithType: EventListener.UnityReaction
+- uid: FasterGames.Whiskey.Events.EventListener`1
+  name: EventListener<TArg0>
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.html
+  commentId: T:FasterGames.Whiskey.Events.EventListener`1
+  name.vb: EventListener(Of TArg0)
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0)
+  nameWithType: EventListener<TArg0>
+  nameWithType.vb: EventListener(Of TArg0)
+- uid: FasterGames.Whiskey.Events.EventListener`1.event
+  name: event
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.html#FasterGames_Whiskey_Events_EventListener_1_event
+  commentId: F:FasterGames.Whiskey.Events.EventListener`1.event
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>.event
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0).event
+  nameWithType: EventListener<TArg0>.event
+  nameWithType.vb: EventListener(Of TArg0).event
+- uid: FasterGames.Whiskey.Events.EventListener`1.Event
+  name: Event
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.html#FasterGames_Whiskey_Events_EventListener_1_Event
+  commentId: P:FasterGames.Whiskey.Events.EventListener`1.Event
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>.Event
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0).Event
+  nameWithType: EventListener<TArg0>.Event
+  nameWithType.vb: EventListener(Of TArg0).Event
+- uid: FasterGames.Whiskey.Events.EventListener`1.Event*
+  name: Event
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.html#FasterGames_Whiskey_Events_EventListener_1_Event_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`1.Event
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>.Event
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0).Event
+  nameWithType: EventListener<TArg0>.Event
+  nameWithType.vb: EventListener(Of TArg0).Event
+- uid: FasterGames.Whiskey.Events.EventListener`1.Handle(`0)
+  name: Handle(TArg0)
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.html#FasterGames_Whiskey_Events_EventListener_1_Handle__0_
+  commentId: M:FasterGames.Whiskey.Events.EventListener`1.Handle(`0)
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>.Handle(TArg0)
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0).Handle(TArg0)
+  nameWithType: EventListener<TArg0>.Handle(TArg0)
+  nameWithType.vb: EventListener(Of TArg0).Handle(TArg0)
+- uid: FasterGames.Whiskey.Events.EventListener`1.Handle*
+  name: Handle
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.html#FasterGames_Whiskey_Events_EventListener_1_Handle_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`1.Handle
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>.Handle
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0).Handle
+  nameWithType: EventListener<TArg0>.Handle
+  nameWithType.vb: EventListener(Of TArg0).Handle
+- uid: FasterGames.Whiskey.Events.EventListener`1.OnDisable
+  name: OnDisable()
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.html#FasterGames_Whiskey_Events_EventListener_1_OnDisable
+  commentId: M:FasterGames.Whiskey.Events.EventListener`1.OnDisable
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>.OnDisable()
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0).OnDisable()
+  nameWithType: EventListener<TArg0>.OnDisable()
+  nameWithType.vb: EventListener(Of TArg0).OnDisable()
+- uid: FasterGames.Whiskey.Events.EventListener`1.OnDisable*
+  name: OnDisable
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.html#FasterGames_Whiskey_Events_EventListener_1_OnDisable_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`1.OnDisable
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>.OnDisable
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0).OnDisable
+  nameWithType: EventListener<TArg0>.OnDisable
+  nameWithType.vb: EventListener(Of TArg0).OnDisable
+- uid: FasterGames.Whiskey.Events.EventListener`1.OnEnable
+  name: OnEnable()
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.html#FasterGames_Whiskey_Events_EventListener_1_OnEnable
+  commentId: M:FasterGames.Whiskey.Events.EventListener`1.OnEnable
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>.OnEnable()
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0).OnEnable()
+  nameWithType: EventListener<TArg0>.OnEnable()
+  nameWithType.vb: EventListener(Of TArg0).OnEnable()
+- uid: FasterGames.Whiskey.Events.EventListener`1.OnEnable*
+  name: OnEnable
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.html#FasterGames_Whiskey_Events_EventListener_1_OnEnable_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`1.OnEnable
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>.OnEnable
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0).OnEnable
+  nameWithType: EventListener<TArg0>.OnEnable
+  nameWithType.vb: EventListener(Of TArg0).OnEnable
+- uid: FasterGames.Whiskey.Events.EventListener`1.reaction
+  name: reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.html#FasterGames_Whiskey_Events_EventListener_1_reaction
+  commentId: F:FasterGames.Whiskey.Events.EventListener`1.reaction
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>.reaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0).reaction
+  nameWithType: EventListener<TArg0>.reaction
+  nameWithType.vb: EventListener(Of TArg0).reaction
+- uid: FasterGames.Whiskey.Events.EventListener`1.Reaction
+  name: Reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.html#FasterGames_Whiskey_Events_EventListener_1_Reaction
+  commentId: P:FasterGames.Whiskey.Events.EventListener`1.Reaction
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>.Reaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0).Reaction
+  nameWithType: EventListener<TArg0>.Reaction
+  nameWithType.vb: EventListener(Of TArg0).Reaction
+- uid: FasterGames.Whiskey.Events.EventListener`1.Reaction*
+  name: Reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.html#FasterGames_Whiskey_Events_EventListener_1_Reaction_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`1.Reaction
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>.Reaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0).Reaction
+  nameWithType: EventListener<TArg0>.Reaction
+  nameWithType.vb: EventListener(Of TArg0).Reaction
+- uid: FasterGames.Whiskey.Events.EventListener`1.UnityReaction
+  name: EventListener<TArg0>.UnityReaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-1.UnityReaction.html
+  commentId: T:FasterGames.Whiskey.Events.EventListener`1.UnityReaction
+  name.vb: EventListener(Of TArg0).UnityReaction
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0>.UnityReaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0).UnityReaction
+  nameWithType: EventListener<TArg0>.UnityReaction
+  nameWithType.vb: EventListener(Of TArg0).UnityReaction
+- uid: FasterGames.Whiskey.Events.EventListener`2
+  name: EventListener<TArg0, TArg1>
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.html
+  commentId: T:FasterGames.Whiskey.Events.EventListener`2
+  name.vb: EventListener(Of TArg0, TArg1)
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1)
+  nameWithType: EventListener<TArg0, TArg1>
+  nameWithType.vb: EventListener(Of TArg0, TArg1)
+- uid: FasterGames.Whiskey.Events.EventListener`2.event
+  name: event
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.html#FasterGames_Whiskey_Events_EventListener_2_event
+  commentId: F:FasterGames.Whiskey.Events.EventListener`2.event
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>.event
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1).event
+  nameWithType: EventListener<TArg0, TArg1>.event
+  nameWithType.vb: EventListener(Of TArg0, TArg1).event
+- uid: FasterGames.Whiskey.Events.EventListener`2.Event
+  name: Event
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.html#FasterGames_Whiskey_Events_EventListener_2_Event
+  commentId: P:FasterGames.Whiskey.Events.EventListener`2.Event
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>.Event
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1).Event
+  nameWithType: EventListener<TArg0, TArg1>.Event
+  nameWithType.vb: EventListener(Of TArg0, TArg1).Event
+- uid: FasterGames.Whiskey.Events.EventListener`2.Event*
+  name: Event
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.html#FasterGames_Whiskey_Events_EventListener_2_Event_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`2.Event
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>.Event
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1).Event
+  nameWithType: EventListener<TArg0, TArg1>.Event
+  nameWithType.vb: EventListener(Of TArg0, TArg1).Event
+- uid: FasterGames.Whiskey.Events.EventListener`2.Handle(`0,`1)
+  name: Handle(TArg0, TArg1)
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.html#FasterGames_Whiskey_Events_EventListener_2_Handle__0__1_
+  commentId: M:FasterGames.Whiskey.Events.EventListener`2.Handle(`0,`1)
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>.Handle(TArg0, TArg1)
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1).Handle(TArg0, TArg1)
+  nameWithType: EventListener<TArg0, TArg1>.Handle(TArg0, TArg1)
+  nameWithType.vb: EventListener(Of TArg0, TArg1).Handle(TArg0, TArg1)
+- uid: FasterGames.Whiskey.Events.EventListener`2.Handle*
+  name: Handle
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.html#FasterGames_Whiskey_Events_EventListener_2_Handle_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`2.Handle
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>.Handle
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1).Handle
+  nameWithType: EventListener<TArg0, TArg1>.Handle
+  nameWithType.vb: EventListener(Of TArg0, TArg1).Handle
+- uid: FasterGames.Whiskey.Events.EventListener`2.OnDisable
+  name: OnDisable()
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.html#FasterGames_Whiskey_Events_EventListener_2_OnDisable
+  commentId: M:FasterGames.Whiskey.Events.EventListener`2.OnDisable
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>.OnDisable()
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1).OnDisable()
+  nameWithType: EventListener<TArg0, TArg1>.OnDisable()
+  nameWithType.vb: EventListener(Of TArg0, TArg1).OnDisable()
+- uid: FasterGames.Whiskey.Events.EventListener`2.OnDisable*
+  name: OnDisable
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.html#FasterGames_Whiskey_Events_EventListener_2_OnDisable_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`2.OnDisable
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>.OnDisable
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1).OnDisable
+  nameWithType: EventListener<TArg0, TArg1>.OnDisable
+  nameWithType.vb: EventListener(Of TArg0, TArg1).OnDisable
+- uid: FasterGames.Whiskey.Events.EventListener`2.OnEnable
+  name: OnEnable()
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.html#FasterGames_Whiskey_Events_EventListener_2_OnEnable
+  commentId: M:FasterGames.Whiskey.Events.EventListener`2.OnEnable
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>.OnEnable()
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1).OnEnable()
+  nameWithType: EventListener<TArg0, TArg1>.OnEnable()
+  nameWithType.vb: EventListener(Of TArg0, TArg1).OnEnable()
+- uid: FasterGames.Whiskey.Events.EventListener`2.OnEnable*
+  name: OnEnable
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.html#FasterGames_Whiskey_Events_EventListener_2_OnEnable_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`2.OnEnable
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>.OnEnable
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1).OnEnable
+  nameWithType: EventListener<TArg0, TArg1>.OnEnable
+  nameWithType.vb: EventListener(Of TArg0, TArg1).OnEnable
+- uid: FasterGames.Whiskey.Events.EventListener`2.reaction
+  name: reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.html#FasterGames_Whiskey_Events_EventListener_2_reaction
+  commentId: F:FasterGames.Whiskey.Events.EventListener`2.reaction
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>.reaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1).reaction
+  nameWithType: EventListener<TArg0, TArg1>.reaction
+  nameWithType.vb: EventListener(Of TArg0, TArg1).reaction
+- uid: FasterGames.Whiskey.Events.EventListener`2.Reaction
+  name: Reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.html#FasterGames_Whiskey_Events_EventListener_2_Reaction
+  commentId: P:FasterGames.Whiskey.Events.EventListener`2.Reaction
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>.Reaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1).Reaction
+  nameWithType: EventListener<TArg0, TArg1>.Reaction
+  nameWithType.vb: EventListener(Of TArg0, TArg1).Reaction
+- uid: FasterGames.Whiskey.Events.EventListener`2.Reaction*
+  name: Reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.html#FasterGames_Whiskey_Events_EventListener_2_Reaction_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`2.Reaction
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>.Reaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1).Reaction
+  nameWithType: EventListener<TArg0, TArg1>.Reaction
+  nameWithType.vb: EventListener(Of TArg0, TArg1).Reaction
+- uid: FasterGames.Whiskey.Events.EventListener`2.UnityReaction
+  name: EventListener<TArg0, TArg1>.UnityReaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-2.UnityReaction.html
+  commentId: T:FasterGames.Whiskey.Events.EventListener`2.UnityReaction
+  name.vb: EventListener(Of TArg0, TArg1).UnityReaction
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1>.UnityReaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1).UnityReaction
+  nameWithType: EventListener<TArg0, TArg1>.UnityReaction
+  nameWithType.vb: EventListener(Of TArg0, TArg1).UnityReaction
+- uid: FasterGames.Whiskey.Events.EventListener`3
+  name: EventListener<TArg0, TArg1, TArg2>
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.html
+  commentId: T:FasterGames.Whiskey.Events.EventListener`3
+  name.vb: EventListener(Of TArg0, TArg1, TArg2)
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2)
+  nameWithType: EventListener<TArg0, TArg1, TArg2>
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2)
+- uid: FasterGames.Whiskey.Events.EventListener`3.event
+  name: event
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.html#FasterGames_Whiskey_Events_EventListener_3_event
+  commentId: F:FasterGames.Whiskey.Events.EventListener`3.event
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>.event
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2).event
+  nameWithType: EventListener<TArg0, TArg1, TArg2>.event
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2).event
+- uid: FasterGames.Whiskey.Events.EventListener`3.Event
+  name: Event
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.html#FasterGames_Whiskey_Events_EventListener_3_Event
+  commentId: P:FasterGames.Whiskey.Events.EventListener`3.Event
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>.Event
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2).Event
+  nameWithType: EventListener<TArg0, TArg1, TArg2>.Event
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2).Event
+- uid: FasterGames.Whiskey.Events.EventListener`3.Event*
+  name: Event
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.html#FasterGames_Whiskey_Events_EventListener_3_Event_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`3.Event
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>.Event
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2).Event
+  nameWithType: EventListener<TArg0, TArg1, TArg2>.Event
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2).Event
+- uid: FasterGames.Whiskey.Events.EventListener`3.Handle(`0,`1,`2)
+  name: Handle(TArg0, TArg1, TArg2)
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.html#FasterGames_Whiskey_Events_EventListener_3_Handle__0__1__2_
+  commentId: M:FasterGames.Whiskey.Events.EventListener`3.Handle(`0,`1,`2)
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>.Handle(TArg0, TArg1, TArg2)
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2).Handle(TArg0, TArg1, TArg2)
+  nameWithType: EventListener<TArg0, TArg1, TArg2>.Handle(TArg0, TArg1, TArg2)
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2).Handle(TArg0, TArg1, TArg2)
+- uid: FasterGames.Whiskey.Events.EventListener`3.Handle*
+  name: Handle
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.html#FasterGames_Whiskey_Events_EventListener_3_Handle_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`3.Handle
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>.Handle
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2).Handle
+  nameWithType: EventListener<TArg0, TArg1, TArg2>.Handle
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2).Handle
+- uid: FasterGames.Whiskey.Events.EventListener`3.OnDisable
+  name: OnDisable()
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.html#FasterGames_Whiskey_Events_EventListener_3_OnDisable
+  commentId: M:FasterGames.Whiskey.Events.EventListener`3.OnDisable
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>.OnDisable()
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2).OnDisable()
+  nameWithType: EventListener<TArg0, TArg1, TArg2>.OnDisable()
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2).OnDisable()
+- uid: FasterGames.Whiskey.Events.EventListener`3.OnDisable*
+  name: OnDisable
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.html#FasterGames_Whiskey_Events_EventListener_3_OnDisable_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`3.OnDisable
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>.OnDisable
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2).OnDisable
+  nameWithType: EventListener<TArg0, TArg1, TArg2>.OnDisable
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2).OnDisable
+- uid: FasterGames.Whiskey.Events.EventListener`3.OnEnable
+  name: OnEnable()
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.html#FasterGames_Whiskey_Events_EventListener_3_OnEnable
+  commentId: M:FasterGames.Whiskey.Events.EventListener`3.OnEnable
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>.OnEnable()
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2).OnEnable()
+  nameWithType: EventListener<TArg0, TArg1, TArg2>.OnEnable()
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2).OnEnable()
+- uid: FasterGames.Whiskey.Events.EventListener`3.OnEnable*
+  name: OnEnable
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.html#FasterGames_Whiskey_Events_EventListener_3_OnEnable_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`3.OnEnable
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>.OnEnable
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2).OnEnable
+  nameWithType: EventListener<TArg0, TArg1, TArg2>.OnEnable
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2).OnEnable
+- uid: FasterGames.Whiskey.Events.EventListener`3.reaction
+  name: reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.html#FasterGames_Whiskey_Events_EventListener_3_reaction
+  commentId: F:FasterGames.Whiskey.Events.EventListener`3.reaction
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>.reaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2).reaction
+  nameWithType: EventListener<TArg0, TArg1, TArg2>.reaction
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2).reaction
+- uid: FasterGames.Whiskey.Events.EventListener`3.Reaction
+  name: Reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.html#FasterGames_Whiskey_Events_EventListener_3_Reaction
+  commentId: P:FasterGames.Whiskey.Events.EventListener`3.Reaction
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>.Reaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2).Reaction
+  nameWithType: EventListener<TArg0, TArg1, TArg2>.Reaction
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2).Reaction
+- uid: FasterGames.Whiskey.Events.EventListener`3.Reaction*
+  name: Reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.html#FasterGames_Whiskey_Events_EventListener_3_Reaction_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`3.Reaction
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>.Reaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2).Reaction
+  nameWithType: EventListener<TArg0, TArg1, TArg2>.Reaction
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2).Reaction
+- uid: FasterGames.Whiskey.Events.EventListener`3.UnityReaction
+  name: EventListener<TArg0, TArg1, TArg2>.UnityReaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-3.UnityReaction.html
+  commentId: T:FasterGames.Whiskey.Events.EventListener`3.UnityReaction
+  name.vb: EventListener(Of TArg0, TArg1, TArg2).UnityReaction
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2>.UnityReaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2).UnityReaction
+  nameWithType: EventListener<TArg0, TArg1, TArg2>.UnityReaction
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2).UnityReaction
+- uid: FasterGames.Whiskey.Events.EventListener`4
+  name: EventListener<TArg0, TArg1, TArg2, TArg3>
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.html
+  commentId: T:FasterGames.Whiskey.Events.EventListener`4
+  name.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3)
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3)
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3)
+- uid: FasterGames.Whiskey.Events.EventListener`4.event
+  name: event
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.html#FasterGames_Whiskey_Events_EventListener_4_event
+  commentId: F:FasterGames.Whiskey.Events.EventListener`4.event
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>.event
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3).event
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>.event
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).event
+- uid: FasterGames.Whiskey.Events.EventListener`4.Event
+  name: Event
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.html#FasterGames_Whiskey_Events_EventListener_4_Event
+  commentId: P:FasterGames.Whiskey.Events.EventListener`4.Event
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>.Event
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3).Event
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>.Event
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).Event
+- uid: FasterGames.Whiskey.Events.EventListener`4.Event*
+  name: Event
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.html#FasterGames_Whiskey_Events_EventListener_4_Event_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`4.Event
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>.Event
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3).Event
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>.Event
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).Event
+- uid: FasterGames.Whiskey.Events.EventListener`4.Handle(`0,`1,`2,`3)
+  name: Handle(TArg0, TArg1, TArg2, TArg3)
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.html#FasterGames_Whiskey_Events_EventListener_4_Handle__0__1__2__3_
+  commentId: M:FasterGames.Whiskey.Events.EventListener`4.Handle(`0,`1,`2,`3)
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>.Handle(TArg0, TArg1, TArg2, TArg3)
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3).Handle(TArg0, TArg1, TArg2, TArg3)
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>.Handle(TArg0, TArg1, TArg2, TArg3)
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).Handle(TArg0, TArg1, TArg2, TArg3)
+- uid: FasterGames.Whiskey.Events.EventListener`4.Handle*
+  name: Handle
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.html#FasterGames_Whiskey_Events_EventListener_4_Handle_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`4.Handle
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>.Handle
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3).Handle
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>.Handle
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).Handle
+- uid: FasterGames.Whiskey.Events.EventListener`4.OnDisable
+  name: OnDisable()
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.html#FasterGames_Whiskey_Events_EventListener_4_OnDisable
+  commentId: M:FasterGames.Whiskey.Events.EventListener`4.OnDisable
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>.OnDisable()
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3).OnDisable()
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>.OnDisable()
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).OnDisable()
+- uid: FasterGames.Whiskey.Events.EventListener`4.OnDisable*
+  name: OnDisable
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.html#FasterGames_Whiskey_Events_EventListener_4_OnDisable_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`4.OnDisable
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>.OnDisable
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3).OnDisable
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>.OnDisable
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).OnDisable
+- uid: FasterGames.Whiskey.Events.EventListener`4.OnEnable
+  name: OnEnable()
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.html#FasterGames_Whiskey_Events_EventListener_4_OnEnable
+  commentId: M:FasterGames.Whiskey.Events.EventListener`4.OnEnable
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>.OnEnable()
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3).OnEnable()
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>.OnEnable()
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).OnEnable()
+- uid: FasterGames.Whiskey.Events.EventListener`4.OnEnable*
+  name: OnEnable
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.html#FasterGames_Whiskey_Events_EventListener_4_OnEnable_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`4.OnEnable
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>.OnEnable
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3).OnEnable
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>.OnEnable
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).OnEnable
+- uid: FasterGames.Whiskey.Events.EventListener`4.reaction
+  name: reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.html#FasterGames_Whiskey_Events_EventListener_4_reaction
+  commentId: F:FasterGames.Whiskey.Events.EventListener`4.reaction
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>.reaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3).reaction
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>.reaction
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).reaction
+- uid: FasterGames.Whiskey.Events.EventListener`4.Reaction
+  name: Reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.html#FasterGames_Whiskey_Events_EventListener_4_Reaction
+  commentId: P:FasterGames.Whiskey.Events.EventListener`4.Reaction
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>.Reaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3).Reaction
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>.Reaction
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).Reaction
+- uid: FasterGames.Whiskey.Events.EventListener`4.Reaction*
+  name: Reaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.html#FasterGames_Whiskey_Events_EventListener_4_Reaction_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListener`4.Reaction
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>.Reaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3).Reaction
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>.Reaction
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).Reaction
+- uid: FasterGames.Whiskey.Events.EventListener`4.UnityReaction
+  name: EventListener<TArg0, TArg1, TArg2, TArg3>.UnityReaction
+  href: ref/FasterGames.Whiskey.Events.EventListener-4.UnityReaction.html
+  commentId: T:FasterGames.Whiskey.Events.EventListener`4.UnityReaction
+  name.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).UnityReaction
+  fullName: FasterGames.Whiskey.Events.EventListener<TArg0, TArg1, TArg2, TArg3>.UnityReaction
+  fullName.vb: FasterGames.Whiskey.Events.EventListener(Of TArg0, TArg1, TArg2, TArg3).UnityReaction
+  nameWithType: EventListener<TArg0, TArg1, TArg2, TArg3>.UnityReaction
+  nameWithType.vb: EventListener(Of TArg0, TArg1, TArg2, TArg3).UnityReaction
+- uid: FasterGames.Whiskey.Events.EventListenerBase
+  name: EventListenerBase
+  href: ref/FasterGames.Whiskey.Events.EventListenerBase.html
+  commentId: T:FasterGames.Whiskey.Events.EventListenerBase
+  fullName: FasterGames.Whiskey.Events.EventListenerBase
+  nameWithType: EventListenerBase
+- uid: FasterGames.Whiskey.Events.EventListenerBase.Event
+  name: Event
+  href: ref/FasterGames.Whiskey.Events.EventListenerBase.html#FasterGames_Whiskey_Events_EventListenerBase_Event
+  commentId: P:FasterGames.Whiskey.Events.EventListenerBase.Event
+  fullName: FasterGames.Whiskey.Events.EventListenerBase.Event
+  nameWithType: EventListenerBase.Event
+- uid: FasterGames.Whiskey.Events.EventListenerBase.Event*
+  name: Event
+  href: ref/FasterGames.Whiskey.Events.EventListenerBase.html#FasterGames_Whiskey_Events_EventListenerBase_Event_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListenerBase.Event
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListenerBase.Event
+  nameWithType: EventListenerBase.Event
+- uid: FasterGames.Whiskey.Events.EventListenerBase.Reaction
+  name: Reaction
+  href: ref/FasterGames.Whiskey.Events.EventListenerBase.html#FasterGames_Whiskey_Events_EventListenerBase_Reaction
+  commentId: P:FasterGames.Whiskey.Events.EventListenerBase.Reaction
+  fullName: FasterGames.Whiskey.Events.EventListenerBase.Reaction
+  nameWithType: EventListenerBase.Reaction
+- uid: FasterGames.Whiskey.Events.EventListenerBase.Reaction*
+  name: Reaction
+  href: ref/FasterGames.Whiskey.Events.EventListenerBase.html#FasterGames_Whiskey_Events_EventListenerBase_Reaction_
+  commentId: Overload:FasterGames.Whiskey.Events.EventListenerBase.Reaction
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Events.EventListenerBase.Reaction
+  nameWithType: EventListenerBase.Reaction
+- uid: FasterGames.Whiskey.Events.FloatEvent
+  name: FloatEvent
+  href: ref/FasterGames.Whiskey.Events.FloatEvent.html
+  commentId: T:FasterGames.Whiskey.Events.FloatEvent
+  fullName: FasterGames.Whiskey.Events.FloatEvent
+  nameWithType: FloatEvent
+- uid: FasterGames.Whiskey.Events.FloatEventListener
+  name: FloatEventListener
+  href: ref/FasterGames.Whiskey.Events.FloatEventListener.html
+  commentId: T:FasterGames.Whiskey.Events.FloatEventListener
+  fullName: FasterGames.Whiskey.Events.FloatEventListener
+  nameWithType: FloatEventListener
+- uid: FasterGames.Whiskey.Events.IntEvent
+  name: IntEvent
+  href: ref/FasterGames.Whiskey.Events.IntEvent.html
+  commentId: T:FasterGames.Whiskey.Events.IntEvent
+  fullName: FasterGames.Whiskey.Events.IntEvent
+  nameWithType: IntEvent
+- uid: FasterGames.Whiskey.Events.IntEventListener
+  name: IntEventListener
+  href: ref/FasterGames.Whiskey.Events.IntEventListener.html
+  commentId: T:FasterGames.Whiskey.Events.IntEventListener
+  fullName: FasterGames.Whiskey.Events.IntEventListener
+  nameWithType: IntEventListener
+- uid: FasterGames.Whiskey.Events.StringEvent
+  name: StringEvent
+  href: ref/FasterGames.Whiskey.Events.StringEvent.html
+  commentId: T:FasterGames.Whiskey.Events.StringEvent
+  fullName: FasterGames.Whiskey.Events.StringEvent
+  nameWithType: StringEvent
+- uid: FasterGames.Whiskey.Events.StringEventListener
+  name: StringEventListener
+  href: ref/FasterGames.Whiskey.Events.StringEventListener.html
+  commentId: T:FasterGames.Whiskey.Events.StringEventListener
+  fullName: FasterGames.Whiskey.Events.StringEventListener
+  nameWithType: StringEventListener
+- uid: FasterGames.Whiskey.Events.TransformEvent
+  name: TransformEvent
+  href: ref/FasterGames.Whiskey.Events.TransformEvent.html
+  commentId: T:FasterGames.Whiskey.Events.TransformEvent
+  fullName: FasterGames.Whiskey.Events.TransformEvent
+  nameWithType: TransformEvent
+- uid: FasterGames.Whiskey.Events.TransformEventListener
+  name: TransformEventListener
+  href: ref/FasterGames.Whiskey.Events.TransformEventListener.html
+  commentId: T:FasterGames.Whiskey.Events.TransformEventListener
+  fullName: FasterGames.Whiskey.Events.TransformEventListener
+  nameWithType: TransformEventListener
+- uid: FasterGames.Whiskey.Events.Vector2Event
+  name: Vector2Event
+  href: ref/FasterGames.Whiskey.Events.Vector2Event.html
+  commentId: T:FasterGames.Whiskey.Events.Vector2Event
+  fullName: FasterGames.Whiskey.Events.Vector2Event
+  nameWithType: Vector2Event
+- uid: FasterGames.Whiskey.Events.Vector2EventListener
+  name: Vector2EventListener
+  href: ref/FasterGames.Whiskey.Events.Vector2EventListener.html
+  commentId: T:FasterGames.Whiskey.Events.Vector2EventListener
+  fullName: FasterGames.Whiskey.Events.Vector2EventListener
+  nameWithType: Vector2EventListener
+- uid: FasterGames.Whiskey.Events.Vector3Event
+  name: Vector3Event
+  href: ref/FasterGames.Whiskey.Events.Vector3Event.html
+  commentId: T:FasterGames.Whiskey.Events.Vector3Event
+  fullName: FasterGames.Whiskey.Events.Vector3Event
+  nameWithType: Vector3Event
+- uid: FasterGames.Whiskey.Events.Vector3EventListener
+  name: Vector3EventListener
+  href: ref/FasterGames.Whiskey.Events.Vector3EventListener.html
+  commentId: T:FasterGames.Whiskey.Events.Vector3EventListener
+  fullName: FasterGames.Whiskey.Events.Vector3EventListener
+  nameWithType: Vector3EventListener
+- uid: FasterGames.Whiskey.IReadable`1
+  name: IReadable<T>
+  href: ref/FasterGames.Whiskey.IReadable-1.html
+  commentId: T:FasterGames.Whiskey.IReadable`1
+  name.vb: IReadable(Of T)
+  fullName: FasterGames.Whiskey.IReadable<T>
+  fullName.vb: FasterGames.Whiskey.IReadable(Of T)
+  nameWithType: IReadable<T>
+  nameWithType.vb: IReadable(Of T)
+- uid: FasterGames.Whiskey.IReadable`1.Read
+  name: Read()
+  href: ref/FasterGames.Whiskey.IReadable-1.html#FasterGames_Whiskey_IReadable_1_Read
+  commentId: M:FasterGames.Whiskey.IReadable`1.Read
+  fullName: FasterGames.Whiskey.IReadable<T>.Read()
+  fullName.vb: FasterGames.Whiskey.IReadable(Of T).Read()
+  nameWithType: IReadable<T>.Read()
+  nameWithType.vb: IReadable(Of T).Read()
+- uid: FasterGames.Whiskey.IReadable`1.Read*
+  name: Read
+  href: ref/FasterGames.Whiskey.IReadable-1.html#FasterGames_Whiskey_IReadable_1_Read_
+  commentId: Overload:FasterGames.Whiskey.IReadable`1.Read
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.IReadable<T>.Read
+  fullName.vb: FasterGames.Whiskey.IReadable(Of T).Read
+  nameWithType: IReadable<T>.Read
+  nameWithType.vb: IReadable(Of T).Read
+- uid: FasterGames.Whiskey.IRng
+  name: IRng
+  href: ref/FasterGames.Whiskey.IRng.html
+  commentId: T:FasterGames.Whiskey.IRng
+  fullName: FasterGames.Whiskey.IRng
+  nameWithType: IRng
+- uid: FasterGames.Whiskey.IRng.Range(System.Single,System.Single)
+  name: Range(Single, Single)
+  href: ref/FasterGames.Whiskey.IRng.html#FasterGames_Whiskey_IRng_Range_System_Single_System_Single_
+  commentId: M:FasterGames.Whiskey.IRng.Range(System.Single,System.Single)
+  fullName: FasterGames.Whiskey.IRng.Range(System.Single, System.Single)
+  nameWithType: IRng.Range(Single, Single)
+- uid: FasterGames.Whiskey.IRng.Range*
+  name: Range
+  href: ref/FasterGames.Whiskey.IRng.html#FasterGames_Whiskey_IRng_Range_
+  commentId: Overload:FasterGames.Whiskey.IRng.Range
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.IRng.Range
+  nameWithType: IRng.Range
+- uid: FasterGames.Whiskey.IValueEquals`1
+  name: IValueEquals<T>
+  href: ref/FasterGames.Whiskey.IValueEquals-1.html
+  commentId: T:FasterGames.Whiskey.IValueEquals`1
+  name.vb: IValueEquals(Of T)
+  fullName: FasterGames.Whiskey.IValueEquals<T>
+  fullName.vb: FasterGames.Whiskey.IValueEquals(Of T)
+  nameWithType: IValueEquals<T>
+  nameWithType.vb: IValueEquals(Of T)
+- uid: FasterGames.Whiskey.IValueEquals`1.ValueEquals(`0)
+  name: ValueEquals(T)
+  href: ref/FasterGames.Whiskey.IValueEquals-1.html#FasterGames_Whiskey_IValueEquals_1_ValueEquals__0_
+  commentId: M:FasterGames.Whiskey.IValueEquals`1.ValueEquals(`0)
+  fullName: FasterGames.Whiskey.IValueEquals<T>.ValueEquals(T)
+  fullName.vb: FasterGames.Whiskey.IValueEquals(Of T).ValueEquals(T)
+  nameWithType: IValueEquals<T>.ValueEquals(T)
+  nameWithType.vb: IValueEquals(Of T).ValueEquals(T)
+- uid: FasterGames.Whiskey.IValueEquals`1.ValueEquals*
+  name: ValueEquals
+  href: ref/FasterGames.Whiskey.IValueEquals-1.html#FasterGames_Whiskey_IValueEquals_1_ValueEquals_
+  commentId: Overload:FasterGames.Whiskey.IValueEquals`1.ValueEquals
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.IValueEquals<T>.ValueEquals
+  fullName.vb: FasterGames.Whiskey.IValueEquals(Of T).ValueEquals
+  nameWithType: IValueEquals<T>.ValueEquals
+  nameWithType.vb: IValueEquals(Of T).ValueEquals
+- uid: FasterGames.Whiskey.IWritable`1
+  name: IWritable<T>
+  href: ref/FasterGames.Whiskey.IWritable-1.html
+  commentId: T:FasterGames.Whiskey.IWritable`1
+  name.vb: IWritable(Of T)
+  fullName: FasterGames.Whiskey.IWritable<T>
+  fullName.vb: FasterGames.Whiskey.IWritable(Of T)
+  nameWithType: IWritable<T>
+  nameWithType.vb: IWritable(Of T)
+- uid: FasterGames.Whiskey.IWritable`1.Write(`0)
+  name: Write(T)
+  href: ref/FasterGames.Whiskey.IWritable-1.html#FasterGames_Whiskey_IWritable_1_Write__0_
+  commentId: M:FasterGames.Whiskey.IWritable`1.Write(`0)
+  fullName: FasterGames.Whiskey.IWritable<T>.Write(T)
+  fullName.vb: FasterGames.Whiskey.IWritable(Of T).Write(T)
+  nameWithType: IWritable<T>.Write(T)
+  nameWithType.vb: IWritable(Of T).Write(T)
+- uid: FasterGames.Whiskey.IWritable`1.Write*
+  name: Write
+  href: ref/FasterGames.Whiskey.IWritable-1.html#FasterGames_Whiskey_IWritable_1_Write_
+  commentId: Overload:FasterGames.Whiskey.IWritable`1.Write
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.IWritable<T>.Write
+  fullName.vb: FasterGames.Whiskey.IWritable(Of T).Write
+  nameWithType: IWritable<T>.Write
+  nameWithType.vb: IWritable(Of T).Write
+- uid: FasterGames.Whiskey.PropertyAttributes
+  name: FasterGames.Whiskey.PropertyAttributes
+  href: ref/FasterGames.Whiskey.PropertyAttributes.html
+  commentId: N:FasterGames.Whiskey.PropertyAttributes
+  fullName: FasterGames.Whiskey.PropertyAttributes
+  nameWithType: FasterGames.Whiskey.PropertyAttributes
+- uid: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute
+  name: GenericDrawerAttribute
+  href: ref/FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.html
+  commentId: T:FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute
+  fullName: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute
+  nameWithType: GenericDrawerAttribute
+- uid: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.#ctor(System.Boolean,System.String[])
+  name: GenericDrawerAttribute(Boolean, String[])
+  href: ref/FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.html#FasterGames_Whiskey_PropertyAttributes_GenericDrawerAttribute__ctor_System_Boolean_System_String___
+  commentId: M:FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.#ctor(System.Boolean,System.String[])
+  name.vb: GenericDrawerAttribute(Boolean, String())
+  fullName: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.GenericDrawerAttribute(System.Boolean, System.String[])
+  fullName.vb: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.GenericDrawerAttribute(System.Boolean, System.String())
+  nameWithType: GenericDrawerAttribute.GenericDrawerAttribute(Boolean, String[])
+  nameWithType.vb: GenericDrawerAttribute.GenericDrawerAttribute(Boolean, String())
+- uid: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.#ctor*
+  name: GenericDrawerAttribute
+  href: ref/FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.html#FasterGames_Whiskey_PropertyAttributes_GenericDrawerAttribute__ctor_
+  commentId: Overload:FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.#ctor
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.GenericDrawerAttribute
+  nameWithType: GenericDrawerAttribute.GenericDrawerAttribute
+- uid: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.CacheTypes
+  name: CacheTypes
+  href: ref/FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.html#FasterGames_Whiskey_PropertyAttributes_GenericDrawerAttribute_CacheTypes
+  commentId: P:FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.CacheTypes
+  fullName: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.CacheTypes
+  nameWithType: GenericDrawerAttribute.CacheTypes
+- uid: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.CacheTypes*
+  name: CacheTypes
+  href: ref/FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.html#FasterGames_Whiskey_PropertyAttributes_GenericDrawerAttribute_CacheTypes_
+  commentId: Overload:FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.CacheTypes
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.CacheTypes
+  nameWithType: GenericDrawerAttribute.CacheTypes
+- uid: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.IgnoredNamespaces
+  name: IgnoredNamespaces
+  href: ref/FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.html#FasterGames_Whiskey_PropertyAttributes_GenericDrawerAttribute_IgnoredNamespaces
+  commentId: P:FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.IgnoredNamespaces
+  fullName: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.IgnoredNamespaces
+  nameWithType: GenericDrawerAttribute.IgnoredNamespaces
+- uid: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.IgnoredNamespaces*
+  name: IgnoredNamespaces
+  href: ref/FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.html#FasterGames_Whiskey_PropertyAttributes_GenericDrawerAttribute_IgnoredNamespaces_
+  commentId: Overload:FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.IgnoredNamespaces
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.IgnoredNamespaces
+  nameWithType: GenericDrawerAttribute.IgnoredNamespaces
+- uid: FasterGames.Whiskey.PropertyAttributes.ReadOnlyAttribute
+  name: ReadOnlyAttribute
+  href: ref/FasterGames.Whiskey.PropertyAttributes.ReadOnlyAttribute.html
+  commentId: T:FasterGames.Whiskey.PropertyAttributes.ReadOnlyAttribute
+  fullName: FasterGames.Whiskey.PropertyAttributes.ReadOnlyAttribute
+  nameWithType: ReadOnlyAttribute
+- uid: FasterGames.Whiskey.T4Host
+  name: FasterGames.Whiskey.T4Host
+  href: ref/FasterGames.Whiskey.T4Host.html
+  commentId: N:FasterGames.Whiskey.T4Host
+  fullName: FasterGames.Whiskey.T4Host
+  nameWithType: FasterGames.Whiskey.T4Host
+- uid: FasterGames.Whiskey.T4Host.BoxConfig
+  name: BoxConfig
+  href: ref/FasterGames.Whiskey.T4Host.BoxConfig.html
+  commentId: T:FasterGames.Whiskey.T4Host.BoxConfig
+  fullName: FasterGames.Whiskey.T4Host.BoxConfig
+  nameWithType: BoxConfig
+- uid: FasterGames.Whiskey.T4Host.BoxConfig.assetMenuName
+  name: assetMenuName
+  href: ref/FasterGames.Whiskey.T4Host.BoxConfig.html#FasterGames_Whiskey_T4Host_BoxConfig_assetMenuName
+  commentId: F:FasterGames.Whiskey.T4Host.BoxConfig.assetMenuName
+  fullName: FasterGames.Whiskey.T4Host.BoxConfig.assetMenuName
+  nameWithType: BoxConfig.assetMenuName
+- uid: FasterGames.Whiskey.T4Host.BoxConfig.assetMenuNamePrefix
+  name: assetMenuNamePrefix
+  href: ref/FasterGames.Whiskey.T4Host.BoxConfig.html#FasterGames_Whiskey_T4Host_BoxConfig_assetMenuNamePrefix
+  commentId: F:FasterGames.Whiskey.T4Host.BoxConfig.assetMenuNamePrefix
+  fullName: FasterGames.Whiskey.T4Host.BoxConfig.assetMenuNamePrefix
+  nameWithType: BoxConfig.assetMenuNamePrefix
+- uid: FasterGames.Whiskey.T4Host.BoxConfig.type
+  name: type
+  href: ref/FasterGames.Whiskey.T4Host.BoxConfig.html#FasterGames_Whiskey_T4Host_BoxConfig_type
+  commentId: F:FasterGames.Whiskey.T4Host.BoxConfig.type
+  fullName: FasterGames.Whiskey.T4Host.BoxConfig.type
+  nameWithType: BoxConfig.type
+- uid: FasterGames.Whiskey.T4Host.EventConfig
+  name: EventConfig
+  href: ref/FasterGames.Whiskey.T4Host.EventConfig.html
+  commentId: T:FasterGames.Whiskey.T4Host.EventConfig
+  fullName: FasterGames.Whiskey.T4Host.EventConfig
+  nameWithType: EventConfig
+- uid: FasterGames.Whiskey.T4Host.EventConfig.argTypes
+  name: argTypes
+  href: ref/FasterGames.Whiskey.T4Host.EventConfig.html#FasterGames_Whiskey_T4Host_EventConfig_argTypes
+  commentId: F:FasterGames.Whiskey.T4Host.EventConfig.argTypes
+  fullName: FasterGames.Whiskey.T4Host.EventConfig.argTypes
+  nameWithType: EventConfig.argTypes
+- uid: FasterGames.Whiskey.T4Host.EventConfig.assetMenuName
+  name: assetMenuName
+  href: ref/FasterGames.Whiskey.T4Host.EventConfig.html#FasterGames_Whiskey_T4Host_EventConfig_assetMenuName
+  commentId: F:FasterGames.Whiskey.T4Host.EventConfig.assetMenuName
+  fullName: FasterGames.Whiskey.T4Host.EventConfig.assetMenuName
+  nameWithType: EventConfig.assetMenuName
+- uid: FasterGames.Whiskey.T4Host.EventConfig.assetMenuNamePrefix
+  name: assetMenuNamePrefix
+  href: ref/FasterGames.Whiskey.T4Host.EventConfig.html#FasterGames_Whiskey_T4Host_EventConfig_assetMenuNamePrefix
+  commentId: F:FasterGames.Whiskey.T4Host.EventConfig.assetMenuNamePrefix
+  fullName: FasterGames.Whiskey.T4Host.EventConfig.assetMenuNamePrefix
+  nameWithType: EventConfig.assetMenuNamePrefix
+- uid: FasterGames.Whiskey.T4Host.EventConfig.generateBehaviourListener
+  name: generateBehaviourListener
+  href: ref/FasterGames.Whiskey.T4Host.EventConfig.html#FasterGames_Whiskey_T4Host_EventConfig_generateBehaviourListener
+  commentId: F:FasterGames.Whiskey.T4Host.EventConfig.generateBehaviourListener
+  fullName: FasterGames.Whiskey.T4Host.EventConfig.generateBehaviourListener
+  nameWithType: EventConfig.generateBehaviourListener
+- uid: FasterGames.Whiskey.T4Host.EventConfig.name
+  name: name
+  href: ref/FasterGames.Whiskey.T4Host.EventConfig.html#FasterGames_Whiskey_T4Host_EventConfig_name
+  commentId: F:FasterGames.Whiskey.T4Host.EventConfig.name
+  fullName: FasterGames.Whiskey.T4Host.EventConfig.name
+  nameWithType: EventConfig.name
+- uid: FasterGames.Whiskey.T4Host.TableConfig
+  name: TableConfig
+  href: ref/FasterGames.Whiskey.T4Host.TableConfig.html
+  commentId: T:FasterGames.Whiskey.T4Host.TableConfig
+  fullName: FasterGames.Whiskey.T4Host.TableConfig
+  nameWithType: TableConfig
+- uid: FasterGames.Whiskey.T4Host.TableConfig.assetMenuName
+  name: assetMenuName
+  href: ref/FasterGames.Whiskey.T4Host.TableConfig.html#FasterGames_Whiskey_T4Host_TableConfig_assetMenuName
+  commentId: F:FasterGames.Whiskey.T4Host.TableConfig.assetMenuName
+  fullName: FasterGames.Whiskey.T4Host.TableConfig.assetMenuName
+  nameWithType: TableConfig.assetMenuName
+- uid: FasterGames.Whiskey.T4Host.TableConfig.assetMenuNamePrefix
+  name: assetMenuNamePrefix
+  href: ref/FasterGames.Whiskey.T4Host.TableConfig.html#FasterGames_Whiskey_T4Host_TableConfig_assetMenuNamePrefix
+  commentId: F:FasterGames.Whiskey.T4Host.TableConfig.assetMenuNamePrefix
+  fullName: FasterGames.Whiskey.T4Host.TableConfig.assetMenuNamePrefix
+  nameWithType: TableConfig.assetMenuNamePrefix
+- uid: FasterGames.Whiskey.T4Host.TableConfig.type
+  name: type
+  href: ref/FasterGames.Whiskey.T4Host.TableConfig.html#FasterGames_Whiskey_T4Host_TableConfig_type
+  commentId: F:FasterGames.Whiskey.T4Host.TableConfig.type
+  fullName: FasterGames.Whiskey.T4Host.TableConfig.type
+  nameWithType: TableConfig.type
+- uid: FasterGames.Whiskey.T4Host.TypeConfig
+  name: TypeConfig
+  href: ref/FasterGames.Whiskey.T4Host.TypeConfig.html
+  commentId: T:FasterGames.Whiskey.T4Host.TypeConfig
+  fullName: FasterGames.Whiskey.T4Host.TypeConfig
+  nameWithType: TypeConfig
+- uid: FasterGames.Whiskey.T4Host.TypeConfig.name
+  name: name
+  href: ref/FasterGames.Whiskey.T4Host.TypeConfig.html#FasterGames_Whiskey_T4Host_TypeConfig_name
+  commentId: F:FasterGames.Whiskey.T4Host.TypeConfig.name
+  fullName: FasterGames.Whiskey.T4Host.TypeConfig.name
+  nameWithType: TypeConfig.name
+- uid: FasterGames.Whiskey.T4Host.TypeConfig.qualifier
+  name: qualifier
+  href: ref/FasterGames.Whiskey.T4Host.TypeConfig.html#FasterGames_Whiskey_T4Host_TypeConfig_qualifier
+  commentId: F:FasterGames.Whiskey.T4Host.TypeConfig.qualifier
+  fullName: FasterGames.Whiskey.T4Host.TypeConfig.qualifier
+  nameWithType: TypeConfig.qualifier
+- uid: FasterGames.Whiskey.T4Host.WhiskeyConfig
+  name: WhiskeyConfig
+  href: ref/FasterGames.Whiskey.T4Host.WhiskeyConfig.html
+  commentId: T:FasterGames.Whiskey.T4Host.WhiskeyConfig
+  fullName: FasterGames.Whiskey.T4Host.WhiskeyConfig
+  nameWithType: WhiskeyConfig
+- uid: FasterGames.Whiskey.T4Host.WhiskeyConfig.boxConfig
+  name: boxConfig
+  href: ref/FasterGames.Whiskey.T4Host.WhiskeyConfig.html#FasterGames_Whiskey_T4Host_WhiskeyConfig_boxConfig
+  commentId: F:FasterGames.Whiskey.T4Host.WhiskeyConfig.boxConfig
+  fullName: FasterGames.Whiskey.T4Host.WhiskeyConfig.boxConfig
+  nameWithType: WhiskeyConfig.boxConfig
+- uid: FasterGames.Whiskey.T4Host.WhiskeyConfig.eventConfig
+  name: eventConfig
+  href: ref/FasterGames.Whiskey.T4Host.WhiskeyConfig.html#FasterGames_Whiskey_T4Host_WhiskeyConfig_eventConfig
+  commentId: F:FasterGames.Whiskey.T4Host.WhiskeyConfig.eventConfig
+  fullName: FasterGames.Whiskey.T4Host.WhiskeyConfig.eventConfig
+  nameWithType: WhiskeyConfig.eventConfig
+- uid: FasterGames.Whiskey.T4Host.WhiskeyConfig.extendsDefaultSet
+  name: extendsDefaultSet
+  href: ref/FasterGames.Whiskey.T4Host.WhiskeyConfig.html#FasterGames_Whiskey_T4Host_WhiskeyConfig_extendsDefaultSet
+  commentId: F:FasterGames.Whiskey.T4Host.WhiskeyConfig.extendsDefaultSet
+  fullName: FasterGames.Whiskey.T4Host.WhiskeyConfig.extendsDefaultSet
+  nameWithType: WhiskeyConfig.extendsDefaultSet
+- uid: FasterGames.Whiskey.T4Host.WhiskeyConfig.tableConfig
+  name: tableConfig
+  href: ref/FasterGames.Whiskey.T4Host.WhiskeyConfig.html#FasterGames_Whiskey_T4Host_WhiskeyConfig_tableConfig
+  commentId: F:FasterGames.Whiskey.T4Host.WhiskeyConfig.tableConfig
+  fullName: FasterGames.Whiskey.T4Host.WhiskeyConfig.tableConfig
+  nameWithType: WhiskeyConfig.tableConfig
+- uid: FasterGames.Whiskey.Tables
+  name: FasterGames.Whiskey.Tables
+  href: ref/FasterGames.Whiskey.Tables.html
+  commentId: N:FasterGames.Whiskey.Tables
+  fullName: FasterGames.Whiskey.Tables
+  nameWithType: FasterGames.Whiskey.Tables
+- uid: FasterGames.Whiskey.Tables.BoolTable
+  name: BoolTable
+  href: ref/FasterGames.Whiskey.Tables.BoolTable.html
+  commentId: T:FasterGames.Whiskey.Tables.BoolTable
+  fullName: FasterGames.Whiskey.Tables.BoolTable
+  nameWithType: BoolTable
+- uid: FasterGames.Whiskey.Tables.DefaultRngSource
+  name: DefaultRngSource
+  href: ref/FasterGames.Whiskey.Tables.DefaultRngSource.html
+  commentId: T:FasterGames.Whiskey.Tables.DefaultRngSource
+  fullName: FasterGames.Whiskey.Tables.DefaultRngSource
+  nameWithType: DefaultRngSource
+- uid: FasterGames.Whiskey.Tables.DefaultRngSource.Range(System.Single,System.Single)
+  name: Range(Single, Single)
+  href: ref/FasterGames.Whiskey.Tables.DefaultRngSource.html#FasterGames_Whiskey_Tables_DefaultRngSource_Range_System_Single_System_Single_
+  commentId: M:FasterGames.Whiskey.Tables.DefaultRngSource.Range(System.Single,System.Single)
+  fullName: FasterGames.Whiskey.Tables.DefaultRngSource.Range(System.Single, System.Single)
+  nameWithType: DefaultRngSource.Range(Single, Single)
+- uid: FasterGames.Whiskey.Tables.DefaultRngSource.Range*
+  name: Range
+  href: ref/FasterGames.Whiskey.Tables.DefaultRngSource.html#FasterGames_Whiskey_Tables_DefaultRngSource_Range_
+  commentId: Overload:FasterGames.Whiskey.Tables.DefaultRngSource.Range
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Tables.DefaultRngSource.Range
+  nameWithType: DefaultRngSource.Range
+- uid: FasterGames.Whiskey.Tables.DefaultRngSource.seed
+  name: seed
+  href: ref/FasterGames.Whiskey.Tables.DefaultRngSource.html#FasterGames_Whiskey_Tables_DefaultRngSource_seed
+  commentId: F:FasterGames.Whiskey.Tables.DefaultRngSource.seed
+  fullName: FasterGames.Whiskey.Tables.DefaultRngSource.seed
+  nameWithType: DefaultRngSource.seed
+- uid: FasterGames.Whiskey.Tables.FloatTable
+  name: FloatTable
+  href: ref/FasterGames.Whiskey.Tables.FloatTable.html
+  commentId: T:FasterGames.Whiskey.Tables.FloatTable
+  fullName: FasterGames.Whiskey.Tables.FloatTable
+  nameWithType: FloatTable
+- uid: FasterGames.Whiskey.Tables.IntTable
+  name: IntTable
+  href: ref/FasterGames.Whiskey.Tables.IntTable.html
+  commentId: T:FasterGames.Whiskey.Tables.IntTable
+  fullName: FasterGames.Whiskey.Tables.IntTable
+  nameWithType: IntTable
+- uid: FasterGames.Whiskey.Tables.RngSource
+  name: RngSource
+  href: ref/FasterGames.Whiskey.Tables.RngSource.html
+  commentId: T:FasterGames.Whiskey.Tables.RngSource
+  fullName: FasterGames.Whiskey.Tables.RngSource
+  nameWithType: RngSource
+- uid: FasterGames.Whiskey.Tables.RngSource.Range(System.Single,System.Single)
+  name: Range(Single, Single)
+  href: ref/FasterGames.Whiskey.Tables.RngSource.html#FasterGames_Whiskey_Tables_RngSource_Range_System_Single_System_Single_
+  commentId: M:FasterGames.Whiskey.Tables.RngSource.Range(System.Single,System.Single)
+  fullName: FasterGames.Whiskey.Tables.RngSource.Range(System.Single, System.Single)
+  nameWithType: RngSource.Range(Single, Single)
+- uid: FasterGames.Whiskey.Tables.RngSource.Range*
+  name: Range
+  href: ref/FasterGames.Whiskey.Tables.RngSource.html#FasterGames_Whiskey_Tables_RngSource_Range_
+  commentId: Overload:FasterGames.Whiskey.Tables.RngSource.Range
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Tables.RngSource.Range
+  nameWithType: RngSource.Range
+- uid: FasterGames.Whiskey.Tables.StringTable
+  name: StringTable
+  href: ref/FasterGames.Whiskey.Tables.StringTable.html
+  commentId: T:FasterGames.Whiskey.Tables.StringTable
+  fullName: FasterGames.Whiskey.Tables.StringTable
+  nameWithType: StringTable
+- uid: FasterGames.Whiskey.Tables.Table`1
+  name: Table<T>
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html
+  commentId: T:FasterGames.Whiskey.Tables.Table`1
+  name.vb: Table(Of T)
+  fullName: FasterGames.Whiskey.Tables.Table<T>
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T)
+  nameWithType: Table<T>
+  nameWithType.vb: Table(Of T)
+- uid: FasterGames.Whiskey.Tables.Table`1.Add(`0,System.Single)
+  name: Add(T, Single)
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html#FasterGames_Whiskey_Tables_Table_1_Add__0_System_Single_
+  commentId: M:FasterGames.Whiskey.Tables.Table`1.Add(`0,System.Single)
+  fullName: FasterGames.Whiskey.Tables.Table<T>.Add(T, System.Single)
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).Add(T, System.Single)
+  nameWithType: Table<T>.Add(T, Single)
+  nameWithType.vb: Table(Of T).Add(T, Single)
+- uid: FasterGames.Whiskey.Tables.Table`1.Add(Ref{`0},System.Single)
+  name: Add(Ref<T>, Single)
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html#FasterGames_Whiskey_Tables_Table_1_Add_Ref__0__System_Single_
+  commentId: M:FasterGames.Whiskey.Tables.Table`1.Add(Ref{`0},System.Single)
+  name.vb: Add(Ref(Of T), Single)
+  fullName: FasterGames.Whiskey.Tables.Table<T>.Add(Ref<T>, System.Single)
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).Add(Ref(Of T), System.Single)
+  nameWithType: Table<T>.Add(Ref<T>, Single)
+  nameWithType.vb: Table(Of T).Add(Ref(Of T), Single)
+- uid: FasterGames.Whiskey.Tables.Table`1.Add*
+  name: Add
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html#FasterGames_Whiskey_Tables_Table_1_Add_
+  commentId: Overload:FasterGames.Whiskey.Tables.Table`1.Add
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Tables.Table<T>.Add
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).Add
+  nameWithType: Table<T>.Add
+  nameWithType.vb: Table(Of T).Add
+- uid: FasterGames.Whiskey.Tables.Table`1.Clear
+  name: Clear()
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html#FasterGames_Whiskey_Tables_Table_1_Clear
+  commentId: M:FasterGames.Whiskey.Tables.Table`1.Clear
+  fullName: FasterGames.Whiskey.Tables.Table<T>.Clear()
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).Clear()
+  nameWithType: Table<T>.Clear()
+  nameWithType.vb: Table(Of T).Clear()
+- uid: FasterGames.Whiskey.Tables.Table`1.Clear*
+  name: Clear
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html#FasterGames_Whiskey_Tables_Table_1_Clear_
+  commentId: Overload:FasterGames.Whiskey.Tables.Table`1.Clear
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Tables.Table<T>.Clear
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).Clear
+  nameWithType: Table<T>.Clear
+  nameWithType.vb: Table(Of T).Clear
+- uid: FasterGames.Whiskey.Tables.Table`1.Entries
+  name: Entries
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html#FasterGames_Whiskey_Tables_Table_1_Entries
+  commentId: P:FasterGames.Whiskey.Tables.Table`1.Entries
+  fullName: FasterGames.Whiskey.Tables.Table<T>.Entries
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).Entries
+  nameWithType: Table<T>.Entries
+  nameWithType.vb: Table(Of T).Entries
+- uid: FasterGames.Whiskey.Tables.Table`1.Entries*
+  name: Entries
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html#FasterGames_Whiskey_Tables_Table_1_Entries_
+  commentId: Overload:FasterGames.Whiskey.Tables.Table`1.Entries
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Tables.Table<T>.Entries
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).Entries
+  nameWithType: Table<T>.Entries
+  nameWithType.vb: Table(Of T).Entries
+- uid: FasterGames.Whiskey.Tables.Table`1.random
+  name: random
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html#FasterGames_Whiskey_Tables_Table_1_random
+  commentId: F:FasterGames.Whiskey.Tables.Table`1.random
+  fullName: FasterGames.Whiskey.Tables.Table<T>.random
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).random
+  nameWithType: Table<T>.random
+  nameWithType.vb: Table(Of T).random
+- uid: FasterGames.Whiskey.Tables.Table`1.Read
+  name: Read()
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html#FasterGames_Whiskey_Tables_Table_1_Read
+  commentId: M:FasterGames.Whiskey.Tables.Table`1.Read
+  fullName: FasterGames.Whiskey.Tables.Table<T>.Read()
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).Read()
+  nameWithType: Table<T>.Read()
+  nameWithType.vb: Table(Of T).Read()
+- uid: FasterGames.Whiskey.Tables.Table`1.Read*
+  name: Read
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html#FasterGames_Whiskey_Tables_Table_1_Read_
+  commentId: Overload:FasterGames.Whiskey.Tables.Table`1.Read
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Tables.Table<T>.Read
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).Read
+  nameWithType: Table<T>.Read
+  nameWithType.vb: Table(Of T).Read
+- uid: FasterGames.Whiskey.Tables.Table`1.tableEntries
+  name: tableEntries
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html#FasterGames_Whiskey_Tables_Table_1_tableEntries
+  commentId: F:FasterGames.Whiskey.Tables.Table`1.tableEntries
+  fullName: FasterGames.Whiskey.Tables.Table<T>.tableEntries
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).tableEntries
+  nameWithType: Table<T>.tableEntries
+  nameWithType.vb: Table(Of T).tableEntries
+- uid: FasterGames.Whiskey.Tables.Table`1.TableEntry
+  name: Table<T>.TableEntry
+  href: ref/FasterGames.Whiskey.Tables.Table-1.TableEntry.html
+  commentId: T:FasterGames.Whiskey.Tables.Table`1.TableEntry
+  name.vb: Table(Of T).TableEntry
+  fullName: FasterGames.Whiskey.Tables.Table<T>.TableEntry
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).TableEntry
+  nameWithType: Table<T>.TableEntry
+  nameWithType.vb: Table(Of T).TableEntry
+- uid: FasterGames.Whiskey.Tables.Table`1.TableEntry.value
+  name: value
+  href: ref/FasterGames.Whiskey.Tables.Table-1.TableEntry.html#FasterGames_Whiskey_Tables_Table_1_TableEntry_value
+  commentId: F:FasterGames.Whiskey.Tables.Table`1.TableEntry.value
+  fullName: FasterGames.Whiskey.Tables.Table<T>.TableEntry.value
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).TableEntry.value
+  nameWithType: Table<T>.TableEntry.value
+  nameWithType.vb: Table(Of T).TableEntry.value
+- uid: FasterGames.Whiskey.Tables.Table`1.TableEntry.weight
+  name: weight
+  href: ref/FasterGames.Whiskey.Tables.Table-1.TableEntry.html#FasterGames_Whiskey_Tables_Table_1_TableEntry_weight
+  commentId: F:FasterGames.Whiskey.Tables.Table`1.TableEntry.weight
+  fullName: FasterGames.Whiskey.Tables.Table<T>.TableEntry.weight
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).TableEntry.weight
+  nameWithType: Table<T>.TableEntry.weight
+  nameWithType.vb: Table(Of T).TableEntry.weight
+- uid: FasterGames.Whiskey.Tables.Table`1.TotalWeightInTable
+  name: TotalWeightInTable
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html#FasterGames_Whiskey_Tables_Table_1_TotalWeightInTable
+  commentId: P:FasterGames.Whiskey.Tables.Table`1.TotalWeightInTable
+  fullName: FasterGames.Whiskey.Tables.Table<T>.TotalWeightInTable
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).TotalWeightInTable
+  nameWithType: Table<T>.TotalWeightInTable
+  nameWithType.vb: Table(Of T).TotalWeightInTable
+- uid: FasterGames.Whiskey.Tables.Table`1.TotalWeightInTable*
+  name: TotalWeightInTable
+  href: ref/FasterGames.Whiskey.Tables.Table-1.html#FasterGames_Whiskey_Tables_Table_1_TotalWeightInTable_
+  commentId: Overload:FasterGames.Whiskey.Tables.Table`1.TotalWeightInTable
+  isSpec: "True"
+  fullName: FasterGames.Whiskey.Tables.Table<T>.TotalWeightInTable
+  fullName.vb: FasterGames.Whiskey.Tables.Table(Of T).TotalWeightInTable
+  nameWithType: Table<T>.TotalWeightInTable
+  nameWithType.vb: Table(Of T).TotalWeightInTable
+- uid: FasterGames.Whiskey.Tables.TransformTable
+  name: TransformTable
+  href: ref/FasterGames.Whiskey.Tables.TransformTable.html
+  commentId: T:FasterGames.Whiskey.Tables.TransformTable
+  fullName: FasterGames.Whiskey.Tables.TransformTable
+  nameWithType: TransformTable
+- uid: FasterGames.Whiskey.Tables.Vector2Table
+  name: Vector2Table
+  href: ref/FasterGames.Whiskey.Tables.Vector2Table.html
+  commentId: T:FasterGames.Whiskey.Tables.Vector2Table
+  fullName: FasterGames.Whiskey.Tables.Vector2Table
+  nameWithType: Vector2Table
+- uid: FasterGames.Whiskey.Tables.Vector3Table
+  name: Vector3Table
+  href: ref/FasterGames.Whiskey.Tables.Vector3Table.html
+  commentId: T:FasterGames.Whiskey.Tables.Vector3Table
+  fullName: FasterGames.Whiskey.Tables.Vector3Table
+  nameWithType: Vector3Table

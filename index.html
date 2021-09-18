@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Whiskey | Whiskey </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Whiskey | Whiskey ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="description" content="Data and Events framework for Unity3D">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="whiskey">Whiskey</h1>
+
+<p>Data and Events framework for Unity. <a href="https://github.com/faster-games/whiskey">View On GitHub</a> 🥃⚡</p>
+<img src="header.png" alt="Project logo; A pink package on a grey background, next to the text &quot;Whiskey&quot; in purple" height="200px">
+<p><img src="https://img.shields.io/github/package-json/v/faster-games/whiskey" alt="GitHub package.json version">
+<a href="https://openupm.com/packages/com.faster-games.whiskey/"><img src="https://img.shields.io/npm/v/com.faster-games.whiskey?label=openupm&amp;registry_uri=https://package.openupm.com" alt="openupm"></a>
+<a href="https://github.com/faster-games/whiskey/actions/workflows/main.yml"><img src="https://github.com/faster-games/whiskey/actions/workflows/main.yml/badge.svg" alt="CI"></a>
+<a href="https://discord.gg/QfQE6rWQqq"><img src="https://img.shields.io/discord/862006447919726604" alt="Discord"></a></p>
+<p>Whiskey is a framework for managing data and events within <a href="https://unity3d.com">Unity</a>. It leans heavily on <a href="https://docs.unity3d.com/Manual/class-ScriptableObject.html">ScriptableObject</a>, and is inspired by <a href="https://www.youtube.com/watch?v=raQ3iHhE_Kk">Ryan Hipple's Unite 2017 Talk</a>. Whiskey lets game designers own and edit data definitions while programmers continue to evolve code - Whiskey brings the two together with references, to reduce merge conflicts.</p>
+<p>Goals:</p>
+<ul>
+<li>Create, Edit, and Visualize data within the Editor, not code.</li>
+<li>Encourage decoupling, by using asset references rather than singletons.</li>
+<li>Quickly swap between data constants and references without rewriting code.</li>
+</ul>
+<p>Features:</p>
+<ul>
+<li>Boxed data, stored as assets on disk using <a href="https://docs.unity3d.com/Manual/class-ScriptableObject.html">ScriptableObject</a>.</li>
+<li>Weighted loot tables, for easy to manage <a href="https://lostgarden.home.blog/2014/12/08/loot-drop-tables/">probability based loot drops</a>.</li>
+<li>Events, stored as assets on disk using <a href="https://docs.unity3d.com/Manual/class-ScriptableObject.html">ScriptableObject</a>.</li>
+<li>Event Listeners, for binding to Events using <a href="https://docs.unity3d.com/Manual/class-MonoBehaviour.html">MonoBehaviours</a>.</li>
+<li>References, for consuming data in code indirectly.</li>
+</ul>
+<h2 id="installing">Installing</h2>
+<p>This package supports <a href="https://openupm.com/packages/com.faster-games.whiskey/">openupm</a> - you can install it using the following command:</p>
+<pre><code>openupm add com.faster-games.whiskey
+</code></pre>
+<p>Or by adding directly to your <code>manifest.json</code>:</p>
+<blockquote>
+<p>Note: You may also use specific versions by appending <code>#{version}</code> where version is a <a href="https://github.com/faster-games/whiskey/releases">Release tag</a> - e.g. <code>#v1.2.0</code>.</p>
+</blockquote>
+<pre><code>dependencies: {
+	...
+	&quot;com.faster-games.whiskey&quot;: &quot;git+https://github.com/faster-games/whiskey.git&quot;
+}
+</code></pre>
+<p>Or by using <a href="https://docs.unity3d.com/Manual/upm-ui-giturl.html">Package Manager</a> to &quot;Add a package from Git URL&quot;, using the following url:</p>
+<pre><code>https://github.com/faster-games/whiskey.git
+</code></pre>
+<h2 id="documentation">Documentation</h2>
+<center>
+<p><a href="https://whiskey.faster-games.com/manual/getting-started.html">Manual 📖</a> | <a href="https://whiskey.faster-games.com/ref/FasterGames.Whiskey.html">Scripting API 🔎</a></p>
+</center>
+<h3 id="quickstart">Quickstart</h3>
+<blockquote>
+<p>Disclaimer: By nature, Whiskey isn't easy to demonstrate. As such, this may not be as &quot;quick&quot; as you'd expect! 😅</p>
+</blockquote>
+<ul>
+<li>Right click in the <a href="https://docs.unity3d.com/Manual/ProjectView.html">Project Window</a> select: <code>Create, Whiskey, Boxes, Int</code></li>
+<li>Name the created data instance</li>
+<li>Select the data instance</li>
+<li>Edit the data in the <a href="https://docs.unity3d.com/Manual/UsingTheInspector.html">Inspector Window</a></li>
+<li>Right click in the <a href="https://docs.unity3d.com/Manual/ProjectView.html">Project Window</a> select: <code>Create, C# Script</code></li>
+<li>Name the created script <code>IntTestBehaviour</code></li>
+<li>Edit the script, adding the following:</li>
+</ul>
+<pre><code class="lang-cs">using FasterGames.Whiskey.Boxes;
+using UnityEngine;
+
+public class IntTestBehaviour : MonoBehaviour
+{
+    public Ref&lt;int&gt; intRef;
+
+    private void Start()
+    {
+        Debug.Log(intRef.Value);
+    }
+}
+</code></pre>
+<ul>
+<li>Right click in the <a href="https://docs.unity3d.com/Manual/Hierarchy.html">Hierarchy Window</a> select: <code>Create Empty</code></li>
+<li>Name the created object</li>
+<li>Select the object in the <a href="https://docs.unity3d.com/Manual/Hierarchy.html">Hierarchy Window</a>, then in the <a href="https://docs.unity3d.com/Manual/UsingTheInspector.html">Inspector Window</a> select <code>Add Component</code> and search for <code>IntTestBehaviour</code>, selecting the first result (which should be the script you created above)</li>
+<li>Note the <code>Int Ref</code> field is displayed, by default it is a <code>Direct</code> reference. A direct reference is effectively a hard coded value.</li>
+<li>Select the <code>Direct</code> dropdown, and change it to <code>Boxed</code>. Note the field changes, allowing you to drag and drop an object reference, and showing an additional dropdown field.</li>
+<li>Ensure the additional dropdown field is set to <code>BoxedInt</code>, which will allow the editor to more accurately assist you in selecting the object.</li>
+<li>Click the object reference field, and select the data instance you created above.</li>
+<li>You have now made your first data reference using Whiskey. Run the code, and note that the value stored in your data instance is logged by the <code>IntTestBehaviour</code> script on <code>Start</code>.</li>
+</ul>
+<p>🚀🚀🚀 Thanks for bearing with us! There's a lot of features in Whiskey, this quickstart only demonstrates one. To learn more, see <a href="https://whiskey.faster-games.com/manual/getting-started.html">The manual</a>.</p>
+<h2 id="supporting-the-project">Supporting the project</h2>
+<p>If this project saved you some time, and you'd like to see it continue to be invested in, consider <a href="https://www.buymeacoffee.com/bengreenier">buying me a coffee. ☕</a> I do this full-time, and every little bit helps! 💙</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/faster-games/whiskey/blob/main/Documentation~/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright FasterGames ©
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

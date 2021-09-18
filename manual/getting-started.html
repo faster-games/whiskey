@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Getting Started | Whiskey </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Getting Started | Whiskey ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="description" content="Data and Events framework for Unity3D">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="getting-started">Getting Started</h1>
+
+<p>Whiskey is a framework for data and events, leaning heavily on <a href="https://docs.unity3d.com/Manual/class-ScriptableObject.html">ScriptableObject</a> to make this possible. If you haven't seen <a href="https://www.youtube.com/watch?v=raQ3iHhE_Kk">Ryan's talk on ScriptableObject's</a> I recommend watching that first.</p>
+<p>Learn more about the following topics in their dedicated sections:</p>
+<ul>
+<li><a href="boxes.html">Boxes</a> - Data instances persisted as <code>Assets</code></li>
+<li><a href="tables.html">Tables</a> - Weighted probability tables persisted as <code>Assets</code></li>
+<li><a href="events.html">Events</a> - Events and reactions for when important things occur</li>
+</ul>
+<p>Whiskey provides a number of built in constructs as well as base classes that can be quickly extended to for customization. It also provides a set of editor extensions to make working with it's features easier.</p>
+<h2 id="quickstart">Quickstart</h2>
+<blockquote>
+<p>Disclaimer: By nature, Whiskey isn't easy to demonstrate. As such, this may not be as &quot;quick&quot; as you'd expect! 😅</p>
+</blockquote>
+<ul>
+<li>Right click in the <a href="https://docs.unity3d.com/Manual/ProjectView.html">Project Window</a> select: <code>Create, Whiskey, Boxes, Int</code></li>
+<li>Name the created data instance</li>
+<li>Select the data instance</li>
+<li>Edit the data in the <a href="https://docs.unity3d.com/Manual/UsingTheInspector.html">Inspector Window</a></li>
+<li>Right click in the <a href="https://docs.unity3d.com/Manual/ProjectView.html">Project Window</a> select: <code>Create, C# Script</code></li>
+<li>Name the created script <code>IntTestBehaviour</code></li>
+<li>Edit the script, adding the following:</li>
+</ul>
+<pre><code class="lang-cs">using FasterGames.Whiskey.Boxes;
+using UnityEngine;
+
+public class IntTestBehaviour : MonoBehaviour
+{
+    public Ref&lt;int&gt; intRef;
+
+    private void Start()
+    {
+        Debug.Log(intRef.Value);
+    }
+}
+</code></pre>
+<ul>
+<li>Right click in the <a href="https://docs.unity3d.com/Manual/Hierarchy.html">Hierarchy Window</a> select: <code>Create Empty</code></li>
+<li>Name the created object</li>
+<li>Select the object in the <a href="https://docs.unity3d.com/Manual/Hierarchy.html">Hierarchy Window</a>, then in the <a href="https://docs.unity3d.com/Manual/UsingTheInspector.html">Inspector Window</a> select <code>Add Component</code> and search for <code>IntTestBehaviour</code>, selecting the first result (which should be the script you created above)</li>
+<li>Note the <code>Int Ref</code> field is displayed, by default it is a <code>Direct</code> reference. A direct reference is effectively a hard coded value.</li>
+<li>Select the <code>Direct</code> dropdown, and change it to <code>Boxed</code>. Note the field changes, allowing you to drag and drop an object reference, and showing an additional dropdown field.</li>
+<li>Ensure the additional dropdown field is set to <code>BoxedInt</code>, which will allow the editor to more accurately assist you in selecting the object.</li>
+<li>Click the object reference field, and select the data instance you created above.</li>
+<li>You have now made your first data reference using Whiskey. Run the code, and note that the value stored in your data instance is logged by the <code>IntTestBehaviour</code> script on <code>Start</code>.</li>
+</ul>
+<h2 id="terminology">Terminology</h2>
+<p>This section describes the key terms that Whiskey uses when describing data in a Unity game. It's designed to be a quick reference, not an exhaustive overview.</p>
+<h3 id="scriptableobject">ScriptableObject</h3>
+<p>See <a href="https://docs.unity3d.com/Manual/class-ScriptableObject.html">https://docs.unity3d.com/Manual/class-ScriptableObject.html</a></p>
+<h3 id="data-instance">Data Instance</h3>
+<p>A piece of data stored as a ScriptableObject on disk, within the <code>Assets</code> folder of a Unity project.</p>
+<h3 id="box">Box</h3>
+<p>A wrapper for C# classes and structures that allow it to be stored as a Data Instance, inside a Scriptable Object. This also defines the interfaces for equality, reading, and writing that you'll use to consume data throughout your game.</p>
+<h3 id="table">Table</h3>
+<p>A probability table used to store weighted values, either as direct constants, or via a reference to some Box. A good overview for how these types of tables work can be <a href="https://lostgarden.home.blog/2014/12/08/loot-drop-tables/">found here</a>.</p>
+<h3 id="ref">Ref</h3>
+<p>A reference to data, either as a direct constant, via a reference to a Box, or via a reference to a Table. <code>Ref</code> is a read-only construct, and provides access via both the <code>Read()</code> method, and a <code>Value</code> property with a getter.</p>
+<h3 id="mutref">MutRef</h3>
+<p>A reference to data, either as a direct constant, via a reference to a Box. <code>MutRef</code> is mutable, meaning the data supports reading and writing. Access is provided by <code>Read()</code>, <code>Write()</code> and a <code>Value</code> property with both a getter and a setter.</p>
+<h3 id="event">Event</h3>
+<p>A strongly-typed collection of listeners, that can be raised with <code>Raise()</code> when some action occurs. Listeners can be added with <code>AddListener()</code> and removed with <code>RemoveListener()</code>.</p>
+<h3 id="eventlistener">EventListener</h3>
+<p>A <code>MonoBehaviour</code> component that binds an Event to a reaction (described by a <a href="https://docs.unity3d.com/Manual/UnityEvents.html">UnityEvent</a>). The reaction will occur when the event is raised, if the <code>GameObject</code> the listener is attached to is enabled at that time.</p>
+<p>Calls <code>AddListener()</code> and <code>RemoveListener()</code> on the event, to bind itself as a listener.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/faster-games/whiskey/blob/main/Documentation~/manual/getting-started.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright FasterGames ©
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

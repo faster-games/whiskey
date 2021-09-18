@@ -1,0 +1,1164 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "source_relative_path": "Documentation~/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Documentation~/header.png",
+      "output": {
+        "resource": {
+          "relative_path": "header.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Documentation~/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Rlpb84Xcq+fQ1XDjB3dsHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Documentation~/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Documentation~/manual/boxes.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/boxes.html",
+          "hash": "hWJ1NmdwJigOs/a8zHhcLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Documentation~/manual/contributing.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/contributing.html",
+          "hash": "eWboJUFioRlZHds8+xa1gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Documentation~/manual/events.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/events.html",
+          "hash": "uig//ZXOVFjDOan8k6jgLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Documentation~/manual/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting-started.html",
+          "hash": "21qaKrd6fH3L7FdTrRsA3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Documentation~/manual/tables.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/tables.html",
+          "hash": "imk4r5UFyCDjSJd7uPRpkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Documentation~/manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "iG/G8vr3AI7MBiU+WOy2QQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Documentation~/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "6MR+YxMx84VAZkmfpkJZiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "1nRGnGBOeWPNuBGZvyj1Rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.Box-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.Box-1.html",
+          "hash": "1aEAKBlnEVJL1qcO1kVKcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.BoxedBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.BoxedBool.html",
+          "hash": "pmuLStCyx9cqpTRp2e5YGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.BoxedFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.BoxedFloat.html",
+          "hash": "TQrIhggz6WfGpnNm9UZPgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.BoxedInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.BoxedInt.html",
+          "hash": "SD9G2JGLjOPOWOpDBIh8Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.BoxedString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.BoxedString.html",
+          "hash": "Ot4AdqyKWfrZq5WqZYcX/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.BoxedTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.BoxedTransform.html",
+          "hash": "kypqTPQb4aKOBzTJC8acAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.BoxedVector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.BoxedVector2.html",
+          "hash": "aghj9iLxG82S+BdRjnGA1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.BoxedVector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.BoxedVector3.html",
+          "hash": "7m3nQa+buSliy56ogIYPkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.MutRef-1.FieldNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.MutRef-1.FieldNames.html",
+          "hash": "2pEdAzQwFwqiq1IS1pi2QQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.MutRef-1.Selector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.MutRef-1.Selector.html",
+          "hash": "7wzafTauOnw3HpB/iMAb9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.MutRef-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.MutRef-1.html",
+          "hash": "URlhc7yEs/jX6XWtM7JFig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.Ref-1.FieldNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.Ref-1.FieldNames.html",
+          "hash": "8AUF+r37h9oaU3ELq+4GHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.Ref-1.Selector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.Ref-1.Selector.html",
+          "hash": "ti/wQCL5KhDl4WHsjYCURg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.Ref-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.Ref-1.html",
+          "hash": "Btd4FU1EAm9DogD3buqQyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Boxes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Boxes.html",
+          "hash": "RylTzP/03jQ6GwHEVTOcYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Editor.GenericObjectPropertyDrawer.html",
+          "hash": "spwDzyXGdkJh3OOV5AJOkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Editor.MutRefPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Editor.MutRefPropertyDrawer.html",
+          "hash": "5RoqCbHeDXxZmAW3RfNvSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Editor.ReadOnlyPropertyDrawer.html",
+          "hash": "PxL/pvKv2d4pL2QRk6qWww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Editor.RefPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Editor.RefPropertyDrawer.html",
+          "hash": "HCfMv/UP1Y415Q2Od9h6kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Editor.SerializedObjectUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Editor.SerializedObjectUtils.html",
+          "hash": "wWoc/g2OfwRKxkzqxZerrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Editor.html",
+          "hash": "Q7/p7cV/iZP+7LVtDtv6mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.BoolEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.BoolEvent.html",
+          "hash": "AidmGFf3zWTDmcOjlOSXOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.BoolEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.BoolEventListener.html",
+          "hash": "TGs4/ocbt6/hkTecwGELKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.Event-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.Event-1.html",
+          "hash": "lEiFxTGCslbLI0uxCO/ljQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.Event-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.Event-2.html",
+          "hash": "PcVogQSmGq5cw6DqY3kysg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.Event-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.Event-3.html",
+          "hash": "TUWt3yWHNSACTKMDIA5p5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.Event-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.Event-4.html",
+          "hash": "d07bFiMpF5Ha07/3NmPWig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.Event.html",
+          "hash": "C0sRCWOgcMfnthQud0NwYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.EventBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.EventBase.html",
+          "hash": "i1xIYXudmj7gS94m+qVv6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.EventListener-1.UnityReaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.EventListener-1.UnityReaction.html",
+          "hash": "Pt9gVVIdkl1SGIYEI1FJyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.EventListener-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.EventListener-1.html",
+          "hash": "2ltHuq1gr7BvdhFdTGyxTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.EventListener-2.UnityReaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.EventListener-2.UnityReaction.html",
+          "hash": "skR/tTOIL0FYLT/kPb3myw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.EventListener-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.EventListener-2.html",
+          "hash": "I70hk4RKO6ljd5NI/QtHIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.EventListener-3.UnityReaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.EventListener-3.UnityReaction.html",
+          "hash": "8x9CYp4pJJ+L0Q+uoObOaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.EventListener-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.EventListener-3.html",
+          "hash": "2OLS+gCQda4Da0cT9J5S0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.EventListener-4.UnityReaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.EventListener-4.UnityReaction.html",
+          "hash": "Zs3rcfuOyu49IXRbun4t+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.EventListener-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.EventListener-4.html",
+          "hash": "TelTXL6aG0xDHBMtCLVvpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.EventListener.UnityReaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.EventListener.UnityReaction.html",
+          "hash": "vvb8EOSBRoeU9+Fq/ujG+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.EventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.EventListener.html",
+          "hash": "fz3Z3XWRM2c1R6XDpO5Cgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.EventListenerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.EventListenerBase.html",
+          "hash": "wWPjI46X7Z5n3mVb5Epu4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.FloatEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.FloatEvent.html",
+          "hash": "lZq69nF1tgk7oz4W69UHWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.FloatEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.FloatEventListener.html",
+          "hash": "SvrKIO0jdUgSN8MWOKitmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.IntEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.IntEvent.html",
+          "hash": "zntKL3WFmfa6Im0i6AX+cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.IntEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.IntEventListener.html",
+          "hash": "KF+RpAs+Ixb6axGFnHviUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.StringEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.StringEvent.html",
+          "hash": "BfF7Q584gBkVb4IKb92ptQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.StringEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.StringEventListener.html",
+          "hash": "/hgGWeN3HQwkb9AQFa462g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.TransformEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.TransformEvent.html",
+          "hash": "rCd4bwwy4sVfDYOQQp86PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.TransformEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.TransformEventListener.html",
+          "hash": "0unH5I2YCo3NvGd6tRkikA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.Vector2Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.Vector2Event.html",
+          "hash": "hts5nnZlGPh5guvkKhJA3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.Vector2EventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.Vector2EventListener.html",
+          "hash": "DdLieIwcButCl6G+LUJk+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.Vector3Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.Vector3Event.html",
+          "hash": "8pO+9YasIjPw6+MjRmRMEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.Vector3EventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.Vector3EventListener.html",
+          "hash": "EYsn7lPdW9w7mD9uZqVRKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Events.html",
+          "hash": "ngrudxb2ulhA33G9Ddq+Yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.IReadable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.IReadable-1.html",
+          "hash": "CrMwM5lHi+Gb865N2Na/RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.IRng.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.IRng.html",
+          "hash": "0BbgYHMdYo1eaRzaSfMc/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.IValueEquals-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.IValueEquals-1.html",
+          "hash": "UOJ+dtt47cb18B3wzJw9KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.IWritable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.IWritable-1.html",
+          "hash": "k5RWsJW4FhOjJyagx0cvoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.PropertyAttributes.GenericDrawerAttribute.html",
+          "hash": "SY6YHXQhRtR9Fq9VNGofCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.PropertyAttributes.ReadOnlyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.PropertyAttributes.ReadOnlyAttribute.html",
+          "hash": "593wVZH3FwNudNTBMyApCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.PropertyAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.PropertyAttributes.html",
+          "hash": "LU1BzGICJjsbqn24jcIjfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.T4Host.BoxConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.T4Host.BoxConfig.html",
+          "hash": "ZVujWLUlCEopYGeTvoLtnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.T4Host.EventConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.T4Host.EventConfig.html",
+          "hash": "lI8SjEJbo1GPHBg/ZjVllw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.T4Host.TableConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.T4Host.TableConfig.html",
+          "hash": "1PkdoIyrvPynKpCfpa4zKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.T4Host.TypeConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.T4Host.TypeConfig.html",
+          "hash": "PdR5ROEFK5Zw1n5QbOWv9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.T4Host.WhiskeyConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.T4Host.WhiskeyConfig.html",
+          "hash": "uvjL/s8FF83UbOzlr3itiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.T4Host.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.T4Host.html",
+          "hash": "BNnxBDbFmrwc/iN7eAALUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Tables.BoolTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Tables.BoolTable.html",
+          "hash": "vcaNm7sxNabCGOkk3PblQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Tables.DefaultRngSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Tables.DefaultRngSource.html",
+          "hash": "JFlpvxf/gs3TAyX1i7PVCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Tables.FloatTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Tables.FloatTable.html",
+          "hash": "xwjRm61u+oqrorFELaY3Jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Tables.IntTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Tables.IntTable.html",
+          "hash": "feALNDkZT0HXC0Dz6C8xuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Tables.RngSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Tables.RngSource.html",
+          "hash": "hsaq3lgAC6A26GLyG2DXhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Tables.StringTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Tables.StringTable.html",
+          "hash": "Yhtk6n2GE9/bQB1cUh1QLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Tables.Table-1.TableEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Tables.Table-1.TableEntry.html",
+          "hash": "F7zTcs057k/m6Lj+WKzwSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Tables.Table-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Tables.Table-1.html",
+          "hash": "QrgikoePDfYpG3NFUFIVTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Tables.TransformTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Tables.TransformTable.html",
+          "hash": "Szn54zsYwP4HBlB3MLY9dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Tables.Vector2Table.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Tables.Vector2Table.html",
+          "hash": "VkgErA0cyq1R3gWstPrV3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Tables.Vector3Table.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Tables.Vector3Table.html",
+          "hash": "PoTCVwuC/abGVJfmucDb+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.Tables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.Tables.html",
+          "hash": "wC/Veif00dPvii2YfDZaCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.Whiskey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.Whiskey.html",
+          "hash": "8pPano4Dkrku1GGDyW8vCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "dist/.tmp/ref/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/toc.html",
+          "hash": "OpOpVq9tFhY0Pi83CvUvOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 7,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 79,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
