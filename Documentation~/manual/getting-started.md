@@ -10,6 +10,8 @@ Learn more about the following topics in their dedicated sections:
 
 Whiskey provides a number of built in constructs as well as base classes that can be quickly extended to for customization. It also provides a set of editor extensions to make working with it's features easier.
 
+If something isn't working, please feel free to [Check the Issues](https://github.com/faster-games/whiskey/issues) and [Open a new Issue](https://github.com/faster-games/whiskey/issues/new) as needed! Thank you! 🙏
+
 ## Quickstart
 
 > Disclaimer: By nature, Whiskey isn't easy to demonstrate. As such, this may not be as "quick" as you'd expect! 😅
