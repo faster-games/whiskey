@@ -111,17 +111,13 @@
         public List<ImmutableObjectTableEntry> TableEntries = new List<ImmutableObjectTableEntry>();
 
         /// <summary>
-        /// Editor preview of the weight in the table
+        /// The total weight in the table
         /// </summary>
-        [ReadOnly]
-        [SerializeField]
         protected float TotalWeightInTable;
 
         /// <summary>
-        /// Editor preview of the dirty state flag
+        /// The dirty state flag
         /// </summary>
-        [ReadOnly]
-        [SerializeField]
         protected bool IsDirty = true;
 
         /// <inheritdoc />
